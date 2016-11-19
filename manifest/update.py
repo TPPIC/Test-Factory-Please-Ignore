@@ -25,8 +25,9 @@ pbar_lock = threading.Lock()
 
 FILENAME = 'filename'
 HASH = 'md5'
+PROJECTID = 'projectID'
 SRC = 'src'
- 
+
 def urlopen(*args, **kwargs):
     return urllib2.urlopen(
         *args, cafile='/etc/ssl/certs/ca-bundle.crt')
@@ -80,6 +81,10 @@ def GetNewestVersions(mods):
         # Name the project.
         projectUrl = baseUrl + '/projects/' + str(name)
         projectUrl = DerefUrl(projectUrl).split('?')[0]
+        # Find the project ID.
+        projectPage = Get(projectUrl)
+        tree = soupparser.fromstring(projectPage)
+        projectID = int(tree.xpath('//li[@class="view-on-curse"]/a/@href')[0].split('/')[-1])
         # Find the newest copy of the mod.
         # TODO: Filter by stability, regex, whatever. Add once needed.
         filesUrl = projectUrl + '/files?filter-game-version=2020709689%3A6170'
@@ -97,6 +102,7 @@ def GetNewestVersions(mods):
               HASH: hash[0],
               SRC: baseUrl + url[0],
               FILENAME: parser.unescape(names[0]),
+              PROJECTID: projectID,
           }
 
     return executor.map(ModData, sorted(mods))
