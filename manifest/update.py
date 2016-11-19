@@ -163,7 +163,7 @@ for fn in glob('*.json'):
     mods[fn] = json.load(open(fn))
 pbar = progressbar.ProgressBar(
     widgets=['', ' ', progressbar.Percentage(), progressbar.Bar(), progressbar.ETA()],
-    maxval=sum(map(len, mods))).start()
+    maxval=sum(map(len, mods.itervalues()))).start()
 # Get the newest (specified) version of each mod, write manifest:
 data = {}
 for fn, mods in mods.iteritems():
