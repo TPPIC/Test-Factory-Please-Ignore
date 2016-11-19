@@ -28,26 +28,35 @@ HASH = 'md5'
 PROJECTID = 'projectID'
 SRC = 'src'
 
+CAFILE = '/etc/ssl/certs/ca-bundle.crt'
+if not os.path.isfile(CAFILE):
+    CAFILE = os.environ['HOME'] + '/.nix-profile/etc/ssl/certs/ca-bundle.crt'
+if not os.path.isfile(CAFILE):
+    print 'No ca-bundle.crt found. Try "nix-env -i nss-cacert".'
+    quit()
+
+
 def urlopen(*args, **kwargs):
-    return urllib2.urlopen(
-        *args, cafile='/etc/ssl/certs/ca-bundle.crt')
+    return urllib2.urlopen(*args, cafile=CAFILE)
 
 def Get(url):
     with http_sem:
         # print >> sys.stderr, 'Fetching', url
+        req = None
         try:
             req = urlopen(url)
             return req.read()
         finally:
-            req.close()
+            req and req.close()
 
 def DerefUrl(url):
     with http_sem:
+        req = None
         try:
             req = urlopen(url)
             return req.geturl()
         finally:
-            req.close()
+            req and req.close()
 
 
 def GetNewestVersions(mods):
