@@ -41,6 +41,16 @@ if not os.path.isfile(CAFILE):
     quit()
 
 
+def VerboseErrors(f):
+    def w(*args, **kwargs):
+        try:
+            return f(*args, **kwargs)
+        except Exception as e:
+            print 'Inside %s(%s)%s:' % (f.func_name, args, kwargs)
+            raise
+    return w
+
+
 def urlopen(*args, **kwargs):
     return urllib2.urlopen(*args, cafile=CAFILE)
 
@@ -77,21 +87,24 @@ def ParseVersion(filename):
 def GetNewestVersions(mods):
     baseUrl = 'https://minecraft.curseforge.com'
 
+    @VerboseErrors
     def ModData(name):
         mod = mods[name]
         if SRC in mod:
             # This is a non-Curse mod.
-            data = GetNonCurseData(name, mod)
+            data = GetNonCurseData(name, mod) or {}
         else:
-            data = GetNewestCurseData(name, mod)
+            data = GetNewestCurseData(name, mod) or {}
+        if FILENAME in data:
+            if not (data[FILENAME].endswith('.jar') or data[FILENAME].endswith('.zip')):
+                data[FILENAME] += '.jar'
+            if not VERSION in data:
+                data[VERSION] = ParseVersion(data[FILENAME])
         for k in mod:
             if k[0] != '_':
                 data[k] = mod[k]
-        if not (data[FILENAME].endswith('.jar') or data[FILENAME].endswith('.zip')):
-            data[FILENAME] += '.jar'
-        if not VERSION in data:
-            data[VERSION] = ParseVersion(data[FILENAME])
         with pbar_lock:
+            pbar.widgets[0] = '%24.24s' % (data.get(TITLE) or name)
             pbar.update(pbar.currval + 1)
         return (name, data)
 
@@ -119,20 +132,21 @@ def GetNewestVersions(mods):
         tree = soupparser.fromstring(filesPage)
         files = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href')
         names = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()')
+        data = {
+            PROJECTID: projectID,
+            PROJECTPAGE: projectUrl,
+            TITLE: projectTitle,
+        }
         if files:
           # Find the URL and MD5 of that file.
           filePage = Get(baseUrl + files[0])
           tree = soupparser.fromstring(filePage)
           hash = tree.xpath('//span[@class="%s"]/text()' % HASH)
           url = tree.xpath('//a[@class="button fa-icon-download"]/@href')
-          return {
-              FILENAME: parser.unescape(names[0]),
-              HASH: hash[0],
-              PROJECTID: projectID,
-              PROJECTPAGE: projectUrl,
-              SRC: baseUrl + url[0],
-              TITLE: projectTitle,
-          }
+          data[FILENAME] = parser.unescape(names[0])
+          data[HASH] = hash[0]
+          data[SRC] = baseUrl + url[0]
+        return data
 
     return executor.map(ModData, sorted(mods))
 
@@ -146,11 +160,15 @@ def GenerateModList(data):
             mod = mods[name]
             lines.append('- [%s](%s): %s' % (
                 mod.get(TITLE) or name,
-                mod.get(PROJECTPAGE) or urlparse.urljoin(mod[SRC], '/'),
+                mod.get(PROJECTPAGE) or urlparse.urljoin(mod.get(SRC), '/'),
                 mod.get(VERSION)))
-            if COMMENT in mod:
+            if mod and COMMENT in mod:
                 lines.append('')
                 lines.append('  ' + mod[COMMENT])
+            if not mod or not FILENAME in mod:
+                lines.append('```diff')
+                lines.append('- Not yet on 1.10 (probably)')
+                lines.append('```')
         lines.append('')
     return '\n'.join(lines)
 
@@ -167,7 +185,6 @@ pbar = progressbar.ProgressBar(
 # Get the newest (specified) version of each mod, write manifest:
 data = {}
 for fn, mods in mods.iteritems():
-    pbar.widgets[0] = fn
     data[fn] = {}
     for name, d in GetNewestVersions(mods):
         data[fn][name] = d
