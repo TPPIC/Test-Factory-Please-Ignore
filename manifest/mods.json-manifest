@@ -1,4 +1,13 @@
 {
+  "ding": {
+    "src": "https://minecraft.curseforge.com/projects/ding/files/2345242/download", 
+    "title": "Ding", 
+    "projectID": 231275, 
+    "filename": "Ding-1.10.2-1.0.1.jar", 
+    "version": "1.10.2-1.0.1", 
+    "projectPage": "https://minecraft.curseforge.com/projects/ding", 
+    "md5": "a6dfb094e0911deaf6e182cb3fc2ab75"
+  }, 
   "bagelsmore-the-return": {
     "src": "https://minecraft.curseforge.com/projects/bagelsmore-the-return/files/2323365/download", 
     "title": "Bagelsmore: The Return", 
@@ -8,6 +17,105 @@
     "projectPage": "https://minecraft.curseforge.com/projects/bagelsmore-the-return", 
     "md5": "83d030395901c5020accce99bd37a112"
   }, 
+  "p455w0rds-things": {
+    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2342524/download", 
+    "title": "p455w0rd&#x27;s Things", 
+    "projectID": 246444, 
+    "filename": "p455w0rdsthings-1.10.2-1.1.11.jar", 
+    "version": "455w0rdsthings-1.10.2-1.1.11", 
+    "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-things", 
+    "md5": "122238ad6c912b6d6d8e098768eca739"
+  }, 
+  "morph-o-tool": {
+    "src": "https://minecraft.curseforge.com/projects/morph-o-tool/files/2334148/download", 
+    "title": "Morph-o-Tool", 
+    "projectID": 245287, 
+    "filename": "Morph-o-Tool-1.0-12.jar", 
+    "version": "1.0-12", 
+    "projectPage": "https://minecraft.curseforge.com/projects/morph-o-tool", 
+    "md5": "cec148e18fdcbb10cd73871f5f4dac66"
+  }, 
+  "tesla": {
+    "src": "https://minecraft.curseforge.com/projects/tesla/files/2343272/download", 
+    "title": "TESLA", 
+    "projectID": 244651, 
+    "filename": "Tesla-1.10.2-1.2.1.50.jar", 
+    "version": "1.10.2-1.2.1.50", 
+    "projectPage": "https://minecraft.curseforge.com/projects/tesla", 
+    "md5": "924d5f4d7df30c829855ce3cc277fc98"
+  }, 
+  "blood-magic": {
+    "src": "https://minecraft.curseforge.com/projects/blood-magic/files/2338612/download", 
+    "title": "Blood Magic ", 
+    "projectID": 224791, 
+    "filename": "BloodMagic-1.9.4-2.1.0-66.jar", 
+    "version": "1.9.4-2.1.0-66", 
+    "projectPage": "https://minecraft.curseforge.com/projects/blood-magic", 
+    "md5": "05f0cfa4ccd1d969acfa40739ab25c86"
+  }, 
+  "embers": {
+    "src": "https://minecraft.curseforge.com/projects/embers/files/2342667/download", 
+    "title": "Embers", 
+    "projectID": 251918, 
+    "filename": "embers-0.016.jar", 
+    "version": "0.016", 
+    "projectPage": "https://minecraft.curseforge.com/projects/embers", 
+    "md5": "52e506a9d6032fca6cc74f0078e1d44b"
+  }, 
+  "reborncore": {
+    "src": "https://minecraft.curseforge.com/projects/reborncore/files/2342500/download", 
+    "title": "RebornCore", 
+    "projectID": 237903, 
+    "filename": "RebornCore-1.10.2-2.8.1.64-universal.jar", 
+    "version": "1.10.2-2.8.1.64-universal", 
+    "projectPage": "https://minecraft.curseforge.com/projects/reborncore", 
+    "md5": "d2b5161496e68f2fe1293a09183ae5c8"
+  }, 
+  "just-enough-calculation": {
+    "src": "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2342085/download", 
+    "title": "Just Enough Calculation", 
+    "projectID": 242223, 
+    "filename": "JustEnoughCalculation-1.10.2-2.1.4.jar", 
+    "version": "1.10.2-2.1.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/just-enough-calculation", 
+    "md5": "bfba81919338a45197e7c4e835d8a83d"
+  }, 
+  "cooking-for-blockheads": {
+    "src": "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2341423/download", 
+    "title": "Cooking for Blockheads", 
+    "projectID": 231484, 
+    "filename": "CookingForBlockheads_1.10.2-4.2.26.jar", 
+    "version": "1.10.2-4.2.26", 
+    "projectPage": "https://minecraft.curseforge.com/projects/cooking-for-blockheads", 
+    "md5": "500f5038f869fb4fbab252022c32400e"
+  }, 
+  "chisels-bits": {
+    "src": "https://minecraft.curseforge.com/projects/chisels-bits/files/2341112/download", 
+    "title": "Chisels & Bits", 
+    "projectID": 231095, 
+    "filename": "chiselsandbits-12.7.jar", 
+    "version": "12.7", 
+    "projectPage": "https://minecraft.curseforge.com/projects/chisels-bits", 
+    "md5": "30400ecd228a9faf69decab92a320ee4"
+  }, 
+  "the-spice-of-life": {
+    "src": "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2332060/download", 
+    "title": "The Spice of Life", 
+    "projectID": 220811, 
+    "filename": "SpiceOfLife-mc1.9.4-1.3.6.jar", 
+    "version": "1.9.4-1.3.6", 
+    "projectPage": "https://minecraft.curseforge.com/projects/the-spice-of-life", 
+    "md5": "d28b0c591ed1303de9fce49c7e256d36"
+  }, 
+  "dark-utilities": {
+    "src": "https://minecraft.curseforge.com/projects/dark-utilities/files/2343103/download", 
+    "title": "Dark Utilities", 
+    "projectID": 242195, 
+    "filename": "DarkUtilities-1.10.2-1.1.5.98.jar", 
+    "version": "1.10.2-1.1.5.98", 
+    "projectPage": "https://minecraft.curseforge.com/projects/dark-utilities", 
+    "md5": "bf621dbd72ae724613b5cb8b4a2886c3"
+  }, 
   "appleskin": {
     "src": "https://minecraft.curseforge.com/projects/appleskin/files/2330062/download", 
     "title": "AppleSkin", 
@@ -16,6 +124,192 @@
     "version": "1.10.2-1.0.4", 
     "projectPage": "https://minecraft.curseforge.com/projects/appleskin", 
     "md5": "682d5bb9795be7cb7d86445610b514ea"
+  }, 
+  "modtweaker": {
+    "src": "https://minecraft.curseforge.com/projects/modtweaker/files/2341731/download", 
+    "title": "ModTweaker", 
+    "projectID": 220954, 
+    "filename": "ModTweaker2-2.0.6.jar", 
+    "version": "2-2.0.6", 
+    "projectPage": "https://minecraft.curseforge.com/projects/modtweaker", 
+    "md5": "4c8ece5baf99500cd17e41b7bbfd446b"
+  }, 
+  "roots": {
+    "src": "https://minecraft.curseforge.com/projects/roots/files/2334550/download", 
+    "title": "Roots", 
+    "projectID": 246183, 
+    "filename": "roots-1.10.2-0.204.0.jar", 
+    "version": "1.10.2-0.204.0", 
+    "projectPage": "https://minecraft.curseforge.com/projects/roots", 
+    "md5": "f9f3cc3188151a82e8e042a23e5593a9"
+  }, 
+  "ender-io": {
+    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2346706/download", 
+    "title": "Ender IO", 
+    "projectID": 64578, 
+    "filename": "EnderIO - 1.10.2-3.0.1.135_beta.jar", 
+    "version": "1.10.2-3.0.1.135_beta", 
+    "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
+    "md5": "fec091e15b8e8de072651d58972d1f55"
+  }, 
+  "refined-storage": {
+    "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2343393/download", 
+    "title": "Refined Storage", 
+    "projectID": 243076, 
+    "filename": "Refined Storage 1.2.4.jar", 
+    "version": "1.2.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/refined-storage", 
+    "md5": "0c857e283bec1cecea45fa1c53f7878b"
+  }, 
+  "quintessential-creatures": {
+    "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
+    "filename": "qcreatures-2.0.1.jar", 
+    "version": "2.0.1", 
+    "md5": "ecab24c7d0cbd766c1dd5c293e345e3f"
+  }, 
+  "just-enough-buttons": {
+    "src": "https://minecraft.curseforge.com/projects/just-enough-buttons/files/2336844/download", 
+    "title": "Just Enough Buttons", 
+    "projectID": 248747, 
+    "filename": "justenoughbuttons-1.10.2-1.6.3.jar", 
+    "version": "1.10.2-1.6.3", 
+    "projectPage": "https://minecraft.curseforge.com/projects/just-enough-buttons", 
+    "md5": "e6a887f1ceb5dc1a2c0a7d96c9ac724c"
+  }, 
+  "netherex": {
+    "src": "https://minecraft.curseforge.com/projects/netherex/files/2337482/download", 
+    "title": "NetherEx", 
+    "projectID": 248039, 
+    "filename": "NetherEx_1.10.2-1.1.0b.jar", 
+    "version": "1.10.2-1.1.0b", 
+    "projectPage": "https://minecraft.curseforge.com/projects/netherex", 
+    "md5": "52f3b965f240427866a5e6d7fc06b820"
+  }, 
+  "steves-carts-reborn": {
+    "src": "https://minecraft.curseforge.com/projects/steves-carts-reborn/files/2346733/download", 
+    "title": "Steves Carts Reborn", 
+    "projectID": 253462, 
+    "filename": "StevesCarts-1.10.2-2.1.0.51.jar", 
+    "version": "1.10.2-2.1.0.51", 
+    "projectPage": "https://minecraft.curseforge.com/projects/steves-carts-reborn", 
+    "md5": "93df82f6fe831bf3c0f1576b29061b64"
+  }, 
+  "railcraft": {
+    "src": "https://minecraft.curseforge.com/projects/railcraft/files/2340859/download", 
+    "title": "Railcraft", 
+    "projectID": 51195, 
+    "filename": "Railcraft 10.0.0.jar", 
+    "version": "10.0.0", 
+    "projectPage": "https://minecraft.curseforge.com/projects/railcraft", 
+    "md5": "eeb14501d81df5a71befbe9702547854"
+  }, 
+  "soul-shards-the-old-ways": {
+    "src": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways/files/2344656/download", 
+    "title": "Soul Shards: The Old Ways", 
+    "projectID": 226958, 
+    "filename": "SoulShards-TOW-1.10.2-2.6.6-46.jar", 
+    "version": "1.10.2-2.6.6-46", 
+    "projectPage": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways", 
+    "md5": "315a64a82283b3fc39f72671af3bae27"
+  }, 
+  "more-overlays": {
+    "src": "https://minecraft.curseforge.com/projects/more-overlays/files/2346639/download", 
+    "title": "More Overlays", 
+    "projectID": 243478, 
+    "filename": "moreoverlays-1.9-mc1.10.2.jar", 
+    "version": "1.9-mc1.10.2", 
+    "projectPage": "https://minecraft.curseforge.com/projects/more-overlays", 
+    "md5": "e040f79aa0b0a03b69f9c212181ffadb"
+  }, 
+  "forestry": {
+    "src": "https://minecraft.curseforge.com/projects/forestry/files/2345663/download", 
+    "title": "Forestry", 
+    "projectID": 59751, 
+    "filename": "forestry_1.10.2-5.2.16.327.jar", 
+    "version": "1.10.2-5.2.16.327", 
+    "projectPage": "https://minecraft.curseforge.com/projects/forestry", 
+    "md5": "c6c195d61f68abe43caf531587bc2d5f"
+  }, 
+  "inventory-tweaks": {
+    "src": "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2338989/download", 
+    "title": "Inventory Tweaks", 
+    "projectID": 223094, 
+    "filename": "Inventory Tweaks 1.62-dev-66.jar", 
+    "version": "1.62-dev-66", 
+    "projectPage": "https://minecraft.curseforge.com/projects/inventory-tweaks", 
+    "md5": "e610e4e001a7dac86b5563c2bbf9610b"
+  }, 
+  "HWYLA": {
+    "src": "https://minecraft.curseforge.com/projects/hwyla/files/2344352/download", 
+    "title": "Hwyla", 
+    "projectID": 253449, 
+    "filename": "Hwyla-1.8.1-B13_1.10.2.jar", 
+    "version": "1.8.1-B13_1.10.2", 
+    "projectPage": "https://minecraft.curseforge.com/projects/HWYLA", 
+    "md5": "419d876d84659bbcaeeeabdf10cc70f5"
+  }, 
+  "quantumstorage": {
+    "src": "https://minecraft.curseforge.com/projects/quantumstorage/files/2345052/download", 
+    "title": "QuantumStorage", 
+    "projectID": 235121, 
+    "filename": "QuantumStorage-1.10.2-3.2.11.jar", 
+    "version": "1.10.2-3.2.11", 
+    "projectPage": "https://minecraft.curseforge.com/projects/quantumstorage", 
+    "md5": "ccd0d19f30b77e53f7fa487069ff971d"
+  }, 
+  "openblocks-elevator": {
+    "src": "https://minecraft.curseforge.com/projects/openblocks-elevator/files/2329727/download", 
+    "title": "OpenBlocks Elevator", 
+    "projectID": 250832, 
+    "filename": "ElevatorMod[V.1.2.0][MC.1.10.2].jar", 
+    "version": "1.2.0][MC.1.10.2]", 
+    "projectPage": "https://minecraft.curseforge.com/projects/openblocks-elevator", 
+    "md5": "8c7933279c992c3c76c1fe81b6472f95"
+  }, 
+  "super-circuit-maker": {
+    "src": "https://minecraft.curseforge.com/projects/super-circuit-maker/files/2343952/download", 
+    "title": "Super Circuit Maker", 
+    "projectID": 248619, 
+    "filename": "Super Circuit Maker 1.0.4.jar", 
+    "version": "1.0.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/super-circuit-maker", 
+    "md5": "e30777052219acb5932823e653b5a76b"
+  }, 
+  "cyberware": {
+    "src": "https://minecraft.curseforge.com/projects/cyberware/files/2342509/download", 
+    "title": "Cyberware", 
+    "projectID": 248042, 
+    "filename": "cyberware-1.9.4-1.10.2-beta-0.2.4.jar", 
+    "version": "1.9.4-1.10.2-beta-0.2.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/cyberware", 
+    "md5": "bc6d9a67382afdd56f73f3d8d5d8803b"
+  }, 
+  "just-enough-items-jei": {
+    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2346527/download", 
+    "title": "Just Enough Items (JEI)", 
+    "projectID": 238222, 
+    "filename": "jei_1.10.2-3.13.3.380.jar", 
+    "version": "1.10.2-3.13.3.380", 
+    "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
+    "md5": "9c832ad26e06b3df79d4d1d3434f07a3"
+  }, 
+  "recurrent-complex": {
+    "src": "https://minecraft.curseforge.com/projects/recurrent-complex/files/2340771/download", 
+    "title": "Recurrent Complex", 
+    "projectID": 223150, 
+    "filename": "RecurrentComplex-1.2.3.4.jar", 
+    "version": "1.2.3.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/recurrent-complex", 
+    "md5": "6668dd33fcb3e8daaf556b8bd6d62d46"
+  }, 
+  "tomb-many-graves": {
+    "src": "https://minecraft.curseforge.com/projects/tomb-many-graves/files/2337855/download", 
+    "title": "Tomb Many Graves", 
+    "projectID": 245224, 
+    "filename": "TombManyGraves-1.10.2-2.1.13.jar", 
+    "version": "1.10.2-2.1.13", 
+    "projectPage": "https://minecraft.curseforge.com/projects/tomb-many-graves", 
+    "md5": "13afcffbaf8ec76239b7d46e773e5a8d"
   }, 
   "applecore": {
     "comment": "Comments are completely optional, but get put in the autogenerated mod list.", 
@@ -27,10 +321,184 @@
     "projectPage": "https://minecraft.curseforge.com/projects/applecore", 
     "md5": "fa643a0903d2ccab404272bd0600ee93"
   }, 
-  "quintessential-creatures": {
-    "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
-    "filename": "qcreatures-2.0.1.jar", 
-    "version": "2.0.1", 
-    "md5": "ecab24c7d0cbd766c1dd5c293e345e3f"
+  "quark": {
+    "src": "https://minecraft.curseforge.com/projects/quark/files/2342520/download", 
+    "title": "Quark", 
+    "projectID": 243121, 
+    "filename": "Quark-r1.0-59.jar", 
+    "version": "1.0-59", 
+    "projectPage": "https://minecraft.curseforge.com/projects/quark", 
+    "md5": "94f15797090fbb6fc4e59f5535bea6c8"
+  }, 
+  "waddles": {
+    "src": "https://minecraft.curseforge.com/projects/waddles/files/2334143/download", 
+    "title": "Waddles", 
+    "projectID": 251767, 
+    "filename": "Waddles-1.10.2-0.5.0.jar", 
+    "version": "1.10.2-0.5.0", 
+    "projectPage": "https://minecraft.curseforge.com/projects/waddles", 
+    "md5": "5fa859c6ac58bc2c6e95d4725cd8dbb3"
+  }, 
+  "sound-filters": {
+    "src": "https://minecraft.curseforge.com/projects/sound-filters/files/2309385/download", 
+    "title": "Sound Filters", 
+    "projectID": 222789, 
+    "filename": "SoundFilters-0.9 for 1.9.4 and 1.10.jar", 
+    "version": "0.9 for 1.9.4 and 1.10", 
+    "projectPage": "https://minecraft.curseforge.com/projects/sound-filters", 
+    "md5": "89c50fee6271149638b94b85e5afd31f"
+  }, 
+  "sleeping-bag": {
+    "src": "https://minecraft.curseforge.com/projects/sleeping-bag/files/2332793/download", 
+    "title": "Sleeping Bag", 
+    "projectID": 244584, 
+    "filename": "SleepingBag-1.10.2-1.3.0.jar", 
+    "version": "1.10.2-1.3.0", 
+    "projectPage": "https://minecraft.curseforge.com/projects/sleeping-bag", 
+    "md5": "802a98fd52fe5750c3054a5d6864c21a"
+  }, 
+  "resource-loader": {
+    "src": "https://minecraft.curseforge.com/projects/resource-loader/files/2307834/download", 
+    "title": "Resource Loader", 
+    "projectID": 226447, 
+    "filename": "ResourceLoader-MC1.9.4-1.5.1.jar", 
+    "version": "1.9.4-1.5.1", 
+    "projectPage": "https://minecraft.curseforge.com/projects/resource-loader", 
+    "md5": "fd851602890014f31b54ad0e009e5612"
+  }, 
+  "iron-chests": {
+    "src": "https://minecraft.curseforge.com/projects/iron-chests/files/2331308/download", 
+    "title": "Iron Chests", 
+    "projectID": 228756, 
+    "filename": "ironchest-1.10.2-7.0.11.797.jar", 
+    "version": "1.10.2-7.0.11.797", 
+    "projectPage": "https://minecraft.curseforge.com/projects/iron-chests", 
+    "md5": "b8256c7f5c810450108b35d315bb9667"
+  }, 
+  "realistic-terrain-generation": {
+    "src": "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2345507/download", 
+    "title": "Realistic Terrain Generation", 
+    "projectID": 237989, 
+    "filename": "RTG-1.10.2-4.1.1.8-SNAPSHOT-1.jar", 
+    "version": "1.10.2-4.1.1.8-SNAPSHOT-1", 
+    "projectPage": "https://minecraft.curseforge.com/projects/realistic-terrain-generation", 
+    "md5": "bcec897b1494aee84e25313481343e18"
+  }, 
+  "custom-main-menu": {
+    "src": "https://minecraft.curseforge.com/projects/custom-main-menu/files/2326056/download", 
+    "title": "Custom Main Menu", 
+    "projectID": 226406, 
+    "filename": "CustomMainMenu-MC1.10.2-2.0.2.jar", 
+    "version": "1.10.2-2.0.2", 
+    "projectPage": "https://minecraft.curseforge.com/projects/custom-main-menu", 
+    "md5": "55cbc1d629a1476028e6868adf065a11"
+  }, 
+  "opencomputers": {
+    "src": "https://minecraft.curseforge.com/projects/opencomputers/files/2344182/download", 
+    "title": "OpenComputers", 
+    "projectID": 223008, 
+    "filename": "OpenComputers-MC1.10.2-1.6.0.4.jar", 
+    "version": "1.10.2-1.6.0.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/opencomputers", 
+    "md5": "e86a20daf0f33470278b654bcfa6d6f9"
+  }, 
+  "chisel": {
+    "src": "https://minecraft.curseforge.com/projects/chisel/files/2339874/download", 
+    "title": "Chisel", 
+    "projectID": 235279, 
+    "filename": "Chisel - MC1.10.2-0.0.7.3.jar", 
+    "version": "1.10.2-0.0.7.3", 
+    "projectPage": "https://minecraft.curseforge.com/projects/chisel", 
+    "md5": "988126cdb5b496d9dabafae5928b659f"
+  }, 
+  "literal-ascension": {
+    "src": "https://minecraft.curseforge.com/projects/literal-ascension/files/2344598/download", 
+    "title": "Literal Ascension", 
+    "projectID": 253021, 
+    "filename": "Literal Ascension 1.10.2-1.0.0.0.jar", 
+    "version": "1.10.2-1.0.0.0", 
+    "projectPage": "https://minecraft.curseforge.com/projects/literal-ascension", 
+    "md5": "4ef54a6f5730391e275b31a88aaa4f5a"
+  }, 
+  "crafting-tweaks": {
+    "src": "https://minecraft.curseforge.com/projects/crafting-tweaks/files/2332562/download", 
+    "title": "Crafting Tweaks", 
+    "projectID": 233071, 
+    "filename": "CraftingTweaks_1.10.2-6.1.16.jar", 
+    "version": "1.10.2-6.1.16", 
+    "projectPage": "https://minecraft.curseforge.com/projects/crafting-tweaks", 
+    "md5": "13486f1cc663e47c9e040bd715401111"
+  }, 
+  "just-enough-resources-jer": {
+    "src": "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2345082/download", 
+    "title": "Just Enough Resources (JER)", 
+    "projectID": 240630, 
+    "filename": "JustEnoughResources-1.10.2-0.5.7.87.jar", 
+    "version": "1.10.2-0.5.7.87", 
+    "projectPage": "https://minecraft.curseforge.com/projects/just-enough-resources-jer", 
+    "md5": "848c539843de8d9738308ce68f0ea555"
+  }, 
+  "justenoughtooltips": {
+    "src": "https://minecraft.curseforge.com/projects/justenoughtooltips/files/2345018/download", 
+    "title": "JustEnoughTooltips", 
+    "projectID": 240735, 
+    "filename": "JustEnoughTooltips-1.10.2 2.1.38.jar", 
+    "version": "1.10.2 2.1.38", 
+    "projectPage": "https://minecraft.curseforge.com/projects/justenoughtooltips", 
+    "md5": "ed3552cbe29f74e7ea76adb63b7ba485"
+  }, 
+  "flat-colored-blocks": {
+    "src": "https://minecraft.curseforge.com/projects/flat-colored-blocks/files/2343282/download", 
+    "title": "Flat Colored Blocks", 
+    "projectID": 238590, 
+    "filename": "flatcoloredblocks-mc1.10-v4.4.jar", 
+    "version": "1.10-v4.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/flat-colored-blocks", 
+    "md5": "0bc85e6993a628d5ca2b6ede75805046"
+  }, 
+  "portable-crafting": {
+    "src": "https://minecraft.curseforge.com/projects/portable-crafting/files/2335903/download", 
+    "title": "Portable Crafting", 
+    "projectID": 240655, 
+    "filename": "PortableCrafting-1.10.2-1.1.jar", 
+    "version": "1.10.2-1.1", 
+    "projectPage": "https://minecraft.curseforge.com/projects/portable-crafting", 
+    "md5": "70e153a826001c5be4ff0e3845104bd3"
+  }, 
+  "iron-backpacks": {
+    "src": "https://minecraft.curseforge.com/projects/iron-backpacks/files/2345794/download", 
+    "title": "Iron Backpacks", 
+    "projectID": 227049, 
+    "filename": "IronBackpacks-1.10.2-2.2.15.jar", 
+    "version": "1.10.2-2.2.15", 
+    "projectPage": "https://minecraft.curseforge.com/projects/iron-backpacks", 
+    "md5": "1a9b8c2de4fbad2279a49f0bc44c57f1"
+  }, 
+  "crafttweaker": {
+    "src": "https://minecraft.curseforge.com/projects/crafttweaker/files/2345461/download", 
+    "title": "CraftTweaker", 
+    "projectID": 239197, 
+    "filename": "CraftTweaker-1.10.2-3.0.15.jar", 
+    "version": "1.10.2-3.0.15", 
+    "projectPage": "https://minecraft.curseforge.com/projects/crafttweaker", 
+    "md5": "1ca2a8131860428d897a3b2812110ab9"
+  }, 
+  "mouse-tweaks": {
+    "src": "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2321022/download", 
+    "title": "Mouse Tweaks", 
+    "projectID": 60089, 
+    "filename": "[1.10.2] Mouse Tweaks 2.6.4.jar", 
+    "version": "1.10.2] Mouse Tweaks 2.6.4", 
+    "projectPage": "https://minecraft.curseforge.com/projects/mouse-tweaks", 
+    "md5": "6c23b8f7a876336dbab417721ee44137"
+  }, 
+  "lantern": {
+    "src": "https://minecraft.curseforge.com/projects/lantern/files/2340736/download", 
+    "title": "Lantern", 
+    "projectID": 252997, 
+    "filename": "boatlantern-0.2.1.jar", 
+    "version": "0.2.1", 
+    "projectPage": "https://minecraft.curseforge.com/projects/lantern", 
+    "md5": "46c887939181dbd0de4792e6df5c0e07"
   }
 }
