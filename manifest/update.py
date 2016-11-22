@@ -1,28 +1,28 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i python -p python pythonPackages.beautifulsoup pythonPackages.lxml pythonPackages.futures pythonPackages.progressbar
+#!/usr/bin/env python
 #
 # This autogenerates .json-manifest files from the .json input file(s).
+#
+# Call this from the root of the git repository.
 
 from concurrent.futures import ThreadPoolExecutor
 from glob import glob
 from HTMLParser import HTMLParser
 from lxml.html import soupparser
+from urllib2 import urlopen
 import hashlib
 import json
 import os
-import progressbar
 import re
 import sys
 import threading
-import urllib2
 import urlparse
 
 # No. of concurrent HTTP connections.
 MAX_CONCURRENCY = 1
 http_sem = threading.Semaphore(MAX_CONCURRENCY)
 executor = ThreadPoolExecutor(max_workers=MAX_CONCURRENCY*10)
-pbar = None
-pbar_lock = threading.Lock()
+completed_mods = 0
+total_mods = None
 
 COMMENT = 'comment'
 FILENAME = 'filename'
@@ -32,13 +32,6 @@ PROJECTPAGE = 'projectPage'
 SRC = 'src'
 TITLE = 'title'
 VERSION = 'version'
-
-CAFILE = '/etc/ssl/certs/ca-bundle.crt'
-if not os.path.isfile(CAFILE):
-    CAFILE = os.environ['HOME'] + '/.nix-profile/etc/ssl/certs/ca-bundle.crt'
-if not os.path.isfile(CAFILE):
-    print 'No ca-bundle.crt found. Try "nix-env -i nss-cacert".'
-    quit()
 
 
 def VerboseErrors(f):
@@ -50,9 +43,6 @@ def VerboseErrors(f):
             raise
     return w
 
-
-def urlopen(*args, **kwargs):
-    return urllib2.urlopen(*args, cafile=CAFILE)
 
 def Get(url):
     with http_sem:
@@ -103,9 +93,12 @@ def GetNewestVersions(mods):
         for k in mod:
             if k[0] != '_':
                 data[k] = mod[k]
-        with pbar_lock:
-            pbar.widgets[0] = '%24.24s' % (data.get(TITLE) or name)
-            pbar.update(pbar.currval + 1)
+        # TODO: Fix this ugly hack.
+        global completed_mods
+        completed_mods += 1
+        print '%.2d/%.2d: %s' % (
+          completed_mods, total_mods,
+          data.get(TITLE) or name)
         return (name, data)
 
     def GetNonCurseData(name, mod):
@@ -173,15 +166,11 @@ def GenerateModList(data):
     return '\n'.join(lines)
 
 
-# Go to the directory this file is in.
-os.chdir(os.path.dirname(os.path.realpath(__file__)))
 # Find manifests to construct:
 mods = {}  # Map from filename to list of mods.
-for fn in glob('*.json'):
+for fn in glob('manifest/*.json'):
     mods[fn] = json.load(open(fn))
-pbar = progressbar.ProgressBar(
-    widgets=['', ' ', progressbar.Percentage(), progressbar.Bar(), progressbar.ETA()],
-    maxval=sum(map(len, mods.itervalues()))).start()
+total_mods = sum(map(len, mods.values()))
 # Get the newest (specified) version of each mod, write manifest:
 data = {}
 for fn, mods in mods.iteritems():
@@ -191,6 +180,5 @@ for fn, mods in mods.iteritems():
     with open(fn + '-manifest', 'w') as manifest:
         json.dump(data[fn], manifest, indent=2)
 # Update MODS.md.
-with open('../MODS.md', 'w') as f:
+with open('MODS.md', 'w') as f:
   f.write(GenerateModList(data))
-pbar.finish()
