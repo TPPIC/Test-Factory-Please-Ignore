@@ -18,13 +18,13 @@
     "md5": "83d030395901c5020accce99bd37a112"
   }, 
   "p455w0rds-things": {
-    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2342524/download", 
+    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2347907/download", 
     "title": "p455w0rd&#x27;s Things", 
     "projectID": 246444, 
-    "filename": "p455w0rdsthings-1.10.2-1.1.11.jar", 
-    "version": "455w0rdsthings-1.10.2-1.1.11", 
+    "filename": "p455w0rdsthings-1.10.2-1.2.9.jar", 
+    "version": "455w0rdsthings-1.10.2-1.2.9", 
     "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-things", 
-    "md5": "122238ad6c912b6d6d8e098768eca739"
+    "md5": "8d6dc9ec9763c538500f65f35057f2db"
   }, 
   "morph-o-tool": {
     "src": "https://minecraft.curseforge.com/projects/morph-o-tool/files/2334148/download", 
@@ -108,13 +108,13 @@
     "md5": "d28b0c591ed1303de9fce49c7e256d36"
   }, 
   "dark-utilities": {
-    "src": "https://minecraft.curseforge.com/projects/dark-utilities/files/2343103/download", 
+    "src": "https://minecraft.curseforge.com/projects/dark-utilities/files/2347114/download", 
     "title": "Dark Utilities", 
     "projectID": 242195, 
-    "filename": "DarkUtilities-1.10.2-1.1.5.98.jar", 
-    "version": "1.10.2-1.1.5.98", 
+    "filename": "DarkUtilities-1.10.2-1.1.6.99.jar", 
+    "version": "1.10.2-1.1.6.99", 
     "projectPage": "https://minecraft.curseforge.com/projects/dark-utilities", 
-    "md5": "bf621dbd72ae724613b5cb8b4a2886c3"
+    "md5": "788b17a567509916765236d03fc4a3d8"
   }, 
   "appleskin": {
     "src": "https://minecraft.curseforge.com/projects/appleskin/files/2330062/download", 
@@ -135,22 +135,22 @@
     "md5": "4c8ece5baf99500cd17e41b7bbfd446b"
   }, 
   "roots": {
-    "src": "https://minecraft.curseforge.com/projects/roots/files/2334550/download", 
+    "src": "https://minecraft.curseforge.com/projects/roots/files/2347364/download", 
     "title": "Roots", 
     "projectID": 246183, 
-    "filename": "roots-1.10.2-0.204.0.jar", 
-    "version": "1.10.2-0.204.0", 
+    "filename": "roots-0.206.jar", 
+    "version": "0.206", 
     "projectPage": "https://minecraft.curseforge.com/projects/roots", 
-    "md5": "f9f3cc3188151a82e8e042a23e5593a9"
+    "md5": "5a558df36a69b57cd8abd59eebf59bc2"
   }, 
   "ender-io": {
-    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2346706/download", 
+    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2347321/download", 
     "title": "Ender IO", 
     "projectID": 64578, 
-    "filename": "EnderIO - 1.10.2-3.0.1.135_beta.jar", 
-    "version": "1.10.2-3.0.1.135_beta", 
+    "filename": "EnderIO - 1.10.2-3.0.1.136_beta.jar", 
+    "version": "1.10.2-3.0.1.136_beta", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
-    "md5": "fec091e15b8e8de072651d58972d1f55"
+    "md5": "c31384e97519e4e0dc294308311629b5"
   }, 
   "refined-storage": {
     "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2343393/download", 
@@ -285,22 +285,22 @@
     "md5": "bc6d9a67382afdd56f73f3d8d5d8803b"
   }, 
   "just-enough-items-jei": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2346527/download", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2348076/download", 
     "title": "Just Enough Items (JEI)", 
     "projectID": 238222, 
-    "filename": "jei_1.10.2-3.13.3.380.jar", 
-    "version": "1.10.2-3.13.3.380", 
+    "filename": "jei_1.10.2-3.13.3.383.jar", 
+    "version": "1.10.2-3.13.3.383", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
-    "md5": "9c832ad26e06b3df79d4d1d3434f07a3"
+    "md5": "a5290718a2448d50190bb5db6057df8d"
   }, 
   "recurrent-complex": {
-    "src": "https://minecraft.curseforge.com/projects/recurrent-complex/files/2340771/download", 
+    "src": "https://minecraft.curseforge.com/projects/recurrent-complex/files/2347193/download", 
     "title": "Recurrent Complex", 
     "projectID": 223150, 
-    "filename": "RecurrentComplex-1.2.3.4.jar", 
-    "version": "1.2.3.4", 
+    "filename": "RecurrentComplex-1.2.4.jar", 
+    "version": "1.2.4", 
     "projectPage": "https://minecraft.curseforge.com/projects/recurrent-complex", 
-    "md5": "6668dd33fcb3e8daaf556b8bd6d62d46"
+    "md5": "b727e59bf2ee28a3b2ef013c3acab23a"
   }, 
   "tomb-many-graves": {
     "src": "https://minecraft.curseforge.com/projects/tomb-many-graves/files/2337855/download", 
@@ -322,13 +322,13 @@
     "md5": "fa643a0903d2ccab404272bd0600ee93"
   }, 
   "quark": {
-    "src": "https://minecraft.curseforge.com/projects/quark/files/2342520/download", 
+    "src": "https://minecraft.curseforge.com/projects/quark/files/2347277/download", 
     "title": "Quark", 
     "projectID": 243121, 
-    "filename": "Quark-r1.0-59.jar", 
-    "version": "1.0-59", 
+    "filename": "Quark-r1.0-60.jar", 
+    "version": "1.0-60", 
     "projectPage": "https://minecraft.curseforge.com/projects/quark", 
-    "md5": "94f15797090fbb6fc4e59f5535bea6c8"
+    "md5": "cc415c298c06e3095525ac3350727da1"
   }, 
   "waddles": {
     "src": "https://minecraft.curseforge.com/projects/waddles/files/2334143/download", 
@@ -376,13 +376,13 @@
     "md5": "b8256c7f5c810450108b35d315bb9667"
   }, 
   "realistic-terrain-generation": {
-    "src": "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2345507/download", 
+    "src": "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2347792/download", 
     "title": "Realistic Terrain Generation", 
     "projectID": 237989, 
-    "filename": "RTG-1.10.2-4.1.1.8-SNAPSHOT-1.jar", 
-    "version": "1.10.2-4.1.1.8-SNAPSHOT-1", 
+    "filename": "RTG-1.10.2-4.1.1.8.jar", 
+    "version": "1.10.2-4.1.1.8", 
     "projectPage": "https://minecraft.curseforge.com/projects/realistic-terrain-generation", 
-    "md5": "bcec897b1494aee84e25313481343e18"
+    "md5": "23ed272cad154fef07400cc2aa1679e2"
   }, 
   "custom-main-menu": {
     "src": "https://minecraft.curseforge.com/projects/custom-main-menu/files/2326056/download", 
@@ -466,13 +466,13 @@
     "md5": "70e153a826001c5be4ff0e3845104bd3"
   }, 
   "iron-backpacks": {
-    "src": "https://minecraft.curseforge.com/projects/iron-backpacks/files/2345794/download", 
+    "src": "https://minecraft.curseforge.com/projects/iron-backpacks/files/2347844/download", 
     "title": "Iron Backpacks", 
     "projectID": 227049, 
-    "filename": "IronBackpacks-1.10.2-2.2.15.jar", 
-    "version": "1.10.2-2.2.15", 
+    "filename": "IronBackpacks-1.10.2-2.2.16.jar", 
+    "version": "1.10.2-2.2.16", 
     "projectPage": "https://minecraft.curseforge.com/projects/iron-backpacks", 
-    "md5": "1a9b8c2de4fbad2279a49f0bc44c57f1"
+    "md5": "3593818b91ef1d8e3eeb1f4f84a16f9a"
   }, 
   "crafttweaker": {
     "src": "https://minecraft.curseforge.com/projects/crafttweaker/files/2345461/download", 

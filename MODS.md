@@ -1,5 +1,5 @@
 # Mods
-## mods.json:
+## manifest/mods.json:
 - [Hwyla](https://minecraft.curseforge.com/projects/HWYLA): 1.8.1-B13_1.10.2
 - [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.10.2-2.1.0
 
@@ -14,18 +14,18 @@
 - [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker): 1.10.2-3.0.15
 - [Custom Main Menu](https://minecraft.curseforge.com/projects/custom-main-menu): 1.10.2-2.0.2
 - [Cyberware](https://minecraft.curseforge.com/projects/cyberware): 1.9.4-1.10.2-beta-0.2.4
-- [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.5.98
+- [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.6.99
 - [Ding](https://minecraft.curseforge.com/projects/ding): 1.10.2-1.0.1
 - [Embers](https://minecraft.curseforge.com/projects/embers): 0.016
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.135_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.136_beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
 - [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.327
 - [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.62-dev-66
-- [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.10.2-2.2.15
+- [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.10.2-2.2.16
 - [Iron Chests](https://minecraft.curseforge.com/projects/iron-chests): 1.10.2-7.0.11.797
 - [Just Enough Buttons](https://minecraft.curseforge.com/projects/just-enough-buttons): 1.10.2-1.6.3
 - [Just Enough Calculation](https://minecraft.curseforge.com/projects/just-enough-calculation): 1.10.2-2.1.4
-- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.3.380
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.3.383
 - [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.7.87
 - [JustEnoughTooltips](https://minecraft.curseforge.com/projects/justenoughtooltips): 1.10.2 2.1.38
 - [Lantern](https://minecraft.curseforge.com/projects/lantern): 0.2.1
@@ -37,18 +37,18 @@
 - [NetherEx](https://minecraft.curseforge.com/projects/netherex): 1.10.2-1.1.0b
 - [OpenBlocks Elevator](https://minecraft.curseforge.com/projects/openblocks-elevator): 1.2.0][MC.1.10.2]
 - [OpenComputers](https://minecraft.curseforge.com/projects/opencomputers): 1.10.2-1.6.0.4
-- [p455w0rd&#x27;s Things](https://minecraft.curseforge.com/projects/p455w0rds-things): 455w0rdsthings-1.10.2-1.1.11
+- [p455w0rd&#x27;s Things](https://minecraft.curseforge.com/projects/p455w0rds-things): 455w0rdsthings-1.10.2-1.2.9
 - [Portable Crafting](https://minecraft.curseforge.com/projects/portable-crafting): 1.10.2-1.1
 - [QuantumStorage](https://minecraft.curseforge.com/projects/quantumstorage): 1.10.2-3.2.11
-- [Quark](https://minecraft.curseforge.com/projects/quark): 1.0-59
+- [Quark](https://minecraft.curseforge.com/projects/quark): 1.0-60
 - [quintessential-creatures](http://qcreatures.net/): 2.0.1
 - [Railcraft](https://minecraft.curseforge.com/projects/railcraft): 10.0.0
-- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.10.2-4.1.1.8-SNAPSHOT-1
+- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.10.2-4.1.1.8
 - [RebornCore](https://minecraft.curseforge.com/projects/reborncore): 1.10.2-2.8.1.64-universal
-- [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 1.2.3.4
+- [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 1.2.4
 - [Refined Storage](https://minecraft.curseforge.com/projects/refined-storage): 1.2.4
 - [Resource Loader](https://minecraft.curseforge.com/projects/resource-loader): 1.9.4-1.5.1
-- [Roots](https://minecraft.curseforge.com/projects/roots): 1.10.2-0.204.0
+- [Roots](https://minecraft.curseforge.com/projects/roots): 0.206
 - [Sleeping Bag](https://minecraft.curseforge.com/projects/sleeping-bag): 1.10.2-1.3.0
 - [Soul Shards: The Old Ways](https://minecraft.curseforge.com/projects/soul-shards-the-old-ways): 1.10.2-2.6.6-46
 - [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.9 for 1.9.4 and 1.10
