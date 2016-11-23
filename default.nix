@@ -5,7 +5,7 @@ with stdenv;
 rec {
 
   # This wraps the updater with its dependencies.
-  updater = buildPythonPackage rec {
+  updater = python2Packages.buildPythonPackage rec {
     name = "updater";
     version = "tppi";
 
