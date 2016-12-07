@@ -18,7 +18,7 @@ import urllib2
 import urlparse
 
 # No. of concurrent HTTP connections.
-MAX_CONCURRENCY = 1
+MAX_CONCURRENCY = 8
 http_sem = threading.Semaphore(MAX_CONCURRENCY)
 executor = ThreadPoolExecutor(max_workers=MAX_CONCURRENCY*10)
 pbar = None
