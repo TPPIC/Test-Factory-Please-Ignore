@@ -13,6 +13,7 @@ import os
 import progressbar
 import re
 import sys
+import time
 import threading
 import urllib2
 import urlparse
@@ -20,7 +21,7 @@ import urlparse
 # No. of concurrent HTTP connections.
 MAX_CONCURRENCY = 8
 http_sem = threading.Semaphore(MAX_CONCURRENCY)
-executor = ThreadPoolExecutor(max_workers=MAX_CONCURRENCY*10)
+executor = ThreadPoolExecutor(max_workers=MAX_CONCURRENCY*2)
 
 COMMENT = 'comment'
 DEPENDENCIES = 'dependencies'
@@ -39,6 +40,13 @@ if not os.path.isfile(CAFILE):
     print 'No ca-bundle.crt found. Try "nix-env -i nss-cacert".'
     quit()
 
+# This is a blatant security hole.
+# But you won't run this on an untrusted computer, right?
+# At least fix it first.
+CACHEDIR = '/tmp/tppi3-manifest-updater'
+if not os.path.exists(CACHEDIR):
+    os.mkdir(CACHEDIR)
+
 
 def VerboseErrors(f):
     def w(*args, **kwargs):
@@ -53,9 +61,27 @@ def VerboseErrors(f):
 def urlopen(*args, **kwargs):
     return urllib2.urlopen(*args, cafile=CAFILE)
 
+
+def FileCache(prefix):
+    def Prefixed(f):
+        def g(url):
+            hopefully_unique = prefix + ' ' + re.sub('/', '_', url)
+            cachefile = os.path.join(CACHEDIR, hopefully_unique)
+            if os.path.exists(cachefile):
+                if time.time() - os.path.getmtime(cachefile) > 3600:
+                    os.remove(cachefile)
+                else:
+                    return open(cachefile).read()
+            contents = f(url)
+            open(cachefile, 'w').write(contents)
+            return contents
+        return g
+    return Prefixed
+
+
+@FileCache('Get')
 def Get(url):
     with http_sem:
-        # print >> sys.stderr, 'Fetching', url
         req = None
         try:
             req = urlopen(url)
@@ -63,6 +89,8 @@ def Get(url):
         finally:
             req and req.close()
 
+
+@FileCache('Deref')
 def DerefUrl(url):
     with http_sem:
         req = None
