@@ -55,7 +55,9 @@
     "roots": {},
     "sleeping-bag": {},
     "soul-shards-the-old-ways": {},
-    "sound-filters": {},
+    "sound-filters": {
+        "side": "client"
+    },
     "the-spice-of-life": {},
     "steves-carts-reborn": {},
     "super-circuit-maker": {},

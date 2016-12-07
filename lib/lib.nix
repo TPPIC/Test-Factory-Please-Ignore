@@ -11,7 +11,10 @@ rec {
   }: rec {
     forgeDir = fetchForge forge;
 
-    modsDir = fetchManifests manifests;
+    serverModsDir = fetchManifests {
+      side = "server";
+      inherit manifests;
+    };
 
     server = symlinkJoin {
       name = name + "-server";
@@ -21,7 +24,7 @@ rec {
       paths = [
         ../base-server
         forgeDir
-        modsDir
+        serverModsDir
       ] ++ extraDirs;
 
       postBuild = ''
@@ -58,13 +61,14 @@ rec {
     rm -r $INSTALLER mods
   '';
 
-  fetchManifests = manifests: symlinkJoin {
+  fetchManifests = { side, manifests }: symlinkJoin {
     name = "manifests";
-    paths = map fetchManifest manifests;
+    paths = map (fetchManifest side) manifests;
   };
 
-  fetchManifest = manifest: let
-    mods = builtins.fromJSON (builtins.readFile manifest);
+  fetchManifest = side: manifest: let
+    allMods = builtins.fromJSON (builtins.readFile manifest);
+    mods = lib.filterAttrs (n: mod: (mod.side or side) == side) allMods;
     modFile = name: mod: {
       name = mod.filename;
       path = fetchMod mod;
@@ -77,9 +81,8 @@ rec {
     url = info.src;
     md5 = info.md5;
   };
-  
-
 
   buildServerPack = packs: {
+    # TODO
   };
 }

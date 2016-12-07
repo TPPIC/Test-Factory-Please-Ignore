@@ -514,6 +514,7 @@
     "filename": "SoundFilters-0.9 for 1.9.4 and 1.10.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/sound-filters", 
+    "side": "client", 
     "md5": "89c50fee6271149638b94b85e5afd31f"
   }, 
   "sleeping-bag": {
