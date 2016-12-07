@@ -1,27 +1,29 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i python -p python pythonPackages.beautifulsoup pythonPackages.lxml pythonPackages.futures pythonPackages.progressbar
+#!/usr/bin/env python
 #
 # This autogenerates .json-manifest files from the .json input file(s).
+#
+# Call this from the root of the git repository.
 
 from concurrent.futures import ThreadPoolExecutor
 from glob import glob
 from HTMLParser import HTMLParser
 from lxml.html import soupparser
+from urllib2 import urlopen
 import hashlib
 import json
 import os
-import progressbar
 import re
 import sys
 import time
 import threading
-import urllib2
 import urlparse
 
 # No. of concurrent HTTP connections.
 MAX_CONCURRENCY = 8
 http_sem = threading.Semaphore(MAX_CONCURRENCY)
 executor = ThreadPoolExecutor(max_workers=MAX_CONCURRENCY*2)
+completed_mods = 0
+total_mods = None
 
 COMMENT = 'comment'
 DEPENDENCIES = 'dependencies'
@@ -33,12 +35,6 @@ SRC = 'src'
 TITLE = 'title'
 VERSION = 'version'
 
-CAFILE = '/etc/ssl/certs/ca-bundle.crt'
-if not os.path.isfile(CAFILE):
-    CAFILE = os.environ['HOME'] + '/.nix-profile/etc/ssl/certs/ca-bundle.crt'
-if not os.path.isfile(CAFILE):
-    print 'No ca-bundle.crt found. Try "nix-env -i nss-cacert".'
-    quit()
 
 # This is a blatant security hole.
 # But you won't run this on an untrusted computer, right?
@@ -46,7 +42,6 @@ if not os.path.isfile(CAFILE):
 CACHEDIR = '/tmp/tppi3-manifest-updater'
 if not os.path.exists(CACHEDIR):
     os.mkdir(CACHEDIR)
-
 
 def VerboseErrors(f):
     def w(*args, **kwargs):
@@ -59,7 +54,7 @@ def VerboseErrors(f):
 
 
 def urlopen(*args, **kwargs):
-    return urllib2.urlopen(*args, cafile=CAFILE)
+    return urllib2.urlopen(*args)
 
 
 def FileCache(prefix):
@@ -113,21 +108,20 @@ def ParseVersion(filename):
 
 def GetNewestVersions(mods):
     baseUrl = 'https://minecraft.curseforge.com'
-    pbar = [None]
+    pbar = [0, 0]
     pbar_lock = threading.Lock()
 
     def StartProgressbar(mods, state=''):
-        pbar[0] = progressbar.ProgressBar(
-            widgets=[state, ' ', progressbar.Percentage(), progressbar.Bar(), progressbar.ETA()],
-            maxval=len(mods)).start()
-
-    def StopProgressbar():
-        pbar[0].finish()
+        print ''
+        if state:
+            print '#', state
+        pbar[0] = 0
+        pbar[1] = len(mods)
 
     def IncProgressbar(state=''):
         with pbar_lock:
-            pbar[0].widgets[0] = '%24.24s' % state
-            pbar[0].update(pbar[0].currval + 1)
+            print  '%24.24s: %d / %d' % (state, pbar[0], pbar[1])
+            pbar[0] += 1
 
     def FixupData(data):
         if FILENAME in data:
@@ -222,10 +216,9 @@ def GetNewestVersions(mods):
             all_ids.add(mod[PROJECTID])
             all_deps.update(mod[DEPENDENCIES])
         all_mods.append((name, mod))
-    StopProgressbar()
     required_mods = lambda: all_deps.difference(all_ids)
     while required_mods():
-        StartProgressbar(required_mods(), 'Dependencies')
+        StartProgressbar(required_mods(), 'Dependencies:')
         dependency_mods = executor.map(
             lambda id: GetNewestCurseData(id, None),
             required_mods())
@@ -233,7 +226,6 @@ def GetNewestVersions(mods):
             all_ids.add(mod[PROJECTID])
             all_deps.update(mod[DEPENDENCIES])
             all_mods.append((mod[PROJECTPAGE].split('/')[-1], mod))
-        StopProgressbar()
     return all_mods
 
 
@@ -259,11 +251,9 @@ def GenerateModList(data):
     return '\n'.join(lines)
 
 
-# Go to the directory this file is in.
-os.chdir(os.path.dirname(os.path.realpath(__file__)))
 # Find manifests to construct:
 mods = {}  # Map from filename to list of mods.
-for fn in glob('*.json'):
+for fn in glob('manifest/*.json'):
     mods[fn] = json.load(open(fn))
 # Get the newest (specified) version of each mod, write manifest:
 data = {}
@@ -274,5 +264,5 @@ for fn, mods in mods.iteritems():
     with open(fn + '-manifest', 'w') as manifest:
         json.dump(data[fn], manifest, indent=2)
 # Update MODS.md.
-with open('../MODS.md', 'w') as f:
+with open('MODS.md', 'w') as f:
   f.write(GenerateModList(data))

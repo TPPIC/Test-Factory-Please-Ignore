@@ -1,5 +1,5 @@
 # Mods
-## mods.json:
+## manifest/mods.json:
 - [Hwyla](https://minecraft.curseforge.com/projects/HWYLA): 1.8.1-B13_1.10.2
 - [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.10.2-2.1.0
 
