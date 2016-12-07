@@ -132,6 +132,17 @@ def GetNewestVersions(mods):
         tree = soupparser.fromstring(filesPage)
         files = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href')
         names = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()')
+        stability = tree.xpath('//td[@class="project-file-release-type"]/div/@class')
+        assert len(files) == len(names) == len(stability)
+        files_filtered = []
+        names_filtered = []
+        for i in xrange(len(files)):
+          if 'alpha' not in stability[i]:
+            files_filtered.append(files[i])
+            names_filtered.append(names[i])
+        if files_filtered:
+          files = files_filtered
+          names = names_filtered
         data = {
             PROJECTID: projectID,
             PROJECTPAGE: projectUrl,

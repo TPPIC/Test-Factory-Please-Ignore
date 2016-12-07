@@ -36,13 +36,13 @@
     "md5": "cec148e18fdcbb10cd73871f5f4dac66"
   }, 
   "tesla": {
-    "src": "https://minecraft.curseforge.com/projects/tesla/files/2343272/download", 
+    "src": "https://minecraft.curseforge.com/projects/tesla/files/2327384/download", 
     "title": "TESLA", 
     "projectID": 244651, 
-    "filename": "Tesla-1.10.2-1.2.1.50.jar", 
-    "version": "1.10.2-1.2.1.50", 
+    "filename": "Tesla-1.10.2-1.2.1.49.jar", 
+    "version": "1.10.2-1.2.1.49", 
     "projectPage": "https://minecraft.curseforge.com/projects/tesla", 
-    "md5": "924d5f4d7df30c829855ce3cc277fc98"
+    "md5": "c8d1afc04b8dfea3725bb53c9b378ade"
   }, 
   "blood-magic": {
     "src": "https://minecraft.curseforge.com/projects/blood-magic/files/2353245/download", 
@@ -144,13 +144,13 @@
     "md5": "5a152d6f1efd0cf1d25c7d526c06d5ba"
   }, 
   "ender-io": {
-    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2353193/download", 
+    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2350383/download", 
     "title": "Ender IO", 
     "projectID": 64578, 
-    "filename": "EnderIO - 1.10.2-3.0.1.139_beta.jar", 
-    "version": "1.10.2-3.0.1.139_beta", 
+    "filename": "EnderIO - 1.10.2-3.0.1.138_beta.jar", 
+    "version": "1.10.2-3.0.1.138_beta", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
-    "md5": "3fe49a509d1677370c6e85e0cfefa02d"
+    "md5": "384a1afd83570c6635f21d6b6c76156f"
   }, 
   "refined-storage": {
     "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2353006/download", 
@@ -231,13 +231,13 @@
     "md5": "59c6ec1f7ea8b5dc634e4352e57e5320"
   }, 
   "inventory-tweaks": {
-    "src": "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2338989/download", 
+    "src": "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2315240/download", 
     "title": "Inventory Tweaks", 
     "projectID": 223094, 
-    "filename": "Inventory Tweaks 1.62-dev-66.jar", 
-    "version": "1.62-dev-66", 
+    "filename": "Inventory Tweaks 1.61.jar", 
+    "version": "1.61", 
     "projectPage": "https://minecraft.curseforge.com/projects/inventory-tweaks", 
-    "md5": "e610e4e001a7dac86b5563c2bbf9610b"
+    "md5": "d1c7fede0527f38a1c8b561416cb7154"
   }, 
   "HWYLA": {
     "src": "https://minecraft.curseforge.com/projects/hwyla/files/2344352/download", 
@@ -430,13 +430,13 @@
     "md5": "13486f1cc663e47c9e040bd715401111"
   }, 
   "just-enough-resources-jer": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2351189/download", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2350957/download", 
     "title": "Just Enough Resources (JER)", 
     "projectID": 240630, 
-    "filename": "JustEnoughResources-1.10.2-0.5.8.98.jar", 
-    "version": "1.10.2-0.5.8.98", 
+    "filename": "JustEnoughResources-1.10.2-0.5.7.96.jar", 
+    "version": "1.10.2-0.5.7.96", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-resources-jer", 
-    "md5": "04f218c0eee3a05870a994816a86e0a5"
+    "md5": "f23de688dbf08740e45dc058e56bcd33"
   }, 
   "justenoughtooltips": {
     "src": "https://minecraft.curseforge.com/projects/justenoughtooltips/files/2345018/download", 

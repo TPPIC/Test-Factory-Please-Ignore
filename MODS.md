@@ -17,16 +17,16 @@
 - [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.6.99
 - [Ding](https://minecraft.curseforge.com/projects/ding): 1.10.2-1.0.1
 - [Embers](https://minecraft.curseforge.com/projects/embers): 0.016
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.139_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.138_beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
 - [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.331
-- [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.62-dev-66
+- [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.61
 - [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.10.2-2.2.19
 - [Iron Chests](https://minecraft.curseforge.com/projects/iron-chests): 1.10.2-7.0.11.797
 - [Just Enough Buttons](https://minecraft.curseforge.com/projects/just-enough-buttons): 1.10.2-1.6.3
 - [Just Enough Calculation](https://minecraft.curseforge.com/projects/just-enough-calculation): 1.10.2-2.2.1
 - [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.387
-- [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.8.98
+- [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.7.96
 - [JustEnoughTooltips](https://minecraft.curseforge.com/projects/justenoughtooltips): 1.10.2 2.1.38
 - [Lantern](https://minecraft.curseforge.com/projects/lantern): 0.2.1
 - [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension): 1.10.2-1.0.0.1
@@ -54,7 +54,7 @@
 - [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.9 for 1.9.4 and 1.10
 - [Steves Carts Reborn](https://minecraft.curseforge.com/projects/steves-carts-reborn): 1.10.2-2.1.0.59
 - [Super Circuit Maker](https://minecraft.curseforge.com/projects/super-circuit-maker): 1.0.4
-- [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.50
+- [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.49
 - [The Spice of Life](https://minecraft.curseforge.com/projects/the-spice-of-life): 1.9.4-1.3.6
 - [Tomb Many Graves](https://minecraft.curseforge.com/projects/tomb-many-graves): 1.10.2-2.1.13
 - [Waddles](https://minecraft.curseforge.com/projects/waddles): 1.10.2-0.5.0
