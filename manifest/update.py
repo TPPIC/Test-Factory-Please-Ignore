@@ -21,10 +21,9 @@ import urlparse
 MAX_CONCURRENCY = 8
 http_sem = threading.Semaphore(MAX_CONCURRENCY)
 executor = ThreadPoolExecutor(max_workers=MAX_CONCURRENCY*10)
-pbar = None
-pbar_lock = threading.Lock()
 
 COMMENT = 'comment'
+DEPENDENCIES = 'dependencies'
 FILENAME = 'filename'
 HASH = 'md5'
 PROJECTID = 'projectID'
@@ -86,6 +85,29 @@ def ParseVersion(filename):
 
 def GetNewestVersions(mods):
     baseUrl = 'https://minecraft.curseforge.com'
+    pbar = [None]
+    pbar_lock = threading.Lock()
+
+    def StartProgressbar(mods, state=''):
+        pbar[0] = progressbar.ProgressBar(
+            widgets=[state, ' ', progressbar.Percentage(), progressbar.Bar(), progressbar.ETA()],
+            maxval=len(mods)).start()
+
+    def StopProgressbar():
+        pbar[0].finish()
+
+    def IncProgressbar(state=''):
+        with pbar_lock:
+            pbar[0].widgets[0] = '%24.24s' % state
+            pbar[0].update(pbar[0].currval + 1)
+
+    def FixupData(data):
+        if FILENAME in data:
+            if not (data[FILENAME].endswith('.jar') or data[FILENAME].endswith('.zip')):
+                data[FILENAME] += '.jar'
+            if not VERSION in data:
+                data[VERSION] = ParseVersion(data[FILENAME])
+        return data
 
     @VerboseErrors
     def ModData(name):
@@ -95,27 +117,20 @@ def GetNewestVersions(mods):
             data = GetNonCurseData(name, mod) or {}
         else:
             data = GetNewestCurseData(name, mod) or {}
-        if FILENAME in data:
-            if not (data[FILENAME].endswith('.jar') or data[FILENAME].endswith('.zip')):
-                data[FILENAME] += '.jar'
-            if not VERSION in data:
-                data[VERSION] = ParseVersion(data[FILENAME])
         for k in mod:
             if k[0] != '_':
                 data[k] = mod[k]
-        with pbar_lock:
-            pbar.widgets[0] = '%24.24s' % (data.get(TITLE) or name)
-            pbar.update(pbar.currval + 1)
         return (name, data)
 
     def GetNonCurseData(name, mod):
         jar = Get(mod[SRC])
-        return {
+        IncProgressbar(name)
+        return FixupData({
             HASH: hashlib.new(HASH, jar).hexdigest(),
             FILENAME: mod[SRC].split('/')[-1]
-        }
+        })
 
-    def GetNewestCurseData(name, mod):
+    def GetNewestCurseData(name, unused_mod):
         parser = HTMLParser()
         # Name the project.
         projectUrl = baseUrl + '/projects/' + str(name)
@@ -157,9 +172,41 @@ def GetNewestVersions(mods):
           data[FILENAME] = parser.unescape(names[0])
           data[HASH] = hash[0]
           data[SRC] = baseUrl + url[0]
-        return data
+          # Find the dependencies for this file.
+          dependencies = [
+              int(url.split('/')[-1]) for url in
+              tree.xpath('//*[text()="Required Library"]/following-sibling::ul/li/a/@href')
+          ]
+          data[DEPENDENCIES] = dependencies
+        IncProgressbar(data[TITLE])
+        return FixupData(data)
 
-    return executor.map(ModData, sorted(mods))
+    # Putting it all together:
+    # TODO(Baughn): I can feel the maintenance debt already.
+    all_mods = []
+    all_ids = set()
+    all_deps = set()
+    StartProgressbar(mods)
+    desired_mods = executor.map(ModData, sorted(mods))
+    for name, mod in desired_mods:
+        if PROJECTID in mod:
+            # Only for Curse mods.
+            all_ids.add(mod[PROJECTID])
+            all_deps.update(mod[DEPENDENCIES])
+        all_mods.append((name, mod))
+    StopProgressbar()
+    required_mods = lambda: all_deps.difference(all_ids)
+    while required_mods():
+        StartProgressbar(required_mods(), 'Dependencies')
+        dependency_mods = executor.map(
+            lambda id: GetNewestCurseData(id, None),
+            required_mods())
+        for mod in dependency_mods:
+            all_ids.add(mod[PROJECTID])
+            all_deps.update(mod[DEPENDENCIES])
+            all_mods.append((mod[PROJECTPAGE].split('/')[-1], mod))
+        StopProgressbar()
+    return all_mods
 
 
 def GenerateModList(data):
@@ -190,9 +237,6 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 mods = {}  # Map from filename to list of mods.
 for fn in glob('*.json'):
     mods[fn] = json.load(open(fn))
-pbar = progressbar.ProgressBar(
-    widgets=['', ' ', progressbar.Percentage(), progressbar.Bar(), progressbar.ETA()],
-    maxval=sum(map(len, mods.itervalues()))).start()
 # Get the newest (specified) version of each mod, write manifest:
 data = {}
 for fn, mods in mods.iteritems():
@@ -204,4 +248,3 @@ for fn, mods in mods.iteritems():
 # Update MODS.md.
 with open('../MODS.md', 'w') as f:
   f.write(GenerateModList(data))
-pbar.finish()
