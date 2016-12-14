@@ -30,17 +30,17 @@
     "md5": "f7c092c4690ba180a7da0535226b245a"
   }, 
   "p455w0rds-things": {
-    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2352211/download", 
-    "version": "455w0rdsthings-1.10.2-1.2.16", 
+    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2354052/download", 
+    "version": "455w0rdsthings-1.10.2-1.2.18", 
     "title": "p455w0rd&#x27;s Things", 
     "projectID": 246444, 
-    "filename": "p455w0rdsthings-1.10.2-1.2.16.jar", 
+    "filename": "p455w0rdsthings-1.10.2-1.2.18.jar", 
     "dependencies": [
       242818, 
       244651
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-things", 
-    "md5": "9356b24e43b1559247f0a1a0163e5798"
+    "md5": "c35a5de0850ceb7e6e1cad122ea486ef"
   }, 
   "morph-o-tool": {
     "src": "https://minecraft.curseforge.com/projects/morph-o-tool/files/2334148/download", 
@@ -97,26 +97,26 @@
     "md5": "52e506a9d6032fca6cc74f0078e1d44b"
   }, 
   "reborncore": {
-    "src": "https://minecraft.curseforge.com/projects/reborncore/files/2349918/download", 
-    "version": "1.10.2-2.8.3.71-universal", 
+    "src": "https://minecraft.curseforge.com/projects/reborncore/files/2355718/download", 
+    "version": "1.10.2-2.8.4.77-universal", 
     "title": "RebornCore", 
     "projectID": 237903, 
-    "filename": "RebornCore-1.10.2-2.8.3.71-universal.jar", 
+    "filename": "RebornCore-1.10.2-2.8.4.77-universal.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/reborncore", 
-    "md5": "4134f1bcf186104147242561ee874887"
+    "md5": "b88a3bd7a134e327c1b7322543dd5bc1"
   }, 
   "just-enough-calculation": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2350945/download", 
-    "version": "1.10.2-2.2.1", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2355562/download", 
+    "version": "1.10.2-2.3.1", 
     "title": "Just Enough Calculation", 
     "projectID": 242223, 
-    "filename": "JustEnoughCalculation-1.10.2-2.2.1.jar", 
+    "filename": "JustEnoughCalculation-1.10.2-2.3.1.jar", 
     "dependencies": [
       238222
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-calculation", 
-    "md5": "d11b590e800dfc8a6bdb07df9cc3aa3e"
+    "md5": "f07fe5119908c97b00609eef98da0c61"
   }, 
   "cooking-for-blockheads": {
     "src": "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2341423/download", 
@@ -196,34 +196,34 @@
     "md5": "5a152d6f1efd0cf1d25c7d526c06d5ba"
   }, 
   "ender-io": {
-    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2350383/download", 
-    "version": "1.10.2-3.0.1.138_beta", 
+    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2355866/download", 
+    "version": "1.10.2-3.0.1.141_beta", 
     "title": "Ender IO", 
     "projectID": 64578, 
-    "filename": "EnderIO - 1.10.2-3.0.1.138_beta.jar", 
+    "filename": "EnderIO - 1.10.2-3.0.1.141_beta.jar", 
     "dependencies": [
       231868
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
-    "md5": "384a1afd83570c6635f21d6b6c76156f"
+    "md5": "f2f0a7dba0b470390994021819bdbc9c"
   }, 
   "refined-storage": {
-    "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2353006/download", 
-    "version": "1.2.9", 
+    "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2354564/download", 
+    "version": "1.2.11", 
     "title": "Refined Storage", 
     "projectID": 243076, 
-    "filename": "Refined Storage 1.2.9.jar", 
+    "filename": "Refined Storage 1.2.11.jar", 
     "dependencies": [
       239431
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/refined-storage", 
-    "md5": "b8327d104f6bc1545d75f4c38f1413ae"
+    "md5": "2b814b05c25f5436676b25fdce5623c2"
   }, 
   "quintessential-creatures": {
     "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
     "filename": "qcreatures-2.0.1.jar", 
     "version": "2.0.1", 
-    "md5": "ecab24c7d0cbd766c1dd5c293e345e3f"
+    "md5": "0b2fd3734e4defe6513233cd51621f63"
   }, 
   "just-enough-buttons": {
     "src": "https://minecraft.curseforge.com/projects/just-enough-buttons/files/2336844/download", 
@@ -266,14 +266,14 @@
     "md5": "4d4ab3832e74a531c0c43c1c68a947fb"
   }, 
   "soul-shards-the-old-ways": {
-    "src": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways/files/2344656/download", 
-    "version": "1.10.2-2.6.6-46", 
+    "src": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways/files/2353821/download", 
+    "version": "1.10.2-2.6.7-48", 
     "title": "Soul Shards: The Old Ways", 
     "projectID": 226958, 
-    "filename": "SoulShards-TOW-1.10.2-2.6.6-46.jar", 
+    "filename": "SoulShards-TOW-1.10.2-2.6.7-48.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways", 
-    "md5": "315a64a82283b3fc39f72671af3bae27"
+    "md5": "a87adeb4a1811b24c7f96f83a7e0b8c8"
   }, 
   "more-overlays": {
     "src": "https://minecraft.curseforge.com/projects/more-overlays/files/2346639/download", 
@@ -286,14 +286,14 @@
     "md5": "e040f79aa0b0a03b69f9c212181ffadb"
   }, 
   "forestry": {
-    "src": "https://minecraft.curseforge.com/projects/forestry/files/2351407/download", 
-    "version": "1.10.2-5.2.16.331", 
+    "src": "https://minecraft.curseforge.com/projects/forestry/files/2355320/download", 
+    "version": "1.10.2-5.2.16.335", 
     "title": "Forestry", 
     "projectID": 59751, 
-    "filename": "forestry_1.10.2-5.2.16.331.jar", 
+    "filename": "forestry_1.10.2-5.2.16.335.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/forestry", 
-    "md5": "59c6ec1f7ea8b5dc634e4352e57e5320"
+    "md5": "d9f32f2c53c4ea8ec689104b050fa6f4"
   }, 
   "codechicken-lib-1-8": {
     "src": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2347458/download", 
@@ -360,24 +360,24 @@
     "md5": "e30777052219acb5932823e653b5a76b"
   }, 
   "cyberware": {
-    "src": "https://minecraft.curseforge.com/projects/cyberware/files/2342509/download", 
-    "version": "1.9.4-1.10.2-beta-0.2.4", 
+    "src": "https://minecraft.curseforge.com/projects/cyberware/files/2353466/download", 
+    "version": "1.9.4-1.10.2-beta-0.2.5", 
     "title": "Cyberware", 
     "projectID": 248042, 
-    "filename": "cyberware-1.9.4-1.10.2-beta-0.2.4.jar", 
+    "filename": "cyberware-1.9.4-1.10.2-beta-0.2.5.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/cyberware", 
-    "md5": "bc6d9a67382afdd56f73f3d8d5d8803b"
+    "md5": "8de086d7f67084a66bdaba1bfc91e4bd"
   }, 
   "just-enough-items-jei": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2349441/download", 
-    "version": "1.10.2-3.13.6.387", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2355635/download", 
+    "version": "1.10.2-3.13.6.390", 
     "title": "Just Enough Items (JEI)", 
     "projectID": 238222, 
-    "filename": "jei_1.10.2-3.13.6.387.jar", 
+    "filename": "jei_1.10.2-3.13.6.390.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
-    "md5": "ddc3d8f2ad71f5f40f0acbb913c7907b"
+    "md5": "4212bf585068edfdc78178db01df7058"
   }, 
   "shadowmc": {
     "src": "https://minecraft.curseforge.com/projects/shadowmc/files/2345525/download", 
@@ -392,14 +392,14 @@
     "md5": "3f0be2b53df202a36e4852aa7ef0ffbb"
   }, 
   "endercore": {
-    "src": "https://minecraft.curseforge.com/projects/endercore/files/2346434/download", 
-    "version": "1.10.2-0.4.1.60-beta", 
+    "src": "https://minecraft.curseforge.com/projects/endercore/files/2355274/download", 
+    "version": "1.10.2-0.4.1.61-beta", 
     "title": "EnderCore", 
     "projectID": 231868, 
-    "filename": "EnderCore - 1.10.2-0.4.1.60-beta.jar", 
+    "filename": "EnderCore - 1.10.2-0.4.1.61-beta.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/endercore", 
-    "md5": "a7d9af9d46f5b1553a2e7846e63acf60"
+    "md5": "0694bda343b5f1318ece1919c98bbd50"
   }, 
   "recurrent-complex": {
     "src": "https://minecraft.curseforge.com/projects/recurrent-complex/files/2347193/download", 
@@ -465,16 +465,16 @@
     "md5": "31a0d5f2482a01850aae3ab8cc4a3cba"
   }, 
   "quark": {
-    "src": "https://minecraft.curseforge.com/projects/quark/files/2352952/download", 
-    "version": "1.1-65", 
+    "src": "https://minecraft.curseforge.com/projects/quark/files/2354531/download", 
+    "version": "1.1-66", 
     "title": "Quark", 
     "projectID": 243121, 
-    "filename": "Quark-r1.1-65.jar", 
+    "filename": "Quark-r1.1-66.jar", 
     "dependencies": [
       250363
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/quark", 
-    "md5": "c3a489e2b46654f4d90f95d7516ee2d9"
+    "md5": "6f7cc8186c6bc9518d755284d66ba732"
   }, 
   "ivtoolkit": {
     "src": "https://minecraft.curseforge.com/projects/ivtoolkit/files/2347191/download", 
@@ -550,14 +550,14 @@
     "md5": "8860fb80efab36dd595e8e556ec6065f"
   }, 
   "infinitylib": {
-    "src": "https://minecraft.curseforge.com/projects/infinitylib/files/2340735/download", 
-    "version": "0.2.1", 
+    "src": "https://minecraft.curseforge.com/projects/infinitylib/files/2354393/download", 
+    "version": "0.3.0", 
     "title": "InfinityLib", 
     "projectID": 251396, 
-    "filename": "infinitylib-0.2.1.jar", 
+    "filename": "infinitylib-0.3.0.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/infinitylib", 
-    "md5": "6306f7082bd3d9c76fe704606e5918b8"
+    "md5": "f72d19ec3ab0511df4044d393ba6c727"
   }, 
   "iron-chests": {
     "src": "https://minecraft.curseforge.com/projects/iron-chests/files/2331308/download", 
@@ -570,14 +570,14 @@
     "md5": "b8256c7f5c810450108b35d315bb9667"
   }, 
   "realistic-terrain-generation": {
-    "src": "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2352474/download", 
-    "version": "1.10.2-4.1.1.9-SNAPSHOT-1", 
+    "src": "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2354674/download", 
+    "version": "1.10.2-4.1.2.0", 
     "title": "Realistic Terrain Generation", 
     "projectID": 237989, 
-    "filename": "RTG-1.10.2-4.1.1.9-SNAPSHOT-1.jar", 
+    "filename": "RTG-1.10.2-4.1.2.0.jar", 
     "dependencies": [], 
     "projectPage": "https://minecraft.curseforge.com/projects/realistic-terrain-generation", 
-    "md5": "d22b60741597d17280b651d0bf6ba997"
+    "md5": "4472ba421f758d7d345687ad6f4a293f"
   }, 
   "custom-main-menu": {
     "src": "https://minecraft.curseforge.com/projects/custom-main-menu/files/2326056/download", 
@@ -645,16 +645,16 @@
     "md5": "f23de688dbf08740e45dc058e56bcd33"
   }, 
   "justenoughtooltips": {
-    "src": "https://minecraft.curseforge.com/projects/justenoughtooltips/files/2345018/download", 
-    "version": "1.10.2 2.1.38", 
+    "src": "https://minecraft.curseforge.com/projects/justenoughtooltips/files/2355232/download", 
+    "version": "1.10.2 2.1.39", 
     "title": "JustEnoughTooltips", 
     "projectID": 240735, 
-    "filename": "JustEnoughTooltips-1.10.2 2.1.38.jar", 
+    "filename": "JustEnoughTooltips-1.10.2 2.1.39.jar", 
     "dependencies": [
       238222
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/justenoughtooltips", 
-    "md5": "ed3552cbe29f74e7ea76adb63b7ba485"
+    "md5": "61c311cdf69df4397a0f1bd080f5b8d3"
   }, 
   "flat-colored-blocks": {
     "src": "https://minecraft.curseforge.com/projects/flat-colored-blocks/files/2343282/download", 
@@ -707,15 +707,15 @@
     "md5": "6c23b8f7a876336dbab417721ee44137"
   }, 
   "lantern": {
-    "src": "https://minecraft.curseforge.com/projects/lantern/files/2340736/download", 
-    "version": "0.2.1", 
+    "src": "https://minecraft.curseforge.com/projects/lantern/files/2354398/download", 
+    "version": "0.3.0", 
     "title": "Lantern", 
     "projectID": 252997, 
-    "filename": "boatlantern-0.2.1.jar", 
+    "filename": "boatlantern-0.3.0.jar", 
     "dependencies": [
       251396
     ], 
     "projectPage": "https://minecraft.curseforge.com/projects/lantern", 
-    "md5": "46c887939181dbd0de4792e6df5c0e07"
+    "md5": "d91000ab1d77e58e23f3057502812494"
   }
 }
