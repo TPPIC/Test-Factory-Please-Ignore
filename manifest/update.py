@@ -53,10 +53,6 @@ def VerboseErrors(f):
     return w
 
 
-def urlopen(*args, **kwargs):
-    return urllib2.urlopen(*args)
-
-
 def FileCache(prefix):
     def Prefixed(f):
         def g(url):
