@@ -230,12 +230,16 @@ rec {
 
   /**
    * URL-encodes a string, such as a filename.
-   * This is incredibly slow! Try not to use it.
+   * This is still pretty slow.
    */
   urlencode = text: builtins.readFile (runCommand "urlencoded" {
+    inherit text;
+    passAsFile = [ "text" ];
     buildInputs = [ python ];
-    unencoded = writeText "unencoded" text;
+    preferLocalBuild = true;
+    allowSubstitutes = false;
   } ''
-    echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(open('$unencoded').read()))" | python > $out
+    echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(sys.stdin.read()))" > program
+    python program < $textPath > $out
   '');
 }
