@@ -180,6 +180,7 @@ rec {
         distribution = Release
         defaultPack = ${urlBase}ServerPack.xml
         customPath =
+        passthroughArgs =
       EOF
       cp $mcupdater MCUpdater.jar
       chmod u+w MCUpdater.jar
