@@ -31,8 +31,8 @@ rec {
 
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "tppi.brage.info";
-    urlBase = "https://" + hostname + "/";
+    hostname = "madoka.brage.info";
+    urlBase = "https://" + hostname + "/tppi/";
   };
 
   # To use:
