@@ -32,7 +32,7 @@
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.9
 - [Just Enough Buttons](https://minecraft.curseforge.com/projects/just-enough-buttons): 1.10.2-1.6.3
 - [Just Enough Calculation](https://minecraft.curseforge.com/projects/just-enough-calculation): 1.10.2-2.3.1
-- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.390
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.391
 - [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.7.96
 - [JustEnoughTooltips](https://minecraft.curseforge.com/projects/justenoughtooltips): 1.10.2 2.1.39
 - [Lantern](https://minecraft.curseforge.com/projects/lantern): 0.3.0

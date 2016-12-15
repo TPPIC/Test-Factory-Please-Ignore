@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from glob import glob
 from HTMLParser import HTMLParser
 from lxml.html import soupparser
+from urllib import pathname2url
 from urllib2 import urlopen
 import hashlib
 import json
@@ -27,6 +28,7 @@ total_mods = None
 
 COMMENT = 'comment'
 DEPENDENCIES = 'dependencies'
+ENCODED = 'encoded'
 FILENAME = 'filename'
 HASH = 'md5'
 PROJECTID = 'projectID'
@@ -125,6 +127,7 @@ def GetNewestVersions(mods):
                 data[FILENAME] += '.jar'
             if not VERSION in data:
                 data[VERSION] = ParseVersion(data[FILENAME])
+            data[ENCODED] = pathname2url(data[FILENAME])
         return data
 
     @VerboseErrors

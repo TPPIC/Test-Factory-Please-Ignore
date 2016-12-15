@@ -6,6 +6,7 @@
     "projectID": 231275, 
     "filename": "Ding-1.10.2-1.0.1.jar", 
     "dependencies": [], 
+    "encoded": "Ding-1.10.2-1.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ding", 
     "md5": "a6dfb094e0911deaf6e182cb3fc2ab75"
   }, 
@@ -16,6 +17,7 @@
     "projectID": 248538, 
     "filename": "Bagelsmore-1.9.4-1.0.1.jar", 
     "dependencies": [], 
+    "encoded": "Bagelsmore-1.9.4-1.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bagelsmore-the-return", 
     "md5": "83d030395901c5020accce99bd37a112"
   }, 
@@ -26,6 +28,7 @@
     "projectID": 253211, 
     "filename": "MTLib-1.0.0.jar", 
     "dependencies": [], 
+    "encoded": "MTLib-1.0.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mtlib", 
     "md5": "f7c092c4690ba180a7da0535226b245a"
   }, 
@@ -39,6 +42,7 @@
       242818, 
       244651
     ], 
+    "encoded": "p455w0rdsthings-1.10.2-1.2.18.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-things", 
     "md5": "c35a5de0850ceb7e6e1cad122ea486ef"
   }, 
@@ -51,6 +55,7 @@
     "dependencies": [
       250363
     ], 
+    "encoded": "Morph-o-Tool-1.0-12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/morph-o-tool", 
     "md5": "cec148e18fdcbb10cd73871f5f4dac66"
   }, 
@@ -61,6 +66,7 @@
     "projectID": 244651, 
     "filename": "Tesla-1.10.2-1.2.1.49.jar", 
     "dependencies": [], 
+    "encoded": "Tesla-1.10.2-1.2.1.49.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tesla", 
     "md5": "c8d1afc04b8dfea3725bb53c9b378ade"
   }, 
@@ -71,6 +77,7 @@
     "projectID": 250363, 
     "filename": "AutoRegLib-1.0-2.jar", 
     "dependencies": [], 
+    "encoded": "AutoRegLib-1.0-2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/autoreglib", 
     "md5": "527a86197be2f4c804747a7ae564a181"
   }, 
@@ -83,6 +90,7 @@
     "dependencies": [
       228832
     ], 
+    "encoded": "BloodMagic-1.9.4-2.1.0-69.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/blood-magic", 
     "md5": "b106e0ba25f99004b48601131c34ae20"
   }, 
@@ -93,6 +101,7 @@
     "projectID": 251918, 
     "filename": "embers-0.016.jar", 
     "dependencies": [], 
+    "encoded": "embers-0.016.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/embers", 
     "md5": "52e506a9d6032fca6cc74f0078e1d44b"
   }, 
@@ -103,6 +112,7 @@
     "projectID": 237903, 
     "filename": "RebornCore-1.10.2-2.8.4.77-universal.jar", 
     "dependencies": [], 
+    "encoded": "RebornCore-1.10.2-2.8.4.77-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/reborncore", 
     "md5": "b88a3bd7a134e327c1b7322543dd5bc1"
   }, 
@@ -115,6 +125,7 @@
     "dependencies": [
       238222
     ], 
+    "encoded": "JustEnoughCalculation-1.10.2-2.3.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-calculation", 
     "md5": "f07fe5119908c97b00609eef98da0c61"
   }, 
@@ -125,6 +136,7 @@
     "projectID": 231484, 
     "filename": "CookingForBlockheads_1.10.2-4.2.26.jar", 
     "dependencies": [], 
+    "encoded": "CookingForBlockheads_1.10.2-4.2.26.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/cooking-for-blockheads", 
     "md5": "500f5038f869fb4fbab252022c32400e"
   }, 
@@ -135,6 +147,7 @@
     "projectID": 231095, 
     "filename": "chiselsandbits-12.8.jar", 
     "dependencies": [], 
+    "encoded": "chiselsandbits-12.8.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/chisels-bits", 
     "md5": "4a17202632b64370f41676ae511d9a94"
   }, 
@@ -147,6 +160,7 @@
     "dependencies": [
       224472
     ], 
+    "encoded": "SpiceOfLife-mc1.9.4-1.3.6.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/the-spice-of-life", 
     "md5": "d28b0c591ed1303de9fce49c7e256d36"
   }, 
@@ -159,6 +173,7 @@
     "dependencies": [
       228525
     ], 
+    "encoded": "DarkUtilities-1.10.2-1.1.6.99.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/dark-utilities", 
     "md5": "788b17a567509916765236d03fc4a3d8"
   }, 
@@ -169,6 +184,7 @@
     "projectID": 248787, 
     "filename": "AppleSkin-mc1.10.2-1.0.4.jar", 
     "dependencies": [], 
+    "encoded": "AppleSkin-mc1.10.2-1.0.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/appleskin", 
     "md5": "682d5bb9795be7cb7d86445610b514ea"
   }, 
@@ -182,6 +198,7 @@
       239197, 
       253211
     ], 
+    "encoded": "ModTweaker2-2.0.7.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/modtweaker", 
     "md5": "2c12cae6791a0ed76e9ed6ed4318712e"
   }, 
@@ -192,6 +209,7 @@
     "projectID": 246183, 
     "filename": "roots-0.208.jar", 
     "dependencies": [], 
+    "encoded": "roots-0.208.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/roots", 
     "md5": "5a152d6f1efd0cf1d25c7d526c06d5ba"
   }, 
@@ -204,6 +222,7 @@
     "dependencies": [
       231868
     ], 
+    "encoded": "EnderIO%20-%201.10.2-3.0.1.141_beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
     "md5": "f2f0a7dba0b470390994021819bdbc9c"
   }, 
@@ -216,10 +235,12 @@
     "dependencies": [
       239431
     ], 
+    "encoded": "Refined%20Storage%201.2.11.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/refined-storage", 
     "md5": "2b814b05c25f5436676b25fdce5623c2"
   }, 
   "quintessential-creatures": {
+    "encoded": "qcreatures-2.0.1.jar", 
     "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
     "filename": "qcreatures-2.0.1.jar", 
     "version": "2.0.1", 
@@ -232,6 +253,7 @@
     "projectID": 248747, 
     "filename": "justenoughbuttons-1.10.2-1.6.3.jar", 
     "dependencies": [], 
+    "encoded": "justenoughbuttons-1.10.2-1.6.3.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-buttons", 
     "md5": "e6a887f1ceb5dc1a2c0a7d96c9ac724c"
   }, 
@@ -242,6 +264,7 @@
     "projectID": 248039, 
     "filename": "NetherEx_1.10.2-1.1.0b.jar", 
     "dependencies": [], 
+    "encoded": "NetherEx_1.10.2-1.1.0b.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/netherex", 
     "md5": "52f3b965f240427866a5e6d7fc06b820"
   }, 
@@ -252,6 +275,7 @@
     "projectID": 253462, 
     "filename": "StevesCarts-1.10.2-2.1.0.59.jar", 
     "dependencies": [], 
+    "encoded": "StevesCarts-1.10.2-2.1.0.59.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/steves-carts-reborn", 
     "md5": "011e9bb7df88df7cabe4016a73942c13"
   }, 
@@ -262,6 +286,7 @@
     "projectID": 51195, 
     "filename": "Railcraft 10.0.1.jar", 
     "dependencies": [], 
+    "encoded": "Railcraft%2010.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/railcraft", 
     "md5": "4d4ab3832e74a531c0c43c1c68a947fb"
   }, 
@@ -272,6 +297,7 @@
     "projectID": 226958, 
     "filename": "SoulShards-TOW-1.10.2-2.6.7-48.jar", 
     "dependencies": [], 
+    "encoded": "SoulShards-TOW-1.10.2-2.6.7-48.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways", 
     "md5": "a87adeb4a1811b24c7f96f83a7e0b8c8"
   }, 
@@ -282,6 +308,7 @@
     "projectID": 243478, 
     "filename": "moreoverlays-1.9-mc1.10.2.jar", 
     "dependencies": [], 
+    "encoded": "moreoverlays-1.9-mc1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/more-overlays", 
     "md5": "e040f79aa0b0a03b69f9c212181ffadb"
   }, 
@@ -292,6 +319,7 @@
     "projectID": 59751, 
     "filename": "forestry_1.10.2-5.2.16.335.jar", 
     "dependencies": [], 
+    "encoded": "forestry_1.10.2-5.2.16.335.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/forestry", 
     "md5": "d9f32f2c53c4ea8ec689104b050fa6f4"
   }, 
@@ -302,6 +330,7 @@
     "projectID": 242818, 
     "filename": "CodeChicken Lib 1.10.2-2.4.3.145-universal.jar", 
     "dependencies": [], 
+    "encoded": "CodeChicken%20Lib%201.10.2-2.4.3.145-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8", 
     "md5": "783e262d6436ea2e18367c43ccf1f225"
   }, 
@@ -312,6 +341,7 @@
     "projectID": 223094, 
     "filename": "Inventory Tweaks 1.61.jar", 
     "dependencies": [], 
+    "encoded": "Inventory%20Tweaks%201.61.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/inventory-tweaks", 
     "md5": "d1c7fede0527f38a1c8b561416cb7154"
   }, 
@@ -322,6 +352,7 @@
     "projectID": 253449, 
     "filename": "Hwyla-1.8.1-B13_1.10.2.jar", 
     "dependencies": [], 
+    "encoded": "Hwyla-1.8.1-B13_1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/HWYLA", 
     "md5": "419d876d84659bbcaeeeabdf10cc70f5"
   }, 
@@ -334,6 +365,7 @@
     "dependencies": [
       237903
     ], 
+    "encoded": "QuantumStorage-1.10.2-3.2.12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/quantumstorage", 
     "md5": "19ffadbbeb447ad3903b78798d8725f0"
   }, 
@@ -344,6 +376,7 @@
     "projectID": 250832, 
     "filename": "ElevatorMod[V.1.3.0][MC.1.10.2].jar", 
     "dependencies": [], 
+    "encoded": "ElevatorMod%5BV.1.3.0%5D%5BMC.1.10.2%5D.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/openblocks-elevator", 
     "md5": "3d12c88a18b4e34c971e1ba794f48066"
   }, 
@@ -356,6 +389,7 @@
     "dependencies": [
       239431
     ], 
+    "encoded": "Super%20Circuit%20Maker%201.0.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/super-circuit-maker", 
     "md5": "e30777052219acb5932823e653b5a76b"
   }, 
@@ -366,18 +400,20 @@
     "projectID": 248042, 
     "filename": "cyberware-1.9.4-1.10.2-beta-0.2.5.jar", 
     "dependencies": [], 
+    "encoded": "cyberware-1.9.4-1.10.2-beta-0.2.5.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/cyberware", 
     "md5": "8de086d7f67084a66bdaba1bfc91e4bd"
   }, 
   "just-enough-items-jei": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2355635/download", 
-    "version": "1.10.2-3.13.6.390", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2355928/download", 
+    "version": "1.10.2-3.13.6.391", 
     "title": "Just Enough Items (JEI)", 
     "projectID": 238222, 
-    "filename": "jei_1.10.2-3.13.6.390.jar", 
+    "filename": "jei_1.10.2-3.13.6.391.jar", 
     "dependencies": [], 
+    "encoded": "jei_1.10.2-3.13.6.391.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
-    "md5": "4212bf585068edfdc78178db01df7058"
+    "md5": "54f2c39d25fede22c0f77a51759c4e80"
   }, 
   "shadowmc": {
     "src": "https://minecraft.curseforge.com/projects/shadowmc/files/2345525/download", 
@@ -388,6 +424,7 @@
     "dependencies": [
       248453
     ], 
+    "encoded": "ShadowMC-1.10.2-3.6.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/shadowmc", 
     "md5": "3f0be2b53df202a36e4852aa7ef0ffbb"
   }, 
@@ -398,6 +435,7 @@
     "projectID": 231868, 
     "filename": "EnderCore - 1.10.2-0.4.1.61-beta.jar", 
     "dependencies": [], 
+    "encoded": "EnderCore%20-%201.10.2-0.4.1.61-beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/endercore", 
     "md5": "0694bda343b5f1318ece1919c98bbd50"
   }, 
@@ -410,6 +448,7 @@
     "dependencies": [
       224535
     ], 
+    "encoded": "RecurrentComplex-1.2.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/recurrent-complex", 
     "md5": "b727e59bf2ee28a3b2ef013c3acab23a"
   }, 
@@ -420,6 +459,7 @@
     "projectID": 245224, 
     "filename": "TombManyGraves-1.10.2-2.1.13.jar", 
     "dependencies": [], 
+    "encoded": "TombManyGraves-1.10.2-2.1.13.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tomb-many-graves", 
     "md5": "13afcffbaf8ec76239b7d46e773e5a8d"
   }, 
@@ -430,6 +470,7 @@
     "projectID": 239431, 
     "filename": "MCMultiPart 1.3.0.jar", 
     "dependencies": [], 
+    "encoded": "MCMultiPart%201.3.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mcmultipart", 
     "md5": "0bbe580fc5562903f28df55a69984e91"
   }, 
@@ -441,6 +482,7 @@
     "projectID": 224472, 
     "filename": "AppleCore-mc1.10.2-2.1.0.jar", 
     "dependencies": [], 
+    "encoded": "AppleCore-mc1.10.2-2.1.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/applecore", 
     "md5": "fa643a0903d2ccab404272bd0600ee93"
   }, 
@@ -451,6 +493,7 @@
     "projectID": 243298, 
     "filename": "LLibrary 1.7.2.jar", 
     "dependencies": [], 
+    "encoded": "LLibrary%201.7.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/llibrary", 
     "md5": "a9d05ece2c652ef8b9a5d8e8d7800254"
   }, 
@@ -461,6 +504,7 @@
     "projectID": 228832, 
     "filename": "Guide-API-1.10.2-2.0.2-45.jar", 
     "dependencies": [], 
+    "encoded": "Guide-API-1.10.2-2.0.2-45.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/guide-api", 
     "md5": "31a0d5f2482a01850aae3ab8cc4a3cba"
   }, 
@@ -473,6 +517,7 @@
     "dependencies": [
       250363
     ], 
+    "encoded": "Quark-r1.1-66.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/quark", 
     "md5": "6f7cc8186c6bc9518d755284d66ba732"
   }, 
@@ -483,6 +528,7 @@
     "projectID": 224535, 
     "filename": "IvToolkit-1.2.9.jar", 
     "dependencies": [], 
+    "encoded": "IvToolkit-1.2.9.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ivtoolkit", 
     "md5": "623b8dd9b2ff4141a7af074e17f11700"
   }, 
@@ -493,6 +539,7 @@
     "projectID": 251767, 
     "filename": "Waddles-1.10.2-0.5.0.jar", 
     "dependencies": [], 
+    "encoded": "Waddles-1.10.2-0.5.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/waddles", 
     "md5": "5fa859c6ac58bc2c6e95d4725cd8dbb3"
   }, 
@@ -503,6 +550,7 @@
     "projectID": 248453, 
     "filename": "Forgelin-1.1.0.jar", 
     "dependencies": [], 
+    "encoded": "Forgelin-1.1.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/shadowfacts-forgelin", 
     "md5": "de67117970343f91760b4d0eef7685be"
   }, 
@@ -513,6 +561,7 @@
     "projectID": 222789, 
     "filename": "SoundFilters-0.9 for 1.9.4 and 1.10.jar", 
     "dependencies": [], 
+    "encoded": "SoundFilters-0.9%20for%201.9.4%20and%201.10.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/sound-filters", 
     "side": "client", 
     "md5": "89c50fee6271149638b94b85e5afd31f"
@@ -526,6 +575,7 @@
     "dependencies": [
       226780
     ], 
+    "encoded": "SleepingBag-1.10.2-1.4.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/sleeping-bag", 
     "md5": "e57d5e2271dcef6712db4414eb9a78a6"
   }, 
@@ -536,6 +586,7 @@
     "projectID": 226447, 
     "filename": "ResourceLoader-MC1.9.4-1.5.1.jar", 
     "dependencies": [], 
+    "encoded": "ResourceLoader-MC1.9.4-1.5.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/resource-loader", 
     "md5": "fd851602890014f31b54ad0e009e5612"
   }, 
@@ -546,6 +597,7 @@
     "projectID": 228525, 
     "filename": "Bookshelf-1.10.2-1.4.3.338.jar", 
     "dependencies": [], 
+    "encoded": "Bookshelf-1.10.2-1.4.3.338.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bookshelf", 
     "md5": "8860fb80efab36dd595e8e556ec6065f"
   }, 
@@ -556,6 +608,7 @@
     "projectID": 251396, 
     "filename": "infinitylib-0.3.0.jar", 
     "dependencies": [], 
+    "encoded": "infinitylib-0.3.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/infinitylib", 
     "md5": "f72d19ec3ab0511df4044d393ba6c727"
   }, 
@@ -566,6 +619,7 @@
     "projectID": 228756, 
     "filename": "ironchest-1.10.2-7.0.11.797.jar", 
     "dependencies": [], 
+    "encoded": "ironchest-1.10.2-7.0.11.797.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/iron-chests", 
     "md5": "b8256c7f5c810450108b35d315bb9667"
   }, 
@@ -576,6 +630,7 @@
     "projectID": 237989, 
     "filename": "RTG-1.10.2-4.1.2.0.jar", 
     "dependencies": [], 
+    "encoded": "RTG-1.10.2-4.1.2.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/realistic-terrain-generation", 
     "md5": "4472ba421f758d7d345687ad6f4a293f"
   }, 
@@ -586,6 +641,7 @@
     "projectID": 226406, 
     "filename": "CustomMainMenu-MC1.10.2-2.0.2.jar", 
     "dependencies": [], 
+    "encoded": "CustomMainMenu-MC1.10.2-2.0.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/custom-main-menu", 
     "md5": "55cbc1d629a1476028e6868adf065a11"
   }, 
@@ -596,6 +652,7 @@
     "projectID": 223008, 
     "filename": "OpenComputers-MC1.10.2-1.6.0.4.jar", 
     "dependencies": [], 
+    "encoded": "OpenComputers-MC1.10.2-1.6.0.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/opencomputers", 
     "md5": "e86a20daf0f33470278b654bcfa6d6f9"
   }, 
@@ -606,6 +663,7 @@
     "projectID": 235279, 
     "filename": "Chisel - MC1.10.2-0.0.7.7.jar", 
     "dependencies": [], 
+    "encoded": "Chisel%20-%20MC1.10.2-0.0.7.7.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/chisel", 
     "md5": "ebf56ad04d4cb5edb272cc35b0107d54"
   }, 
@@ -619,6 +677,7 @@
       243298, 
       248453
     ], 
+    "encoded": "Literal%20Ascension%201.10.2-1.0.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/literal-ascension", 
     "md5": "75c6c6c75561feb3411ab19dd5484ac3"
   }, 
@@ -629,6 +688,7 @@
     "projectID": 233071, 
     "filename": "CraftingTweaks_1.10.2-6.1.16.jar", 
     "dependencies": [], 
+    "encoded": "CraftingTweaks_1.10.2-6.1.16.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/crafting-tweaks", 
     "md5": "13486f1cc663e47c9e040bd715401111"
   }, 
@@ -641,6 +701,7 @@
     "dependencies": [
       238222
     ], 
+    "encoded": "JustEnoughResources-1.10.2-0.5.7.96.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-resources-jer", 
     "md5": "f23de688dbf08740e45dc058e56bcd33"
   }, 
@@ -653,6 +714,7 @@
     "dependencies": [
       238222
     ], 
+    "encoded": "JustEnoughTooltips-1.10.2%202.1.39.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/justenoughtooltips", 
     "md5": "61c311cdf69df4397a0f1bd080f5b8d3"
   }, 
@@ -663,6 +725,7 @@
     "projectID": 238590, 
     "filename": "flatcoloredblocks-mc1.10-v4.4.jar", 
     "dependencies": [], 
+    "encoded": "flatcoloredblocks-mc1.10-v4.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/flat-colored-blocks", 
     "md5": "0bc85e6993a628d5ca2b6ede75805046"
   }, 
@@ -673,6 +736,7 @@
     "projectID": 240655, 
     "filename": "PortableCrafting-1.10.2-1.1.jar", 
     "dependencies": [], 
+    "encoded": "PortableCrafting-1.10.2-1.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/portable-crafting", 
     "md5": "70e153a826001c5be4ff0e3845104bd3"
   }, 
@@ -683,6 +747,7 @@
     "projectID": 227049, 
     "filename": "IronBackpacks-1.10.2-2.2.19.jar", 
     "dependencies": [], 
+    "encoded": "IronBackpacks-1.10.2-2.2.19.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/iron-backpacks", 
     "md5": "11977196a16324d4cac8e1cb9463aaf3"
   }, 
@@ -693,6 +758,7 @@
     "projectID": 239197, 
     "filename": "CraftTweaker-1.10.2-3.0.15.jar", 
     "dependencies": [], 
+    "encoded": "CraftTweaker-1.10.2-3.0.15.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/crafttweaker", 
     "md5": "1ca2a8131860428d897a3b2812110ab9"
   }, 
@@ -703,6 +769,7 @@
     "projectID": 60089, 
     "filename": "[1.10.2] Mouse Tweaks 2.6.4.jar", 
     "dependencies": [], 
+    "encoded": "%5B1.10.2%5D%20Mouse%20Tweaks%202.6.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mouse-tweaks", 
     "md5": "6c23b8f7a876336dbab417721ee44137"
   }, 
@@ -715,6 +782,7 @@
     "dependencies": [
       251396
     ], 
+    "encoded": "boatlantern-0.3.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/lantern", 
     "md5": "d91000ab1d77e58e23f3057502812494"
   }
