@@ -11,8 +11,8 @@ rec {
 
   TPPI3C = {
     name = "TPPI3C-0.0.1";
-    # For GNU Screen. Extra safety check.
-    screenName = "tppi";
+    screenName = "tppi";  # On dev server.
+    port = 25567;  # On dev server.
     forge = {
       major = "1.10.2";
       minor = "12.18.3.2185";
@@ -29,7 +29,19 @@ rec {
     ];
   };
 
-  ServerPack = buildServerPack packs;
+  ServerPack = buildServerPack rec {
+    inherit packs;
+    hostname = "tppi.brage.info";
+    urlBase = "https://" + hostname + "/";
+  };
+
+  # To use:
+  # nix-build -A ServerPackLocal && (cd result && python -m SimpleHTTPServer)
+  ServerPackLocal = buildServerPack rec {
+    inherit packs;
+    hostname = "localhost";
+    urlBase = "http://" + hostname + "/";
+  };
 
   # This wraps the updater with its dependencies.
   updater = python2Packages.buildPythonPackage rec {

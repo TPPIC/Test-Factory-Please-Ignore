@@ -2,19 +2,68 @@ with import <nixpkgs> {};
 with stdenv;
 
 rec {
-  buildPack = {
+
+  /**
+   * Extends a pack definition with all its derivations.
+   *
+   * Attributes:
+   * - mcuPack: Everything needed to build an MCUpdater config.
+   * - cursePack: A Curse zipfile. (TODO)
+   * - server: The completed server, with all dependencies.
+   *
+   * - clientConfigs: Zipfiles and md5s for all the client-propagated config dirs.
+   * - clientConfigsDir: The above, as one directory.
+   * - clientMods: Filtered manifest entries for the client.
+   * - clientModsDir: The client's mods directory.
+   *
+   * - forgeDir: A derivation containing the Forge server.
+   * - serverMods: Filtered manifest entries for the server.
+   * - serverModsDir: The server's mods directory.
+   */
+  buildPack = self@{
     name,
     screenName,
+    port,
     forge,
     manifests ? [],
     extraDirs ? [],
-  }: rec {
+  }: (self // rec {
+    ## Client:
+    clientMods = filterManifests {
+      side = "client";
+      inherit manifests;
+    };
+
+    clientModsDir = fetchMods clientMods;
+
+    clientConfigs = builtins.listToAttrs (map (dir: rec {
+      name = baseNameOf dir;
+      value = rec {
+        zipDir = mkZipDir name dir;
+        md5 = builtins.readFile (zipDir + "/${name}.md5");
+      };
+    }) extraDirs);
+
+    clientConfigsDir = symlinkJoin {
+      name = "${name}-client-configs";
+      paths = lib.mapAttrsToList (name: config: config.zipDir) clientConfigs;
+    };
+
+    mcuPack = linkFarm "${name}-pack" [
+      { name = "pack.json"; path = writeJson "${name}-json" clientMods; }
+      { name = "mods"; path = clientModsDir; }
+      { name = "configs"; path = clientConfigsDir; }
+    ];
+
+    ## Server:
     forgeDir = fetchForge forge;
 
-    serverModsDir = fetchManifests {
+    serverMods = filterManifests {
       side = "server";
       inherit manifests;
     };
+
+    serverModsDir = fetchMods serverMods;
 
     server = symlinkJoin {
       name = name + "-server";
@@ -24,7 +73,7 @@ rec {
       paths = [
         ../base-server
         forgeDir
-        serverModsDir
+        (wrapDir "mods" serverModsDir)
       ] ++ extraDirs;
 
       postBuild = ''
@@ -34,7 +83,7 @@ rec {
         cp start.sh $out
       '';
     };
-  };
+  });
 
   fetchForge = { major, minor }: runCommand "forge-${major}-${minor}" {
     inherit major minor;
@@ -61,28 +110,130 @@ rec {
     rm -r $INSTALLER mods
   '';
 
-  fetchManifests = { side, manifests }: symlinkJoin {
-    name = "manifests";
-    paths = map (fetchManifest side) manifests;
-  };
+  /**
+   * Returns a set of mods, of the same format as in the manifest.
+   */
+  filterManifests = { side, manifests }: let
+    allMods = concatSets (map (f: builtins.fromJSON (builtins.readFile f)) manifests);
+  in
+    lib.filterAttrs (n: mod: (mod.side or side) == side) allMods;
 
-  fetchManifest = side: manifest: let
-    allMods = builtins.fromJSON (builtins.readFile manifest);
-    mods = lib.filterAttrs (n: mod: (mod.side or side) == side) allMods;
+  /**
+   * Returns a derivation bundling all the given mods in a directory.
+   */
+  fetchMods = mods: let
+    fetchMod = info: fetchurl {
+      url = info.src;
+      md5 = info.md5;
+    };
     modFile = name: mod: {
       name = mod.filename;
       path = fetchMod mod;
     };
-    modFiles = linkFarm "manifest-mods" (lib.mapAttrsToList modFile mods);
   in
-    runCommand "manifest" { inherit modFiles; } "mkdir -p $out/mods; ln -s $modFiles/* $out/mods/";
+    linkFarm "manifest-mods" (lib.mapAttrsToList modFile mods);
 
-  fetchMod = info: fetchurl {
-    url = info.src;
-    md5 = info.md5;
-  };
+  buildServerPack = {
+    packs, hostname, urlBase
+  }: let
+    combinedPack = linkFarm "combined-packs" (lib.mapAttrsToList packDir packs);
+    packDir = name: pack: { inherit name; path = pack.mcuPack; };
+    /* This bit of craziness provides all the parameters to serverpack.xsl */
+    packParams = name: pack: let revless = rec {
+      packUrlBase = urlBase + "packs/" + urlencode name + "/";
+      serverId = name;
+      serverDesc = pack.description or name;
+      serverAddress = hostname + ":" + toString pack.port;
+      minecraftVersion = pack.forge.major;
+      forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${pack.forge.major}&forge=${pack.forge.minor}";
+      configs = lib.mapAttrs (name: config: {
+        configId = name;
+        url = packUrlBase + "configs/" + urlencode name + ".zip";
+        md5 = config.md5;
+      }) pack.clientConfigs;
+      mods = lib.mapAttrs (name: mod: {
+        modId = name;  # Should we use projectID instead?
+        isDefault = mod.isDefault or true;
+        md5 = mod.md5;
+        modpath = "mods/" + mod.filename;
+        modtype = mod.modType or "Regular";
+        required = mod.required or true;
+        side = mod.side or "BOTH";
+        url = packUrlBase + "mods/" + mod.encoded;
+      }) pack.clientMods;
+    }; in revless // {
+      revision = builtins.hashString "sha256" (builtins.toXML revless);
+    };
+    packFile = runCommand "ServerPack.xml" {
+      buildInputs = [ saxonb ];
+      stylesheet = ./serverpack.xsl;
+      paramsText = writeText "params.xml" (builtins.toXML (lib.mapAttrs packParams packs));
+    } ''
+      saxon8 $paramsText $stylesheet > $out
+    '';
+    preconfiguredMCUpdater = runCommand "Preconfigured-MCUpdater" {
+      mcupdater = ./MCUpdater-recommended.jar;
+      buildInputs = [ zip ];
+    } ''
+      cat >> config.properties <<EOF
+        bootstrapURL = http://files.mcupdater.com/Bootstrap.xml
+        distribution = Release
+        defaultPack = ${urlBase}ServerPack.xml
+        customPath =
+      EOF
+      cp $mcupdater MCUpdater.jar
+      chmod u+w MCUpdater.jar
+      zip MCUpdater.jar -X --latest-time config.properties
+      mv MCUpdater.jar $out
+    '';
+  in linkFarm "ServerPack" [
+    { name = "packs"; path = combinedPack; }
+    { name = "ServerPack.xml"; path = packFile; }
+    { name = "MCUpdater-Bootstrap.jar"; path = preconfiguredMCUpdater; }
+  ];
 
-  buildServerPack = packs: {
-    # TODO
-  };
+  # General utilities:
+  /**
+   * Writes a Nix value to a file, as JSON.
+   */
+  writeJson = name: tree: writeText name (builtins.toJSON tree);
+
+  /*
+   * Wraps a derivation with a directory.
+   * Useful to give it a non-hashy name.
+   */
+  wrapDir = name: path: linkFarm "wrap-${name}" [{ inherit name path; }];
+
+  /**
+   * Concatenates a list of sets.
+   */
+  concatSets = builtins.foldl' (a: b: a // b) {};
+
+  /**
+   * Creates a directory containing a zipfile containing the source directory, plus hash.
+   */
+  mkZipDir = name: src: runCommand name {
+    inherit name src;
+    buildInputs = [ zip xorg.lndir ];
+  } ''
+    # This is fiddly because we want very badly to make the output depend only on file contents.
+    mkdir in $out
+    cd in
+    lndir $src .
+    TZ=UTC find . -print0 | sort -z | \
+      xargs -0 zip -X --latest-time $out/${name}.zip
+    md5=$(md5sum $out/${name}.zip | awk '{print $1}')
+    echo $md5 > $out/${name}.md5
+  '';
+
+  /**
+   * URL-encodes a string, such as a filename.
+   * This is incredibly slow! Try not to use it.
+   */
+  urlencode = text: builtins.readFile (runCommand "urlencoded" {
+    buildInputs = [ python ];
+    unencoded = writeText "unencoded" text;
+  } ''
+    echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(open('$unencoded').read()))" | python > $out
+  '');
 }
