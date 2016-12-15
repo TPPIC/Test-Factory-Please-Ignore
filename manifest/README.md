@@ -35,6 +35,6 @@ You have two options for running it:
 
   Something like this might work:
   ````shell
-  $ sudo apt-get install python-beautifulsoup python-lxml python-futures python-progressbar
+  $ sudo apt-get install python-beautifulsoup python-lxml python-futures
   $ python update.py
   ````
