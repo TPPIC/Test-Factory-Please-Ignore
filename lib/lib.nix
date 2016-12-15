@@ -188,6 +188,7 @@ rec {
       mv MCUpdater.jar $out
     '';
   in linkFarm "ServerPack" [
+    { name = "index.html"; path = ./index.html; }
     { name = "packs"; path = combinedPack; }
     { name = "ServerPack.xml"; path = packFile; }
     { name = "MCUpdater-Bootstrap.jar"; path = preconfiguredMCUpdater; }
