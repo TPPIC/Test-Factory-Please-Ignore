@@ -32,7 +32,7 @@
                 <xsl:value-of select="attrs/attr[@name='modId']/string/@value" />
               </xsl:attribute>
               <xsl:attribute name='name'>
-                <xsl:value-of select="@name" />
+                <xsl:value-of select="attrs/attr[@name='name']/string/@value" />
               </xsl:attribute>
               <xsl:attribute name='side'>
                 <xsl:value-of select="attrs/attr[@name='side']/string/@value" />

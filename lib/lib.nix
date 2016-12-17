@@ -153,6 +153,7 @@ rec {
       }) pack.clientConfigs;
       mods = lib.mapAttrs (name: mod: {
         modId = name;  # Should we use projectID instead?
+        name = mod.title or name;
         isDefault = mod.isDefault or true;
         md5 = mod.md5;
         modpath = "mods/" + mod.filename;
