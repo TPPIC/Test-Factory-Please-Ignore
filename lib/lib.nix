@@ -11,8 +11,9 @@ rec {
    * - cursePack: A Curse zipfile. (TODO)
    * - server: The completed server, with all dependencies.
    *
-   * - clientConfigs: Zipfiles and md5s for all the client-propagated config dirs.
-   * - clientConfigsDir: The above, as one directory.
+   * - clientConfigDir: A combined directory with all the client-propagated configuration.
+   * - clientConfigs: Zipfiles and md5s for the above, one per zipdir.
+   * - clientConfigsDir: That, as one directory.
    * - clientMods: Filtered manifest entries for the client.
    * - clientModsDir: The client's mods directory.
    *
@@ -36,13 +37,26 @@ rec {
 
     clientModsDir = fetchMods clientMods;
 
-    clientConfigs = builtins.listToAttrs (map (dir: rec {
-      name = baseNameOf dir;
-      value = rec {
-        zipDir = mkZipDir name dir;
-        md5 = builtins.readFile (zipDir + "/${name}.md5");
+    clientConfigDir = runLocally "${name}-client-config-debased" {
+      buildInputs = [ xorg.lndir ];
+      base = symlinkJoin {
+        name = "${name}-client-config";
+        paths = extraDirs;
       };
-    }) extraDirs);
+    } ''
+      mkdir $out; cd $out
+      lndir $base .
+      mkdir base
+      find -L . -maxdepth 1 -type f -exec mv {} base/ \;
+    '';
+
+    clientConfigs = builtins.listToAttrs (map (name: rec {
+      inherit name;
+      value = rec {
+        zipDir = mkZipDir name "${clientConfigDir}/${name}";
+        md5 = builtins.readFile "${zipDir}/${name}.md5";
+      };
+    }) (builtins.attrNames (builtins.readDir clientConfigDir)));
 
     clientConfigsDir = symlinkJoin {
       name = "${name}-client-configs";
