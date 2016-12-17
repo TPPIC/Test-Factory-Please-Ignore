@@ -47,6 +47,7 @@
               <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
               <ModType><xsl:value-of select="attrs/attr[@name='modtype']/string/@value" /></ModType>
               <ModPath><xsl:value-of select="attrs/attr[@name='modpath']/string/@value" /></ModPath>
+              <Size><xsl:value-of select="attrs/attr[@name='size']/int/@value" /></Size>
             </Module>
           </xsl:for-each>
           <xsl:for-each select="attr[@name='configs']/attrs/attr">

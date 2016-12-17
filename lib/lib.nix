@@ -159,6 +159,7 @@ rec {
         modtype = mod.modType or "Regular";
         required = mod.required or true;
         side = mod.side or "BOTH";
+        size = fileSize (pack.clientModsDir + "/" + mod.filename);
         url = packUrlBase + "mods/" + mod.encoded;
       }) pack.clientMods;
     }; in revless // {
@@ -191,6 +192,7 @@ rec {
     { name = "index.html"; path = ./index.html; }
     { name = "packs"; path = combinedPack; }
     { name = "ServerPack.xml"; path = packFile; }
+    { name = "params.xml"; path = packFile.paramsText; }
     { name = "MCUpdater-Bootstrap.jar"; path = preconfiguredMCUpdater; }
   ];
 
@@ -242,4 +244,15 @@ rec {
     echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(sys.stdin.read()))" > program
     python program < $textPath > $out
   '');
+
+  /**
+   * Gets the size of a file.
+   */
+ fileSize = file: import (runCommand "size" {
+   inherit file;
+   preferLocalBuild = true;
+   allowSubstitutes = false;
+ } ''
+   stat -L -c %s "$file" > $out
+ '');
 }
