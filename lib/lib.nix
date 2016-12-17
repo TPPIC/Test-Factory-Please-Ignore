@@ -181,7 +181,7 @@ rec {
         distribution = Release
         defaultPack = ${urlBase}ServerPack.xml
         customPath =
-        passthroughArgs =
+        passthroughArgs = -defaultMem 5G
       EOF
       cp $mcupdater MCUpdater.jar
       chmod u+w MCUpdater.jar
