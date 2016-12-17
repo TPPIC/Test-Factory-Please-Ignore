@@ -85,7 +85,7 @@ rec {
     };
   });
 
-  fetchForge = { major, minor }: runCommand "forge-${major}-${minor}" {
+  fetchForge = { major, minor }: runLocally "forge-${major}-${minor}" {
     inherit major minor;
 
     url = {
@@ -166,14 +166,14 @@ rec {
     }; in revless // {
       revision = builtins.hashString "sha256" (builtins.toXML revless);
     };
-    packFile = runCommand "ServerPack.xml" {
+    packFile = runLocally "ServerPack.xml" {
       buildInputs = [ saxonb ];
       stylesheet = ./serverpack.xsl;
       paramsText = writeText "params.xml" (builtins.toXML (lib.mapAttrs packParams packs));
     } ''
       saxon8 $paramsText $stylesheet > $out
     '';
-    preconfiguredMCUpdater = runCommand "Preconfigured-MCUpdater" {
+    preconfiguredMCUpdater = runLocally "Preconfigured-MCUpdater" {
       mcupdater = ./MCUpdater-recommended.jar;
       buildInputs = [ zip ];
     } ''
@@ -217,7 +217,7 @@ rec {
   /**
    * Creates a directory containing a zipfile containing the source directory, plus hash.
    */
-  mkZipDir = name: src: runCommand name {
+  mkZipDir = name: src: runLocally name {
     inherit name src;
     buildInputs = [ zip xorg.lndir ];
   } ''
@@ -235,12 +235,10 @@ rec {
    * URL-encodes a string, such as a filename.
    * This is still pretty slow.
    */
-  urlencode = text: builtins.readFile (runCommand "urlencoded" {
+  urlencode = text: builtins.readFile (runLocally "urlencoded" {
     inherit text;
     passAsFile = [ "text" ];
     buildInputs = [ python ];
-    preferLocalBuild = true;
-    allowSubstitutes = false;
   } ''
     echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(sys.stdin.read()))" > program
     python program < $textPath > $out
@@ -249,11 +247,17 @@ rec {
   /**
    * Gets the size of a file.
    */
- fileSize = file: import (runCommand "size" {
+ fileSize = file: import (runLocally "size" {
    inherit file;
-   preferLocalBuild = true;
-   allowSubstitutes = false;
  } ''
    stat -L -c %s "$file" > $out
  '');
+
+ /**
+  * Runs a command. Locally.
+  */
+ runLocally = name: env: cmd: runCommand name ({
+   preferLocalBuild = true;
+   allowSubstitutes = false;
+ } // env) cmd;
 }
