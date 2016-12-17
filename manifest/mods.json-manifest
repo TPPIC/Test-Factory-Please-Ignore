@@ -117,17 +117,17 @@
     "md5": "b88a3bd7a134e327c1b7322543dd5bc1"
   }, 
   "just-enough-calculation": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2355562/download", 
-    "version": "1.10.2-2.3.1", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2357064/download", 
+    "version": "1.10.2-2.3.2", 
     "title": "Just Enough Calculation", 
     "projectID": 242223, 
-    "filename": "JustEnoughCalculation-1.10.2-2.3.1.jar", 
+    "filename": "JustEnoughCalculation-1.10.2-2.3.2.jar", 
     "dependencies": [
       238222
     ], 
-    "encoded": "JustEnoughCalculation-1.10.2-2.3.1.jar", 
+    "encoded": "JustEnoughCalculation-1.10.2-2.3.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-calculation", 
-    "md5": "f07fe5119908c97b00609eef98da0c61"
+    "md5": "f1c0f8a51b160b01f3bf34d8b93d7fe5"
   }, 
   "cooking-for-blockheads": {
     "src": "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2341423/download", 
@@ -227,17 +227,17 @@
     "md5": "f2f0a7dba0b470390994021819bdbc9c"
   }, 
   "refined-storage": {
-    "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2354564/download", 
-    "version": "1.2.11", 
+    "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2356745/download", 
+    "version": "1.2.12", 
     "title": "Refined Storage", 
     "projectID": 243076, 
-    "filename": "Refined Storage 1.2.11.jar", 
+    "filename": "Refined Storage 1.2.12.jar", 
     "dependencies": [
       239431
     ], 
-    "encoded": "Refined%20Storage%201.2.11.jar", 
+    "encoded": "Refined%20Storage%201.2.12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/refined-storage", 
-    "md5": "2b814b05c25f5436676b25fdce5623c2"
+    "md5": "e85fc5f79ebaa57ab079faa0ae287d46"
   }, 
   "quintessential-creatures": {
     "encoded": "qcreatures-2.0.1.jar", 
@@ -324,15 +324,15 @@
     "md5": "d9f32f2c53c4ea8ec689104b050fa6f4"
   }, 
   "codechicken-lib-1-8": {
-    "src": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2347458/download", 
-    "version": "1.10.2-2.4.3.145-universal", 
+    "src": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2356881/download", 
+    "version": "1.10.2-2.5.0.178-universal", 
     "title": "CodeChicken Lib 1.8.+", 
     "projectID": 242818, 
-    "filename": "CodeChicken Lib 1.10.2-2.4.3.145-universal.jar", 
+    "filename": "CodeChicken Lib 1.10.2-2.5.0.178-universal.jar", 
     "dependencies": [], 
-    "encoded": "CodeChicken%20Lib%201.10.2-2.4.3.145-universal.jar", 
+    "encoded": "CodeChicken%20Lib%201.10.2-2.5.0.178-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8", 
-    "md5": "783e262d6436ea2e18367c43ccf1f225"
+    "md5": "4aa5b57e23f15b38e8965765c3ba1eff"
   }, 
   "inventory-tweaks": {
     "src": "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2315240/download", 
@@ -453,15 +453,15 @@
     "md5": "b727e59bf2ee28a3b2ef013c3acab23a"
   }, 
   "tomb-many-graves": {
-    "src": "https://minecraft.curseforge.com/projects/tomb-many-graves/files/2337855/download", 
-    "version": "1.10.2-2.1.13", 
+    "src": "https://minecraft.curseforge.com/projects/tomb-many-graves/files/2356238/download", 
+    "version": "1.10.2-2.1.14", 
     "title": "Tomb Many Graves", 
     "projectID": 245224, 
-    "filename": "TombManyGraves-1.10.2-2.1.13.jar", 
+    "filename": "TombManyGraves-1.10.2-2.1.14.jar", 
     "dependencies": [], 
-    "encoded": "TombManyGraves-1.10.2-2.1.13.jar", 
+    "encoded": "TombManyGraves-1.10.2-2.1.14.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tomb-many-graves", 
-    "md5": "13afcffbaf8ec76239b7d46e773e5a8d"
+    "md5": "b96ac1959382c74b018b78520c0f7af6"
   }, 
   "mcmultipart": {
     "src": "https://minecraft.curseforge.com/projects/mcmultipart/files/2340729/download", 
@@ -646,15 +646,15 @@
     "md5": "55cbc1d629a1476028e6868adf065a11"
   }, 
   "opencomputers": {
-    "src": "https://minecraft.curseforge.com/projects/opencomputers/files/2344182/download", 
-    "version": "1.10.2-1.6.0.4", 
+    "src": "https://minecraft.curseforge.com/projects/opencomputers/files/2357267/download", 
+    "version": "1.10.2-1.6.1.6", 
     "title": "OpenComputers", 
     "projectID": 223008, 
-    "filename": "OpenComputers-MC1.10.2-1.6.0.4.jar", 
+    "filename": "OpenComputers-MC1.10.2-1.6.1.6.jar", 
     "dependencies": [], 
-    "encoded": "OpenComputers-MC1.10.2-1.6.0.4.jar", 
+    "encoded": "OpenComputers-MC1.10.2-1.6.1.6.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/opencomputers", 
-    "md5": "e86a20daf0f33470278b654bcfa6d6f9"
+    "md5": "ec155f2c9a6f3b6330bf22be2afe87c2"
   }, 
   "chisel": {
     "src": "https://minecraft.curseforge.com/projects/chisel/files/2350978/download", 
@@ -693,17 +693,17 @@
     "md5": "13486f1cc663e47c9e040bd715401111"
   }, 
   "just-enough-resources-jer": {
-    "src": "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2350957/download", 
-    "version": "1.10.2-0.5.7.96", 
+    "src": "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2351189/download", 
+    "version": "1.10.2-0.5.8.98", 
     "title": "Just Enough Resources (JER)", 
     "projectID": 240630, 
-    "filename": "JustEnoughResources-1.10.2-0.5.7.96.jar", 
+    "filename": "JustEnoughResources-1.10.2-0.5.8.98.jar", 
     "dependencies": [
       238222
     ], 
-    "encoded": "JustEnoughResources-1.10.2-0.5.7.96.jar", 
+    "encoded": "JustEnoughResources-1.10.2-0.5.8.98.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-resources-jer", 
-    "md5": "f23de688dbf08740e45dc058e56bcd33"
+    "md5": "04f218c0eee3a05870a994816a86e0a5"
   }, 
   "justenoughtooltips": {
     "src": "https://minecraft.curseforge.com/projects/justenoughtooltips/files/2355232/download", 
@@ -741,15 +741,15 @@
     "md5": "70e153a826001c5be4ff0e3845104bd3"
   }, 
   "iron-backpacks": {
-    "src": "https://minecraft.curseforge.com/projects/iron-backpacks/files/2351105/download", 
-    "version": "1.10.2-2.2.19", 
+    "src": "https://minecraft.curseforge.com/projects/iron-backpacks/files/2356236/download", 
+    "version": "1.10.2-2.2.20", 
     "title": "Iron Backpacks", 
     "projectID": 227049, 
-    "filename": "IronBackpacks-1.10.2-2.2.19.jar", 
+    "filename": "IronBackpacks-1.10.2-2.2.20.jar", 
     "dependencies": [], 
-    "encoded": "IronBackpacks-1.10.2-2.2.19.jar", 
+    "encoded": "IronBackpacks-1.10.2-2.2.20.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/iron-backpacks", 
-    "md5": "11977196a16324d4cac8e1cb9463aaf3"
+    "md5": "9b7da4a2f7f62cdc2863986669cfdf5e"
   }, 
   "crafttweaker": {
     "src": "https://minecraft.curseforge.com/projects/crafttweaker/files/2345461/download", 
