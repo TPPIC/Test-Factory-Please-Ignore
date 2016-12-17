@@ -236,10 +236,9 @@ rec {
     buildInputs = [ zip xorg.lndir ];
   } ''
     # This is fiddly because we want very badly to make the output depend only on file contents.
-    mkdir in $out
-    cd in
-    lndir $src .
-    TZ=UTC find . -print0 | sort -z | \
+    mkdir $name $out
+    lndir $src $name
+    TZ=UTC find $name -print0 | sort -z | \
       xargs -0 zip -X --latest-time $out/${name}.zip
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')
     echo $md5 > $out/${name}.md5
