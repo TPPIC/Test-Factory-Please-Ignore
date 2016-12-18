@@ -51,12 +51,12 @@
   }, 
   "magneticraft": {
     "src": "https://minecraft.curseforge.com/projects/magneticraft/files/2329602/download", 
-    "version": "1.10.2-1.0.2", 
+    "version": "1.0.2-release", 
     "title": "Magneticraft", 
     "projectID": 224808, 
-    "filename": "Magneticraft 1.10.2-1.0.2.jar", 
+    "filename": "magneticraft-1.0.2-release.jar", 
     "dependencies": [], 
-    "encoded": "Magneticraft%201.10.2-1.0.2.jar", 
+    "encoded": "magneticraft-1.0.2-release.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/magneticraft", 
     "type": "remote", 
     "md5": "91e14e459a23d9bdd527261e7ed4d772"
@@ -66,9 +66,9 @@
     "version": "1.10 Bukkit (v3)", 
     "title": "Biome Bundle", 
     "projectID": 241542, 
-    "filename": "Biome Bundle for 1.10 Bukkit (v3).jar", 
+    "filename": "Biome Bundle for 1.10 Bukkit (v3).zip", 
     "dependencies": [], 
-    "encoded": "Biome%20Bundle%20for%201.10%20Bukkit%20%28v3%29.jar", 
+    "encoded": "Biome%20Bundle%20for%201.10%20Bukkit%20%28v3%29.zip", 
     "projectPage": "https://minecraft.curseforge.com/projects/biome-bundle", 
     "type": "remote", 
     "md5": "a844eed30bf9e65588104871c95c1c69"
@@ -81,22 +81,22 @@
   }, 
   "pams-harvestcraft": {
     "src": "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2341593/download", 
-    "version": "1.9.4-1.10.2h", 
+    "version": "27;s HarvestCraft 1.9.4-1.10.2h", 
     "title": "Pam&#x27;s HarvestCraft", 
     "projectID": 221857, 
-    "filename": "Pam's HarvestCraft 1.9.4-1.10.2h.jar", 
+    "filename": "Pam&#x27;s HarvestCraft 1.9.4-1.10.2h.jar", 
     "dependencies": [], 
-    "encoded": "Pam%27s%20HarvestCraft%201.9.4-1.10.2h.jar", 
+    "encoded": "Pam%26%23x27%3Bs%20HarvestCraft%201.9.4-1.10.2h.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/pams-harvestcraft", 
     "type": "remote", 
     "md5": "49095051cacbf4a1554374f58c3f74da"
   }, 
   "gendustry": {
     "src": "https://minecraft.curseforge.com/projects/gendustry/files/2339456/download", 
-    "version": "1.6.4.24 (MC 1.10.2)", 
+    "version": "1.6.4.24-mc1.10.2", 
     "title": "Gendustry", 
     "projectID": 70492, 
-    "filename": "Gendustry 1.6.4.24 (MC 1.10.2).jar", 
+    "filename": "gendustry-1.6.4.24-mc1.10.2.jar", 
     "dependencies": [
       59751, 
       70496, 
@@ -106,7 +106,7 @@
       238222, 
       244651
     ], 
-    "encoded": "Gendustry%201.6.4.24%20%28MC%201.10.2%29.jar", 
+    "encoded": "gendustry-1.6.4.24-mc1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/gendustry", 
     "type": "remote", 
     "md5": "2f9bb8de9e5669705041f7e7d06c581c"
@@ -216,14 +216,14 @@
   }, 
   "stellar-sky": {
     "src": "https://minecraft.curseforge.com/projects/stellar-sky/files/2319228/download", 
-    "version": "0.5.5.1.7[1.9.4/1.10.0/1.10.2] (Stellar API v0.5.4.1.3)", 
+    "version": "0.5.5.1.7", 
     "title": "Stellar Sky", 
     "projectID": 236078, 
-    "filename": "Stellar Sky v0.5.5.1.7[1.9.4/1.10.0/1.10.2] (Stellar API v0.5.4.1.3).jar", 
+    "filename": "Stellar Sky-0.5.5.1.7.jar", 
     "dependencies": [
       244147
     ], 
-    "encoded": "Stellar%20Sky%20v0.5.5.1.7%5B1.9.4/1.10.0/1.10.2%5D%20%28Stellar%20API%20v0.5.4.1.3%29.jar", 
+    "encoded": "Stellar%20Sky-0.5.5.1.7.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/stellar-sky", 
     "type": "remote", 
     "md5": "bc23f703a660809fef34def722ee58e3"
@@ -395,12 +395,12 @@
   }, 
   "bdlib": {
     "src": "https://minecraft.curseforge.com/projects/bdlib/files/2339442/download", 
-    "version": "1.12.2.17 (MC 1.10.2)", 
+    "version": "1.12.2.17-mc1.10.2", 
     "title": "BdLib", 
     "projectID": 70496, 
-    "filename": "BDLib 1.12.2.17 (MC 1.10.2).jar", 
+    "filename": "bdlib-1.12.2.17-mc1.10.2.jar", 
     "dependencies": [], 
-    "encoded": "BDLib%201.12.2.17%20%28MC%201.10.2%29.jar", 
+    "encoded": "bdlib-1.12.2.17-mc1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bdlib", 
     "type": "remote", 
     "md5": "3a6e9143f69165298d3ae2c6338760ba"
@@ -459,12 +459,12 @@
   }, 
   "stellar-api": {
     "src": "https://minecraft.curseforge.com/projects/stellar-api/files/2318821/download", 
-    "version": "0.5.4.1.3 [1.9.4/1.10.0/1.10.2]", 
+    "version": "0.5.4.1.3", 
     "title": "Stellar API", 
     "projectID": 244147, 
-    "filename": "Stellar API v0.5.4.1.3 [1.9.4/1.10.0/1.10.2].jar", 
+    "filename": "Stellar API-0.5.4.1.3.jar", 
     "dependencies": [], 
-    "encoded": "Stellar%20API%20v0.5.4.1.3%20%5B1.9.4/1.10.0/1.10.2%5D.jar", 
+    "encoded": "Stellar%20API-0.5.4.1.3.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/stellar-api", 
     "type": "remote", 
     "md5": "9a129b599ec5b831bc7b542a30836d6c"

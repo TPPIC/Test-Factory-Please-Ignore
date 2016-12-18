@@ -198,12 +198,13 @@ def GetNewestVersions(mods):
             TITLE: projectTitle,
         }
         if files:
-          # Find the URL and MD5 of that file.
+          # Find the URL, MD5 and filename of that file.
           filePage = Get(baseUrl + files[0])
           tree = soupparser.fromstring(filePage)
           hash = tree.xpath('//span[@class="%s"]/text()' % HASH)
           url = tree.xpath('//a[@class="button fa-icon-download"]/@href')
-          data[FILENAME] = parser.unescape(names[0])
+          filename = tree.xpath('//*[text()="Filename"]/following-sibling::div/text()')
+          data[FILENAME] = filename[0]
           data[HASH] = hash[0]
           data[SRC] = baseUrl + url[0]
           # Find the dependencies for this file.

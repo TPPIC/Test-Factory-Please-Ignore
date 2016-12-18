@@ -236,11 +236,11 @@
     "version": "1.10.2-3.0.1.142_beta", 
     "title": "Ender IO", 
     "projectID": 64578, 
-    "filename": "EnderIO - 1.10.2-3.0.1.142_beta.jar", 
+    "filename": "EnderIO-1.10.2-3.0.1.142_beta.jar", 
     "dependencies": [
       231868
     ], 
-    "encoded": "EnderIO%20-%201.10.2-3.0.1.142_beta.jar", 
+    "encoded": "EnderIO-1.10.2-3.0.1.142_beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
     "type": "remote", 
     "md5": "201ec5c34e2dfa1b567a871322993f1f"
@@ -250,11 +250,11 @@
     "version": "1.2.12", 
     "title": "Refined Storage", 
     "projectID": 243076, 
-    "filename": "Refined Storage 1.2.12.jar", 
+    "filename": "refinedstorage-1.2.12.jar", 
     "dependencies": [
       239431
     ], 
-    "encoded": "Refined%20Storage%201.2.12.jar", 
+    "encoded": "refinedstorage-1.2.12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/refined-storage", 
     "type": "remote", 
     "md5": "e85fc5f79ebaa57ab079faa0ae287d46"
@@ -264,9 +264,9 @@
     "version": "1.10.2-0.4.1.61-beta", 
     "title": "EnderCore", 
     "projectID": 231868, 
-    "filename": "EnderCore - 1.10.2-0.4.1.61-beta.jar", 
+    "filename": "EnderCore-1.10.2-0.4.1.61-beta.jar", 
     "dependencies": [], 
-    "encoded": "EnderCore%20-%201.10.2-0.4.1.61-beta.jar", 
+    "encoded": "EnderCore-1.10.2-0.4.1.61-beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/endercore", 
     "type": "remote", 
     "md5": "0694bda343b5f1318ece1919c98bbd50"
@@ -309,12 +309,12 @@
   }, 
   "railcraft": {
     "src": "https://minecraft.curseforge.com/projects/railcraft/files/2350816/download", 
-    "version": "10.0.1", 
+    "version": "1.10.2-10.0.1", 
     "title": "Railcraft", 
     "projectID": 51195, 
-    "filename": "Railcraft 10.0.1.jar", 
+    "filename": "Railcraft_1.10.2-10.0.1.jar", 
     "dependencies": [], 
-    "encoded": "Railcraft%2010.0.1.jar", 
+    "encoded": "Railcraft_1.10.2-10.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/railcraft", 
     "type": "remote", 
     "md5": "4d4ab3832e74a531c0c43c1c68a947fb"
@@ -360,21 +360,21 @@
     "version": "1.10.2-2.5.0.178-universal", 
     "title": "CodeChicken Lib 1.8.+", 
     "projectID": 242818, 
-    "filename": "CodeChicken Lib 1.10.2-2.5.0.178-universal.jar", 
+    "filename": "CodeChickenLib-1.10.2-2.5.0.178-universal.jar", 
     "dependencies": [], 
-    "encoded": "CodeChicken%20Lib%201.10.2-2.5.0.178-universal.jar", 
+    "encoded": "CodeChickenLib-1.10.2-2.5.0.178-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8", 
     "type": "remote", 
     "md5": "4aa5b57e23f15b38e8965765c3ba1eff"
   }, 
   "inventory-tweaks": {
     "src": "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2315240/download", 
-    "version": "1.61", 
+    "version": "1.61-58", 
     "title": "Inventory Tweaks", 
     "projectID": 223094, 
-    "filename": "Inventory Tweaks 1.61.jar", 
+    "filename": "InventoryTweaks-1.61-58.jar", 
     "dependencies": [], 
-    "encoded": "Inventory%20Tweaks%201.61.jar", 
+    "encoded": "InventoryTweaks-1.61-58.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/inventory-tweaks", 
     "type": "remote", 
     "md5": "d1c7fede0527f38a1c8b561416cb7154"
@@ -422,11 +422,11 @@
     "version": "1.0.4", 
     "title": "Super Circuit Maker", 
     "projectID": 248619, 
-    "filename": "Super Circuit Maker 1.0.4.jar", 
+    "filename": "SuperCircuitMaker-1.0.4.jar", 
     "dependencies": [
       239431
     ], 
-    "encoded": "Super%20Circuit%20Maker%201.0.4.jar", 
+    "encoded": "SuperCircuitMaker-1.0.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/super-circuit-maker", 
     "type": "remote", 
     "md5": "e30777052219acb5932823e653b5a76b"
@@ -497,12 +497,12 @@
   }, 
   "mcmultipart": {
     "src": "https://minecraft.curseforge.com/projects/mcmultipart/files/2340729/download", 
-    "version": "1.3.0", 
+    "version": "1.3.0-universal", 
     "title": "MCMultiPart", 
     "projectID": 239431, 
-    "filename": "MCMultiPart 1.3.0.jar", 
+    "filename": "MCMultiPart-1.3.0-universal.jar", 
     "dependencies": [], 
-    "encoded": "MCMultiPart%201.3.0.jar", 
+    "encoded": "MCMultiPart-1.3.0-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mcmultipart", 
     "type": "remote", 
     "md5": "0bbe580fc5562903f28df55a69984e91"
@@ -522,12 +522,12 @@
   }, 
   "llibrary": {
     "src": "https://minecraft.curseforge.com/projects/llibrary/files/2349385/download", 
-    "version": "1.7.2", 
+    "version": "1.7.2-1.10.2", 
     "title": "LLibrary", 
     "projectID": 243298, 
-    "filename": "LLibrary 1.7.2.jar", 
+    "filename": "llibrary-1.7.2-1.10.2.jar", 
     "dependencies": [], 
-    "encoded": "LLibrary%201.7.2.jar", 
+    "encoded": "llibrary-1.7.2-1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/llibrary", 
     "type": "remote", 
     "md5": "a9d05ece2c652ef8b9a5d8e8d7800254"
@@ -596,12 +596,12 @@
   }, 
   "sound-filters": {
     "src": "https://minecraft.curseforge.com/projects/sound-filters/files/2309385/download", 
-    "version": "0.9 for 1.9.4 and 1.10", 
+    "version": "0.9_for_1.9.4", 
     "title": "Sound Filters", 
     "projectID": 222789, 
-    "filename": "SoundFilters-0.9 for 1.9.4 and 1.10.jar", 
+    "filename": "SoundFilters-0.9_for_1.9.4.jar", 
     "dependencies": [], 
-    "encoded": "SoundFilters-0.9%20for%201.9.4%20and%201.10.jar", 
+    "encoded": "SoundFilters-0.9_for_1.9.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/sound-filters", 
     "type": "remote", 
     "side": "client", 
@@ -710,9 +710,9 @@
     "version": "1.10.2-0.0.7.7", 
     "title": "Chisel", 
     "projectID": 235279, 
-    "filename": "Chisel - MC1.10.2-0.0.7.7.jar", 
+    "filename": "Chisel-MC1.10.2-0.0.7.7.jar", 
     "dependencies": [], 
-    "encoded": "Chisel%20-%20MC1.10.2-0.0.7.7.jar", 
+    "encoded": "Chisel-MC1.10.2-0.0.7.7.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/chisel", 
     "type": "remote", 
     "md5": "ebf56ad04d4cb5edb272cc35b0107d54"
@@ -722,12 +722,12 @@
     "version": "1.10.2-1.0.0.1", 
     "title": "Literal Ascension", 
     "projectID": 253021, 
-    "filename": "Literal Ascension 1.10.2-1.0.0.1.jar", 
+    "filename": "literalascension-1.10.2-1.0.0.1.jar", 
     "dependencies": [
       243298, 
       248453
     ], 
-    "encoded": "Literal%20Ascension%201.10.2-1.0.0.1.jar", 
+    "encoded": "literalascension-1.10.2-1.0.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/literal-ascension", 
     "type": "remote", 
     "md5": "75c6c6c75561feb3411ab19dd5484ac3"
@@ -760,14 +760,14 @@
   }, 
   "justenoughtooltips": {
     "src": "https://minecraft.curseforge.com/projects/justenoughtooltips/files/2355232/download", 
-    "version": "1.10.2 2.1.39", 
+    "version": "1.10.2-2.1.39", 
     "title": "JustEnoughTooltips", 
     "projectID": 240735, 
-    "filename": "JustEnoughTooltips-1.10.2 2.1.39.jar", 
+    "filename": "JustEnoughTooltips-1.10.2-2.1.39.jar", 
     "dependencies": [
       238222
     ], 
-    "encoded": "JustEnoughTooltips-1.10.2%202.1.39.jar", 
+    "encoded": "JustEnoughTooltips-1.10.2-2.1.39.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/justenoughtooltips", 
     "type": "remote", 
     "md5": "61c311cdf69df4397a0f1bd080f5b8d3"
@@ -822,12 +822,12 @@
   }, 
   "mouse-tweaks": {
     "src": "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2321022/download", 
-    "version": "1.10.2] Mouse Tweaks 2.6.4", 
+    "version": "2.6.4-mc1.10.2", 
     "title": "Mouse Tweaks", 
     "projectID": 60089, 
-    "filename": "[1.10.2] Mouse Tweaks 2.6.4.jar", 
+    "filename": "MouseTweaks-2.6.4-mc1.10.2.jar", 
     "dependencies": [], 
-    "encoded": "%5B1.10.2%5D%20Mouse%20Tweaks%202.6.4.jar", 
+    "encoded": "MouseTweaks-2.6.4-mc1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mouse-tweaks", 
     "type": "remote", 
     "md5": "6c23b8f7a876336dbab417721ee44137"
