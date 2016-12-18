@@ -46,7 +46,7 @@
     "filename": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
     "version": "1.10.2-9.2.1.homebaked", 
     "encoded": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
-    "type": "missing", 
+    "type": "local", 
     "md5": "f51e2af0df457bbe100101743502439d"
   }, 
   "magneticraft": {
@@ -113,21 +113,24 @@
   }, 
   "quintessential-creatures": {
     "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
+    "_comment": "Specify a source for non-Curse mods. This can also be a relative path on the local filesystem.", 
+    "_very_important_comment": "Still inside git, I insist.", 
     "filename": "qcreatures-2.0.1.jar", 
     "version": "2.0.1", 
     "encoded": "qcreatures-2.0.1.jar", 
-    "type": "missing", 
+    "type": "remote", 
     "md5": "0b2fd3734e4defe6513233cd51621f63"
   }, 
   "charset": {
     "src": "./bundled/charset/Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
-    "filename": "Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
     "version": "1.10.2-0.3.3-3494ae740ded5395", 
+    "filename": "Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
     "dependencies": [
       241058
     ], 
+    "_deps": "Not Enough Codecs and Foamfix are both recommended. This is the former.", 
     "encoded": "Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
-    "type": "missing", 
+    "type": "local", 
     "md5": "ad76894f0fca2b61c154fe84a47f3c5d"
   }, 
   "buildcraft": {

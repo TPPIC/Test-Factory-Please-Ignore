@@ -159,10 +159,10 @@ def GetNewestVersions(mods):
     def GetNonCurseData(name, mod):
         jar = Get(mod[SRC])
         IncProgressbar(name)
-        return FixupData({
-            HASH: hashlib.new(HASH, jar).hexdigest(),
-            FILENAME: mod[SRC].split('/')[-1],
-        })
+        data = dict(mod)
+        data[HASH] = hashlib.new(HASH, jar).hexdigest()
+        data[FILENAME] = mod[SRC].split('/')[-1]
+        return FixupData(data)
 
     def GetNewestCurseData(name, unused_mod):
         parser = HTMLParser()

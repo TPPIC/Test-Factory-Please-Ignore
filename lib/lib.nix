@@ -130,16 +130,19 @@ rec {
   filterManifests = { side, manifests }: let
     allMods = concatSets (map (f: builtins.fromJSON (builtins.readFile f)) manifests);
   in
-    lib.filterAttrs (n: mod: (mod.side or side) == side) allMods;
+    lib.filterAttrs (n: mod: (mod.side or side) == side && mod.type != "missing") allMods;
 
   /**
    * Returns a derivation bundling all the given mods in a directory.
    */
   fetchMods = mods: let
-    fetchMod = info: fetchurl {
-      url = info.src;
-      md5 = info.md5;
-    };
+    fetchMod = info: {
+      local = info.src;
+      remote = fetchurl {
+        url = info.src;
+        md5 = info.md5;
+      };
+    }.${info.type};
     modFile = name: mod: {
       name = mod.filename;
       path = fetchMod mod;
@@ -174,7 +177,8 @@ rec {
         modtype = mod.modType or "Regular";
         required = mod.required or true;
         side = mod.side or "BOTH";
-        size = fileSize (pack.clientModsDir + "/" + mod.filename);
+        # This slows down the build, and isn't currently useful due to an MCUpdater bug.
+        # size = fileSize (pack.clientModsDir + "/" + mod.filename);
         url = packUrlBase + "mods/" + mod.encoded;
       }) pack.clientMods;
     }; in revless // {
