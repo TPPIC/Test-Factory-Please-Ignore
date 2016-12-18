@@ -74,6 +74,9 @@ def FileCache(prefix):
 
 @FileCache('Get')
 def Get(url):
+    if url.startswith('.'):
+        # This is a local file, in git.
+        return open(url).read()
     with http_sem:
         req = None
         try:
@@ -148,7 +151,7 @@ def GetNewestVersions(mods):
         IncProgressbar(name)
         return FixupData({
             HASH: hashlib.new(HASH, jar).hexdigest(),
-            FILENAME: mod[SRC].split('/')[-1]
+            FILENAME: mod[SRC].split('/')[-1],
         })
 
     def GetNewestCurseData(name, unused_mod):
@@ -213,7 +216,7 @@ def GetNewestVersions(mods):
         if PROJECTID in mod:
             # Only for Curse mods.
             all_ids.add(mod[PROJECTID])
-            all_deps.update(mod[DEPENDENCIES])
+        all_deps.update(mod.get(DEPENDENCIES, []))
         all_mods.append((name, mod))
     required_mods = lambda: all_deps.difference(all_ids)
     while required_mods():
@@ -223,7 +226,7 @@ def GetNewestVersions(mods):
             required_mods())
         for mod in dependency_mods:
             all_ids.add(mod[PROJECTID])
-            all_deps.update(mod[DEPENDENCIES])
+            all_deps.update(mod.get(DEPENDENCIES, []))
             all_mods.append((mod[PROJECTPAGE].split('/')[-1], mod))
     return all_mods
 
