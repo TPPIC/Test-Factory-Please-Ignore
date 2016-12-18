@@ -27,12 +27,13 @@ rec {
     port,
     forge,
     manifests ? [],
+    blacklist ? [],
     extraDirs ? [],
   }: (self // rec {
     ## Client:
     clientMods = filterManifests {
       side = "client";
-      inherit manifests;
+      inherit manifests blacklist;
     };
 
     clientModsDir = fetchMods clientMods;
@@ -74,7 +75,7 @@ rec {
 
     serverMods = filterManifests {
       side = "server";
-      inherit manifests;
+      inherit manifests blacklist;
     };
 
     serverModsDir = fetchMods serverMods;
@@ -127,10 +128,14 @@ rec {
   /**
    * Returns a set of mods, of the same format as in the manifest.
    */
-  filterManifests = { side, manifests }: let
+  filterManifests = { side, manifests, blacklist }: let
     allMods = concatSets (map (f: import f) manifests);
   in
-    lib.filterAttrs (n: mod: (mod.side or side) == side && mod.type != "missing") allMods;
+    lib.filterAttrs (n: mod:
+        (mod.side or side) == side &&
+        mod.type != "missing" &&
+        !(builtins.any (b: b == n) blacklist)
+      ) allMods;
 
   /**
    * Returns a derivation bundling all the given mods in a directory.

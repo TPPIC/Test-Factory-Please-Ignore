@@ -28,6 +28,11 @@ rec {
       ./manifest/definitely.nix
       ./manifest/maybe.nix
     ];
+    # Not all mods are equally welcome.
+    # (WAILA conflicts with HWYLA.)
+    blacklist = [
+      "waila"
+    ];
   };
 
   ServerPack = buildServerPack rec {
