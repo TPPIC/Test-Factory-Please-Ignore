@@ -28,6 +28,7 @@ rec {
       ./manifest/definitely.nix
       ./manifest/maybe.nix
       ./manifest/tools.nix
+      ./manifest/dev-only.nix
     ];
     # Not all mods are equally welcome.
     # (WAILA conflicts with HWYLA.)

@@ -71,6 +71,9 @@
 - [Waddles](https://minecraft.curseforge.com/projects/waddles): 1.10.2-0.5.0
 - [xaeros-minimap](/): 1.11.8.1_Forge_1.10.2
 
+## manifest/dev-only.json:
+- [Prefab](https://minecraft.curseforge.com/projects/prefab): 1.1.1.4
+
 ## manifest/maybe.json:
 - [AbyssalCraft](https://minecraft.curseforge.com/projects/abyssalcraft): 1.10.2-1.9.3.9
 - [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r90
