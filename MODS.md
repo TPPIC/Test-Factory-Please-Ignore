@@ -153,6 +153,7 @@
 
 ## manifest/tools.json:
 - [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-1.4.0
+- [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy
 - [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
 - [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0

@@ -177,13 +177,19 @@ def GetNewestVersions(mods):
         projectTitle = tree.xpath('//h1[@class="project-title"]//span/text()')[0]
         # Find the newest copy of the mod.
         # TODO: Filter by stability, regex, whatever. Add once needed.
-        filesUrl = projectUrl + '/files?filter-game-version=2020709689%3A6170'
-        filesPage = Get(filesUrl)
-        tree = soupparser.fromstring(filesPage)
-        files = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href')
-        names = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()')
-        stability = tree.xpath('//td[@class="project-file-release-type"]/div/@class')
-        assert len(files) == len(names) == len(stability)
+        for filterUrl in [
+                '2020709689%3A6170',  # 1.10.2
+                '2020709689%3A6084',  # 1.9.4
+        ]:
+            filesUrl = projectUrl + '/files?filter-game-version=' + filterUrl
+            filesPage = Get(filesUrl)
+            tree = soupparser.fromstring(filesPage)
+            files = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href')
+            names = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()')
+            stability = tree.xpath('//td[@class="project-file-release-type"]/div/@class')
+            assert len(files) == len(names) == len(stability)
+            if files:
+                break
         files_filtered = []
         names_filtered = []
         for i in xrange(len(files)):

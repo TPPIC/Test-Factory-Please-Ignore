@@ -39,6 +39,19 @@
     "type": "remote", 
     "md5": "de67117970343f91760b4d0eef7685be"
   }, 
+  "dynmapforge": {
+    "src": "https://minecraft.curseforge.com/projects/dynmapforge/files/2307083/download", 
+    "version": "2.3-forge-1.9.4", 
+    "title": "DynmapForge", 
+    "projectID": 59433, 
+    "filename": "Dynmap-2.3-forge-1.9.4.jar", 
+    "dependencies": [], 
+    "encoded": "Dynmap-2.3-forge-1.9.4.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/dynmapforge", 
+    "type": "remote", 
+    "side": "server", 
+    "md5": "c4a2aa2a63a46e28b0092104e4ac772a"
+  }, 
   "foamfix": {
     "src": "../bundled/foamfix/foamfix-0.4.2-anarchy.jar", 
     "filename": "foamfix-0.4.2-anarchy.jar", 
