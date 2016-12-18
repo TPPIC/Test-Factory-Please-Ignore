@@ -613,6 +613,14 @@
     "type" = "remote";
     "md5" = "8860fb80efab36dd595e8e556ec6065f";
   };
+  "xaeros-minimap" = {
+    "src" = ../bundled/xaeros-minimap/Xaeros_Minimap_1.11.8.1_Forge_1.10.2.jar;
+    "filename" = "Xaeros_Minimap_1.11.8.1_Forge_1.10.2.jar";
+    "version" = "1.11.8.1_Forge_1.10.2";
+    "encoded" = "Xaeros_Minimap_1.11.8.1_Forge_1.10.2.jar";
+    "type" = "local";
+    "md5" = "0d92768284550c4965d8d091ae68ef7f";
+  };
   "infinitylib" = {
     "src" = "https://minecraft.curseforge.com/projects/infinitylib/files/2354393/download";
     "version" = "0.3.0";

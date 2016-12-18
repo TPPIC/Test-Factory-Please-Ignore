@@ -49,17 +49,17 @@
     "type": "local", 
     "md5": "f51e2af0df457bbe100101743502439d"
   }, 
-  "magneticraft": {
-    "src": "https://minecraft.curseforge.com/projects/magneticraft/files/2329602/download", 
-    "version": "1.0.2-release", 
-    "title": "Magneticraft", 
-    "projectID": 224808, 
-    "filename": "magneticraft-1.0.2-release.jar", 
+  "abyssalcraft": {
+    "src": "https://minecraft.curseforge.com/projects/abyssalcraft/files/2356958/download", 
+    "version": "1.10.2-1.9.3.9", 
+    "title": "AbyssalCraft", 
+    "projectID": 53686, 
+    "filename": "AbyssalCraft-1.10.2-1.9.3.9.jar", 
     "dependencies": [], 
-    "encoded": "magneticraft-1.0.2-release.jar", 
-    "projectPage": "https://minecraft.curseforge.com/projects/magneticraft", 
+    "encoded": "AbyssalCraft-1.10.2-1.9.3.9.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/abyssalcraft", 
     "type": "remote", 
-    "md5": "91e14e459a23d9bdd527261e7ed4d772"
+    "md5": "5b0ed9b17263c9b3c4a3fb9d24d071a8"
   }, 
   "biome-bundle": {
     "src": "https://minecraft.curseforge.com/projects/biome-bundle/files/2340624/download", 
@@ -126,6 +126,20 @@
     "type": "remote", 
     "md5": "3a7ca9cb406be05f6a3419c1961f6f5f"
   }, 
+  "quark": {
+    "src": "https://minecraft.curseforge.com/projects/quark/files/2354531/download", 
+    "version": "1.1-66", 
+    "title": "Quark", 
+    "projectID": 243121, 
+    "filename": "Quark-r1.1-66.jar", 
+    "dependencies": [
+      250363
+    ], 
+    "encoded": "Quark-r1.1-66.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/quark", 
+    "type": "remote", 
+    "md5": "6f7cc8186c6bc9518d755284d66ba732"
+  }, 
   "quintessential-creatures": {
     "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
     "_comment": "Specify a source for non-Curse mods. This can also be a relative path on the local filesystem.", 
@@ -183,6 +197,20 @@
     "projectPage": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8", 
     "type": "remote", 
     "md5": "4aa5b57e23f15b38e8965765c3ba1eff"
+  }, 
+  "mcjtylib": {
+    "src": "https://minecraft.curseforge.com/projects/mcjtylib/files/2352866/download", 
+    "version": "1.1x-2.3.1", 
+    "title": "McJtyLib", 
+    "projectID": 233105, 
+    "filename": "mcjtylib-1.1x-2.3.1.jar", 
+    "dependencies": [
+      253729
+    ], 
+    "encoded": "mcjtylib-1.1x-2.3.1.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/mcjtylib", 
+    "type": "remote", 
+    "md5": "7e83264a648a4dc8eab5edaa2175f57e"
   }, 
   "super-crafting-frame": {
     "src": "https://minecraft.curseforge.com/projects/super-crafting-frame/files/2335412/download", 
@@ -286,19 +314,17 @@
     "type": "remote", 
     "md5": "276f5ac04eb34e73abc2f8f880a7528a"
   }, 
-  "mcjtylib": {
-    "src": "https://minecraft.curseforge.com/projects/mcjtylib/files/2352866/download", 
-    "version": "1.1x-2.3.1", 
-    "title": "McJtyLib", 
-    "projectID": 233105, 
-    "filename": "mcjtylib-1.1x-2.3.1.jar", 
-    "dependencies": [
-      253729
-    ], 
-    "encoded": "mcjtylib-1.1x-2.3.1.jar", 
-    "projectPage": "https://minecraft.curseforge.com/projects/mcjtylib", 
+  "stellar-api": {
+    "src": "https://minecraft.curseforge.com/projects/stellar-api/files/2318821/download", 
+    "version": "0.5.4.1.3", 
+    "title": "Stellar API", 
+    "projectID": 244147, 
+    "filename": "Stellar API-0.5.4.1.3.jar", 
+    "dependencies": [], 
+    "encoded": "Stellar%20API-0.5.4.1.3.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/stellar-api", 
     "type": "remote", 
-    "md5": "7e83264a648a4dc8eab5edaa2175f57e"
+    "md5": "9a129b599ec5b831bc7b542a30836d6c"
   }, 
   "rftools-dimensions": {
     "src": "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2354786/download", 
@@ -369,6 +395,12 @@
     "type": "remote", 
     "md5": "5854f3356c3673f6f2d9dace63c7619f"
   }, 
+  "carpenters-blocks": {
+    "projectID": 228932, 
+    "title": "Carpenter&#x27;s Blocks", 
+    "type": "missing", 
+    "projectPage": "https://minecraft.curseforge.com/projects/carpenters-blocks"
+  }, 
   "extrabiomesxl": {
     "projectID": 60041, 
     "title": "ExtrabiomesXL", 
@@ -425,6 +457,18 @@
     "type": "remote", 
     "md5": "968bef3fba99465cfe72a3ea117ae1d2"
   }, 
+  "magneticraft": {
+    "src": "https://minecraft.curseforge.com/projects/magneticraft/files/2329602/download", 
+    "version": "1.0.2-release", 
+    "title": "Magneticraft", 
+    "projectID": 224808, 
+    "filename": "magneticraft-1.0.2-release.jar", 
+    "dependencies": [], 
+    "encoded": "magneticraft-1.0.2-release.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/magneticraft", 
+    "type": "remote", 
+    "md5": "91e14e459a23d9bdd527261e7ed4d772"
+  }, 
   "cofhcore": {
     "projectID": 69162, 
     "title": "CoFH Core", 
@@ -443,11 +487,32 @@
     "type": "remote", 
     "md5": "3a6e9143f69165298d3ae2c6338760ba"
   }, 
-  "carpenters-blocks": {
-    "projectID": 228932, 
-    "title": "Carpenter&#x27;s Blocks", 
-    "type": "missing", 
-    "projectPage": "https://minecraft.curseforge.com/projects/carpenters-blocks"
+  "botania": {
+    "src": "https://minecraft.curseforge.com/projects/botania/files/2347211/download", 
+    "version": "1.9-339", 
+    "title": "Botania", 
+    "projectID": 225643, 
+    "filename": "Botania r1.9-339.jar", 
+    "dependencies": [
+      227083, 
+      243121
+    ], 
+    "encoded": "Botania%20r1.9-339.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/botania", 
+    "type": "remote", 
+    "md5": "f24e46b9fe9ca6c1274447e24cc5e5f8"
+  }, 
+  "baubles": {
+    "src": "https://minecraft.curseforge.com/projects/baubles/files/2353526/download", 
+    "version": "1.10.2-1.3.8", 
+    "title": "Baubles", 
+    "projectID": 227083, 
+    "filename": "Baubles-1.10.2-1.3.8.jar", 
+    "dependencies": [], 
+    "encoded": "Baubles-1.10.2-1.3.8.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/baubles", 
+    "type": "remote", 
+    "md5": "8df347d4f0fa02462b5e0879c2d438f5"
   }, 
   "actually-additions": {
     "src": "https://minecraft.curseforge.com/projects/actually-additions/files/2353777/download", 
@@ -494,18 +559,6 @@
     "title": "Modular Force Field Systems (MFFS)", 
     "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/modular-force-field-systems-mffs"
-  }, 
-  "stellar-api": {
-    "src": "https://minecraft.curseforge.com/projects/stellar-api/files/2318821/download", 
-    "version": "0.5.4.1.3", 
-    "title": "Stellar API", 
-    "projectID": 244147, 
-    "filename": "Stellar API-0.5.4.1.3.jar", 
-    "dependencies": [], 
-    "encoded": "Stellar%20API-0.5.4.1.3.jar", 
-    "projectPage": "https://minecraft.curseforge.com/projects/stellar-api", 
-    "type": "remote", 
-    "md5": "9a129b599ec5b831bc7b542a30836d6c"
   }, 
   "power-converters3": {
     "projectID": 225064, 

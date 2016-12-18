@@ -59,7 +59,7 @@
     "tesla": {},
     "tomb-many-graves": {},
     "waddles": {},
-	"xaeros-minimap"{
+	  "xaeros-minimap": {
         "src": "../bundled/xaeros-minimap/Xaeros_Minimap_1.11.8.1_Forge_1.10.2.jar"
-	}
+	  }
 }

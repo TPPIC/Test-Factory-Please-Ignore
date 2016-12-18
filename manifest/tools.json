@@ -5,5 +5,8 @@
     },
     "dynmapforge": {
         "side": "server"
+    },
+    "fullscreen-windowed-borderless-for-minecraft": {
+        "side": "client"
     }
 }

@@ -69,17 +69,21 @@
 - [The Spice of Life](https://minecraft.curseforge.com/projects/the-spice-of-life): 1.9.4-1.3.6
 - [Tomb Many Graves](https://minecraft.curseforge.com/projects/tomb-many-graves): 1.10.2-2.1.14
 - [Waddles](https://minecraft.curseforge.com/projects/waddles): 1.10.2-0.5.0
+- [xaeros-minimap](/): 1.11.8.1_Forge_1.10.2
 
 ## manifest/maybe.json:
+- [AbyssalCraft](https://minecraft.curseforge.com/projects/abyssalcraft): 1.10.2-1.9.3.9
 - [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r90
 - [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
 - [Balkon&#x27;s WeaponMod](https://minecraft.curseforge.com/projects/balkons-weaponmod): None
 ```diff
 - Not yet on 1.10 (probably)
 ```
+- [Baubles](https://minecraft.curseforge.com/projects/baubles): 1.10.2-1.3.8
 - [BdLib](https://minecraft.curseforge.com/projects/bdlib): 1.12.2.17-mc1.10.2
 - [Biome Bundle](https://minecraft.curseforge.com/projects/biome-bundle): 1.10 Bukkit (v3)
 - [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
+- [Botania](https://minecraft.curseforge.com/projects/botania): 1.9-339
 - [Buildcraft](https://minecraft.curseforge.com/projects/buildcraft): None
 ```diff
 - Not yet on 1.10 (probably)
@@ -129,6 +133,7 @@
 - Not yet on 1.10 (probably)
 ```
 - [Psi](https://minecraft.curseforge.com/projects/psi): 1.0-42
+- [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-66
 - [quintessential-creatures](http://qcreatures.net/): 2.0.1
 - [Redstone Flux Arsenal](https://minecraft.curseforge.com/projects/redstone-flux-arsenal): 1.10.2]-1.0
 - [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.71
@@ -155,5 +160,6 @@
 - [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-1.4.0
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy
+- [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.3.0b
 - [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
 - [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0
