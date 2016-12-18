@@ -36,7 +36,7 @@ for f in $BASE/*; do
     if [[ $b = "config" ]]; then
         # Except for the config dir, just because a lot of mods cache things there.
         # For some reason. Isn't this what the world dir is for, guys?
-        rsync -a server/config .
+        rsync -aL server/config .
     elif [[ $b = "start.sh" ]]; then
         # Don't copy this script.
         continue
