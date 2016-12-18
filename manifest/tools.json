@@ -1,0 +1,6 @@
+{
+    "discordchat": {},
+    "foamfix": {
+        "src": "../bundled/foamfix/foamfix-0.4.2-anarchy.jar"
+    }
+}

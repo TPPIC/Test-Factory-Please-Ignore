@@ -151,3 +151,9 @@
 ```
 - [Tinkers Construct](https://minecraft.curseforge.com/projects/tinkers-construct): 1.10.2-2.6.1
 - [Waila](https://minecraft.curseforge.com/projects/waila): 1.7.0-B3_1.9.4
+
+## manifest/tools.json:
+- [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-1.4.0
+- [foamfix](/): 0.4.2-anarchy
+- [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
+- [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0

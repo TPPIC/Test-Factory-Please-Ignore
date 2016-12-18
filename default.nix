@@ -27,6 +27,7 @@ rec {
     manifests = [
       ./manifest/definitely.nix
       ./manifest/maybe.nix
+      ./manifest/tools.nix
     ];
     # Not all mods are equally welcome.
     # (WAILA conflicts with HWYLA.)
