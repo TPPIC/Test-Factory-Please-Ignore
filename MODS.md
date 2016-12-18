@@ -89,16 +89,15 @@
 - Not yet on 1.10 (probably)
 ```
 - [charset](/): 1.10.2-0.3.3-3494ae740ded5395
+- [CodeChicken Core 1.8.+](https://minecraft.curseforge.com/projects/codechicken-core-1-8): 1.10.2-2.4.0.100-universal
+- [CodeChicken Lib 1.8.+](https://minecraft.curseforge.com/projects/codechicken-lib-1-8): 1.10.2-2.5.0.178-universal
 - [CoFH Core](https://minecraft.curseforge.com/projects/cofhcore): None
 ```diff
 - Not yet on 1.10 (probably)
 ```
 - [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.1.4
 - [Enchanting Plus](https://minecraft.curseforge.com/projects/enchanting-plus): 1.10.2-4.1.0.115
-- [Ender Storage](https://minecraft.curseforge.com/projects/ender-storage): None
-```diff
-- Not yet on 1.10 (probably)
-```
+- [Ender Storage 1.8.+](https://minecraft.curseforge.com/projects/ender-storage-1-8): 1.10.2-2.2.0.95-universal
 - [ExtrabiomesXL](https://minecraft.curseforge.com/projects/extrabiomesxl): None
 ```diff
 - Not yet on 1.10 (probably)

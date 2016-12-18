@@ -103,6 +103,18 @@
     "type" = "remote";
     "md5" = "2f9bb8de9e5669705041f7e7d06c581c";
   };
+  "ender-storage-1-8" = {
+    "src" = "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2356887/download";
+    "version" = "1.10.2-2.2.0.95-universal";
+    "title" = "Ender Storage 1.8.+";
+    "projectID" = 245174;
+    "filename" = "EnderStorage-1.10.2-2.2.0.95-universal.jar";
+    "dependencies" = [242818 243822];
+    "encoded" = "EnderStorage-1.10.2-2.2.0.95-universal.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/ender-storage-1-8";
+    "type" = "remote";
+    "md5" = "3a7ca9cb406be05f6a3419c1961f6f5f";
+  };
   "quintessential-creatures" = {
     "src" = "http://qcreatures.net/dl/qcreatures-2.0.1.jar";
     "_comment" = "Specify a source for non-Curse mods. This can also be a relative path on the local filesystem.";
@@ -146,6 +158,18 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/forestry";
     "type" = "remote";
     "md5" = "d9f32f2c53c4ea8ec689104b050fa6f4";
+  };
+  "codechicken-lib-1-8" = {
+    "src" = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2356881/download";
+    "version" = "1.10.2-2.5.0.178-universal";
+    "title" = "CodeChicken Lib 1.8.+";
+    "projectID" = 242818;
+    "filename" = "CodeChickenLib-1.10.2-2.5.0.178-universal.jar";
+    "dependencies" = [];
+    "encoded" = "CodeChickenLib-1.10.2-2.5.0.178-universal.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8";
+    "type" = "remote";
+    "md5" = "4aa5b57e23f15b38e8965765c3ba1eff";
   };
   "super-crafting-frame" = {
     "src" = "https://minecraft.curseforge.com/projects/super-crafting-frame/files/2335412/download";
@@ -231,6 +255,18 @@
     "type" = "remote";
     "md5" = "e32509713c8676ef4852bbbfd1723722";
   };
+  "codechicken-core-1-8" = {
+    "src" = "https://minecraft.curseforge.com/projects/codechicken-core-1-8/files/2356883/download";
+    "version" = "1.10.2-2.4.0.100-universal";
+    "title" = "CodeChicken Core 1.8.+";
+    "projectID" = 243822;
+    "filename" = "CodeChickenCore-1.10.2-2.4.0.100-universal.jar";
+    "dependencies" = [242818];
+    "encoded" = "CodeChickenCore-1.10.2-2.4.0.100-universal.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/codechicken-core-1-8";
+    "type" = "remote";
+    "md5" = "276f5ac04eb34e73abc2f8f880a7528a";
+  };
   "mcjtylib" = {
     "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2352866/download";
     "version" = "1.1x-2.3.1";
@@ -302,12 +338,6 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/not-enough-wands";
     "type" = "remote";
     "md5" = "5854f3356c3673f6f2d9dace63c7619f";
-  };
-  "ender-storage" = {
-    "projectID" = 229306;
-    "title" = "Ender Storage";
-    "type" = "missing";
-    "projectPage" = "https://minecraft.curseforge.com/projects/ender-storage";
   };
   "extrabiomesxl" = {
     "projectID" = 60041;
