@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
-# This autogenerates .json-manifest files from the .json input file(s).
+# This autogenerates .nix and .json-manifest files from the .json
+# input file(s).
 #
 # Call this from the root of the git repository.
 
@@ -80,7 +81,7 @@ def FileCache(prefix):
 def Get(url):
     if url.startswith('.'):
         # This is a local file, in git.
-        return open(url).read()
+        return open(os.path.join('manifest', url)).read()
     with http_sem:
         req = None
         try:
@@ -264,6 +265,29 @@ def GenerateModList(data):
     return '\n'.join(lines)
 
 
+def NixDumps(data):
+    """Dumps semi-arbitrary values to Nix."""
+    if isinstance(data, int) or isinstance(data, str) or isinstance(data, unicode):
+        return json.dumps(data)
+    elif isinstance(data, list):
+        return '[' + ' '.join(map(NixDumps, data)) + ']'
+    else:
+        raise ValueError('No NixDumps implementation for %s' % type(data))
+
+
+def DumpMods(mods, handle):
+    """Very updater-specific Nix dumper. No matter."""
+    handle.write('{\n')
+    for name, mod in mods.iteritems():
+        handle.write('  %s = {\n' % json.dumps(name))
+        for k, v in mod.iteritems():
+            if not (k == SRC and mod[TYPE] == LOCAL):
+                v = NixDumps(v)
+            handle.write('    %s = %s;\n' % (json.dumps(k), v))
+        handle.write('  };\n')
+    handle.write('}\n')
+
+
 # Find manifests to construct:
 mods = {}  # Map from filename to list of mods.
 for fn in glob('manifest/*.json'):
@@ -276,6 +300,8 @@ for fn, mods in mods.iteritems():
         data[fn][name] = d
     with open(fn + '-manifest', 'w') as manifest:
         json.dump(data[fn], manifest, indent=2)
+    with open(fn[:-4] + 'nix', 'w') as manifest:
+        DumpMods(data[fn], manifest)
 # Update MODS.md.
 with open('MODS.md', 'w') as f:
   f.write(GenerateModList(data))

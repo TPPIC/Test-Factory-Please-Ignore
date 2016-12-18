@@ -128,7 +128,7 @@ rec {
    * Returns a set of mods, of the same format as in the manifest.
    */
   filterManifests = { side, manifests }: let
-    allMods = concatSets (map (f: builtins.fromJSON (builtins.readFile f)) manifests);
+    allMods = concatSets (map (f: import f) manifests);
   in
     lib.filterAttrs (n: mod: (mod.side or side) == side && mod.type != "missing") allMods;
 

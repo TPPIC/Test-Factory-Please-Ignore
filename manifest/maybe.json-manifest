@@ -42,7 +42,7 @@
     "md5": "c8d1afc04b8dfea3725bb53c9b378ade"
   }, 
   "mekanism": {
-    "src": "./bundled/mekanism/MekanismAll-1.10.2-9.2.1.homebaked.jar", 
+    "src": "../bundled/mekanism/MekanismAll-1.10.2-9.2.1.homebaked.jar", 
     "filename": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
     "version": "1.10.2-9.2.1.homebaked", 
     "encoded": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
@@ -122,7 +122,7 @@
     "md5": "0b2fd3734e4defe6513233cd51621f63"
   }, 
   "charset": {
-    "src": "./bundled/charset/Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
+    "src": "../bundled/charset/Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
     "version": "1.10.2-0.3.3-3494ae740ded5395", 
     "filename": "Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
     "dependencies": [
