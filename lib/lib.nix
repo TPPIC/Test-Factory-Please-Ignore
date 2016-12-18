@@ -241,7 +241,7 @@ rec {
     TZ=UTC find $name -print0 | sort -z | \
       xargs -0 zip -X --latest-time $out/${name}.zip
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')
-    echo $md5 > $out/${name}.md5
+    echo -n $md5 > $out/${name}.md5
   '';
 
   /**
