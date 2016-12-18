@@ -25,7 +25,7 @@ rec {
     # These are all the mods we'd like to include in this pack.
     # (Not yet, they're not.)
     manifests = [
-      ./manifest/mods.json-manifest
+      ./manifest/definitely.json-manifest
     ];
   };
 
