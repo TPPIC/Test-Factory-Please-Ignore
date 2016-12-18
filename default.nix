@@ -26,6 +26,7 @@ rec {
     # (Not yet, they're not.)
     manifests = [
       ./manifest/definitely.json-manifest
+      ./manifest/maybe.json-manifest
     ];
   };
 

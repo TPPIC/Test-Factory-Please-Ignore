@@ -1,5 +1,5 @@
 # Mods
-## manifest/mods.json:
+## manifest/definitely.json:
 - [Hwyla](https://minecraft.curseforge.com/projects/HWYLA): 1.8.1-B13_1.10.2
 - [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.10.2-2.1.0
 
@@ -20,7 +20,7 @@
 - [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.6.99
 - [Ding](https://minecraft.curseforge.com/projects/ding): 1.10.2-1.0.1
 - [Embers](https://minecraft.curseforge.com/projects/embers): 0.016
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.141_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.142_beta
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
 - [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.335
@@ -32,7 +32,7 @@
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.9
 - [Just Enough Buttons](https://minecraft.curseforge.com/projects/just-enough-buttons): 1.10.2-1.6.3
 - [Just Enough Calculation](https://minecraft.curseforge.com/projects/just-enough-calculation): 1.10.2-2.3.2
-- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.391
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.392
 - [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.8.98
 - [JustEnoughTooltips](https://minecraft.curseforge.com/projects/justenoughtooltips): 1.10.2 2.1.39
 - [Lantern](https://minecraft.curseforge.com/projects/lantern): 0.3.0
@@ -51,7 +51,6 @@
 - [Portable Crafting](https://minecraft.curseforge.com/projects/portable-crafting): 1.10.2-1.1
 - [QuantumStorage](https://minecraft.curseforge.com/projects/quantumstorage): 1.10.2-3.2.12
 - [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-66
-- [quintessential-creatures](http://qcreatures.net/): 2.0.1
 - [Railcraft](https://minecraft.curseforge.com/projects/railcraft): 10.0.1
 - [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.10.2-4.1.2.0
 - [RebornCore](https://minecraft.curseforge.com/projects/reborncore): 1.10.2-2.8.4.77-universal
@@ -70,3 +69,85 @@
 - [The Spice of Life](https://minecraft.curseforge.com/projects/the-spice-of-life): 1.9.4-1.3.6
 - [Tomb Many Graves](https://minecraft.curseforge.com/projects/tomb-many-graves): 1.10.2-2.1.14
 - [Waddles](https://minecraft.curseforge.com/projects/waddles): 1.10.2-0.5.0
+
+## manifest/maybe.json:
+- [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r90
+- [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
+- [Balkon&#x27;s WeaponMod](https://minecraft.curseforge.com/projects/balkons-weaponmod): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [BdLib](https://minecraft.curseforge.com/projects/bdlib): 1.12.2.17 (MC 1.10.2)
+- [Biome Bundle](https://minecraft.curseforge.com/projects/biome-bundle): 1.10 Bukkit (v3)
+- [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
+- [Buildcraft](https://minecraft.curseforge.com/projects/buildcraft): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Carpenter&#x27;s Blocks](https://minecraft.curseforge.com/projects/carpenters-blocks): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [charset](/): 1.10.2-0.3.3-3494ae740ded5395
+- [CoFH Core](https://minecraft.curseforge.com/projects/cofhcore): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.1.4
+- [Enchanting Plus](https://minecraft.curseforge.com/projects/enchanting-plus): 1.10.2-4.1.0.115
+- [Ender Storage](https://minecraft.curseforge.com/projects/ender-storage): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [ExtrabiomesXL](https://minecraft.curseforge.com/projects/extrabiomesxl): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.335
+- [Gendustry](https://minecraft.curseforge.com/projects/gendustry): 1.6.4.24 (MC 1.10.2)
+- [Hardcore Ender Expansion](https://minecraft.curseforge.com/projects/hardcore-ender-expansion): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.392
+- [Magneticraft](https://minecraft.curseforge.com/projects/magneticraft): 1.10.2-1.0.2
+- [Mantle](https://minecraft.curseforge.com/projects/mantle): 1.10.2-1.1.3
+- [McJtyLib](https://minecraft.curseforge.com/projects/mcjtylib): 1.1x-2.3.1
+- [mekanism](/): 1.10.2-9.2.1.homebaked
+- [Modular Force Field Systems (MFFS)](https://minecraft.curseforge.com/projects/modular-force-field-systems-mffs): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Not Enough Wands](https://minecraft.curseforge.com/projects/not-enough-wands): 1.1x-1.5.2
+- [NotEnoughCodecs](https://minecraft.curseforge.com/projects/notenoughcodecs): 0.5
+- [Pam&#x27;s HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft): 1.9.4-1.10.2h
+- [Power Converters3](https://minecraft.curseforge.com/projects/power-converters3): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Project Red - Base](https://minecraft.curseforge.com/projects/project-red-base): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Psi](https://minecraft.curseforge.com/projects/psi): 1.0-42
+- [quintessential-creatures](http://qcreatures.net/): 2.0.1
+- [Redstone Flux Arsenal](https://minecraft.curseforge.com/projects/redstone-flux-arsenal): 1.10.2]-1.0
+- [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.71
+- [RFTools Dimensions](https://minecraft.curseforge.com/projects/rftools-dimensions): 1.1x-4.51
+- [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.10.2-1.5.4
+- [Stellar API](https://minecraft.curseforge.com/projects/stellar-api): 0.5.4.1.3 [1.9.4/1.10.0/1.10.2]
+- [Stellar Sky](https://minecraft.curseforge.com/projects/stellar-sky): 0.5.5.1.7[1.9.4/1.10.0/1.10.2] (Stellar API v0.5.4.1.3)
+- [Steve&#x27;s Factory Manager Reborn](https://minecraft.curseforge.com/projects/steves-factory-manager-reborn): 1.10.2-1.0.11
+- [Super Crafting Frame](https://minecraft.curseforge.com/projects/super-crafting-frame): 1.10.2-1.2.1.88
+- [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.49
+- [Thaumcraft](https://minecraft.curseforge.com/projects/thaumcraft): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [The One Probe](https://minecraft.curseforge.com/projects/the-one-probe): 1.10-1.3.3
+- [Thermal Dynamics](https://minecraft.curseforge.com/projects/thermal-dynamics): None
+```diff
+- Not yet on 1.10 (probably)
+```
+- [Tinkers Construct](https://minecraft.curseforge.com/projects/tinkers-construct): 1.10.2-2.6.1
+- [Waila](https://minecraft.curseforge.com/projects/waila): 1.7.0-B3_1.9.4
