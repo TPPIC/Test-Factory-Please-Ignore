@@ -31,10 +31,14 @@ DEPENDENCIES = 'dependencies'
 ENCODED = 'encoded'
 FILENAME = 'filename'
 HASH = 'md5'
+LOCAL = 'local'
+MISSING = 'missing'
 PROJECTID = 'projectID'
 PROJECTPAGE = 'projectPage'
+REMOTE = 'remote'
 SRC = 'src'
 TITLE = 'title'
+TYPE = 'type'
 VERSION = 'version'
 
 
@@ -125,6 +129,12 @@ def GetNewestVersions(mods):
             pbar[0] += 1
 
     def FixupData(data):
+        if data.get(SRC) is None:
+            data[TYPE] = MISSING
+        elif data[SRC].startswith('http'):
+            data[TYPE] = REMOTE
+        else:
+            data[TYPE] = LOCAL
         if FILENAME in data:
             if not (data[FILENAME].endswith('.jar') or data[FILENAME].endswith('.zip')):
                 data[FILENAME] += '.jar'

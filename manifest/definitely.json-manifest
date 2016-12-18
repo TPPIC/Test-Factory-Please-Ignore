@@ -8,6 +8,7 @@
     "dependencies": [], 
     "encoded": "Ding-1.10.2-1.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ding", 
+    "type": "remote", 
     "md5": "a6dfb094e0911deaf6e182cb3fc2ab75"
   }, 
   "bagelsmore-the-return": {
@@ -19,6 +20,7 @@
     "dependencies": [], 
     "encoded": "Bagelsmore-1.9.4-1.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bagelsmore-the-return", 
+    "type": "remote", 
     "md5": "83d030395901c5020accce99bd37a112"
   }, 
   "mtlib": {
@@ -30,6 +32,7 @@
     "dependencies": [], 
     "encoded": "MTLib-1.0.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mtlib", 
+    "type": "remote", 
     "md5": "f7c092c4690ba180a7da0535226b245a"
   }, 
   "p455w0rds-things": {
@@ -44,6 +47,7 @@
     ], 
     "encoded": "p455w0rdsthings-1.10.2-1.2.18.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-things", 
+    "type": "remote", 
     "md5": "c35a5de0850ceb7e6e1cad122ea486ef"
   }, 
   "morph-o-tool": {
@@ -57,6 +61,7 @@
     ], 
     "encoded": "Morph-o-Tool-1.0-12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/morph-o-tool", 
+    "type": "remote", 
     "md5": "cec148e18fdcbb10cd73871f5f4dac66"
   }, 
   "tesla": {
@@ -68,6 +73,7 @@
     "dependencies": [], 
     "encoded": "Tesla-1.10.2-1.2.1.49.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tesla", 
+    "type": "remote", 
     "md5": "c8d1afc04b8dfea3725bb53c9b378ade"
   }, 
   "autoreglib": {
@@ -79,6 +85,7 @@
     "dependencies": [], 
     "encoded": "AutoRegLib-1.0-2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/autoreglib", 
+    "type": "remote", 
     "md5": "527a86197be2f4c804747a7ae564a181"
   }, 
   "blood-magic": {
@@ -92,6 +99,7 @@
     ], 
     "encoded": "BloodMagic-1.9.4-2.1.0-69.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/blood-magic", 
+    "type": "remote", 
     "md5": "b106e0ba25f99004b48601131c34ae20"
   }, 
   "embers": {
@@ -103,6 +111,7 @@
     "dependencies": [], 
     "encoded": "embers-0.016.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/embers", 
+    "type": "remote", 
     "md5": "52e506a9d6032fca6cc74f0078e1d44b"
   }, 
   "reborncore": {
@@ -114,6 +123,7 @@
     "dependencies": [], 
     "encoded": "RebornCore-1.10.2-2.8.4.77-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/reborncore", 
+    "type": "remote", 
     "md5": "b88a3bd7a134e327c1b7322543dd5bc1"
   }, 
   "just-enough-calculation": {
@@ -127,6 +137,7 @@
     ], 
     "encoded": "JustEnoughCalculation-1.10.2-2.3.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-calculation", 
+    "type": "remote", 
     "md5": "f1c0f8a51b160b01f3bf34d8b93d7fe5"
   }, 
   "cooking-for-blockheads": {
@@ -138,6 +149,7 @@
     "dependencies": [], 
     "encoded": "CookingForBlockheads_1.10.2-4.2.26.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/cooking-for-blockheads", 
+    "type": "remote", 
     "md5": "500f5038f869fb4fbab252022c32400e"
   }, 
   "chisels-bits": {
@@ -149,6 +161,7 @@
     "dependencies": [], 
     "encoded": "chiselsandbits-12.8.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/chisels-bits", 
+    "type": "remote", 
     "md5": "4a17202632b64370f41676ae511d9a94"
   }, 
   "the-spice-of-life": {
@@ -162,6 +175,7 @@
     ], 
     "encoded": "SpiceOfLife-mc1.9.4-1.3.6.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/the-spice-of-life", 
+    "type": "remote", 
     "md5": "d28b0c591ed1303de9fce49c7e256d36"
   }, 
   "dark-utilities": {
@@ -175,6 +189,7 @@
     ], 
     "encoded": "DarkUtilities-1.10.2-1.1.6.99.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/dark-utilities", 
+    "type": "remote", 
     "md5": "788b17a567509916765236d03fc4a3d8"
   }, 
   "appleskin": {
@@ -186,6 +201,7 @@
     "dependencies": [], 
     "encoded": "AppleSkin-mc1.10.2-1.0.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/appleskin", 
+    "type": "remote", 
     "md5": "682d5bb9795be7cb7d86445610b514ea"
   }, 
   "modtweaker": {
@@ -200,6 +216,7 @@
     ], 
     "encoded": "ModTweaker2-2.0.7.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/modtweaker", 
+    "type": "remote", 
     "md5": "2c12cae6791a0ed76e9ed6ed4318712e"
   }, 
   "roots": {
@@ -211,6 +228,7 @@
     "dependencies": [], 
     "encoded": "roots-0.208.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/roots", 
+    "type": "remote", 
     "md5": "5a152d6f1efd0cf1d25c7d526c06d5ba"
   }, 
   "ender-io": {
@@ -224,6 +242,7 @@
     ], 
     "encoded": "EnderIO%20-%201.10.2-3.0.1.142_beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
+    "type": "remote", 
     "md5": "201ec5c34e2dfa1b567a871322993f1f"
   }, 
   "refined-storage": {
@@ -237,6 +256,7 @@
     ], 
     "encoded": "Refined%20Storage%201.2.12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/refined-storage", 
+    "type": "remote", 
     "md5": "e85fc5f79ebaa57ab079faa0ae287d46"
   }, 
   "endercore": {
@@ -248,6 +268,7 @@
     "dependencies": [], 
     "encoded": "EnderCore%20-%201.10.2-0.4.1.61-beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/endercore", 
+    "type": "remote", 
     "md5": "0694bda343b5f1318ece1919c98bbd50"
   }, 
   "just-enough-buttons": {
@@ -259,6 +280,7 @@
     "dependencies": [], 
     "encoded": "justenoughbuttons-1.10.2-1.6.3.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-buttons", 
+    "type": "remote", 
     "md5": "e6a887f1ceb5dc1a2c0a7d96c9ac724c"
   }, 
   "netherex": {
@@ -270,6 +292,7 @@
     "dependencies": [], 
     "encoded": "NetherEx_1.10.2-1.1.0b.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/netherex", 
+    "type": "remote", 
     "md5": "52f3b965f240427866a5e6d7fc06b820"
   }, 
   "steves-carts-reborn": {
@@ -281,6 +304,7 @@
     "dependencies": [], 
     "encoded": "StevesCarts-1.10.2-2.1.0.59.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/steves-carts-reborn", 
+    "type": "remote", 
     "md5": "011e9bb7df88df7cabe4016a73942c13"
   }, 
   "railcraft": {
@@ -292,6 +316,7 @@
     "dependencies": [], 
     "encoded": "Railcraft%2010.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/railcraft", 
+    "type": "remote", 
     "md5": "4d4ab3832e74a531c0c43c1c68a947fb"
   }, 
   "soul-shards-the-old-ways": {
@@ -303,6 +328,7 @@
     "dependencies": [], 
     "encoded": "SoulShards-TOW-1.10.2-2.6.7-48.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/soul-shards-the-old-ways", 
+    "type": "remote", 
     "md5": "a87adeb4a1811b24c7f96f83a7e0b8c8"
   }, 
   "more-overlays": {
@@ -314,6 +340,7 @@
     "dependencies": [], 
     "encoded": "moreoverlays-1.9-mc1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/more-overlays", 
+    "type": "remote", 
     "md5": "e040f79aa0b0a03b69f9c212181ffadb"
   }, 
   "forestry": {
@@ -325,6 +352,7 @@
     "dependencies": [], 
     "encoded": "forestry_1.10.2-5.2.16.335.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/forestry", 
+    "type": "remote", 
     "md5": "d9f32f2c53c4ea8ec689104b050fa6f4"
   }, 
   "codechicken-lib-1-8": {
@@ -336,6 +364,7 @@
     "dependencies": [], 
     "encoded": "CodeChicken%20Lib%201.10.2-2.5.0.178-universal.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8", 
+    "type": "remote", 
     "md5": "4aa5b57e23f15b38e8965765c3ba1eff"
   }, 
   "inventory-tweaks": {
@@ -347,6 +376,7 @@
     "dependencies": [], 
     "encoded": "Inventory%20Tweaks%201.61.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/inventory-tweaks", 
+    "type": "remote", 
     "md5": "d1c7fede0527f38a1c8b561416cb7154"
   }, 
   "HWYLA": {
@@ -358,6 +388,7 @@
     "dependencies": [], 
     "encoded": "Hwyla-1.8.1-B13_1.10.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/HWYLA", 
+    "type": "remote", 
     "md5": "419d876d84659bbcaeeeabdf10cc70f5"
   }, 
   "quantumstorage": {
@@ -371,6 +402,7 @@
     ], 
     "encoded": "QuantumStorage-1.10.2-3.2.12.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/quantumstorage", 
+    "type": "remote", 
     "md5": "19ffadbbeb447ad3903b78798d8725f0"
   }, 
   "openblocks-elevator": {
@@ -382,6 +414,7 @@
     "dependencies": [], 
     "encoded": "ElevatorMod%5BV.1.3.0%5D%5BMC.1.10.2%5D.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/openblocks-elevator", 
+    "type": "remote", 
     "md5": "3d12c88a18b4e34c971e1ba794f48066"
   }, 
   "super-circuit-maker": {
@@ -395,6 +428,7 @@
     ], 
     "encoded": "Super%20Circuit%20Maker%201.0.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/super-circuit-maker", 
+    "type": "remote", 
     "md5": "e30777052219acb5932823e653b5a76b"
   }, 
   "cyberware": {
@@ -406,6 +440,7 @@
     "dependencies": [], 
     "encoded": "cyberware-1.9.4-1.10.2-beta-0.2.5.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/cyberware", 
+    "type": "remote", 
     "md5": "8de086d7f67084a66bdaba1bfc91e4bd"
   }, 
   "just-enough-items-jei": {
@@ -417,6 +452,7 @@
     "dependencies": [], 
     "encoded": "jei_1.10.2-3.13.6.392.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
+    "type": "remote", 
     "md5": "f7f0df905c542631db98bd55546c1d3f"
   }, 
   "shadowmc": {
@@ -430,6 +466,7 @@
     ], 
     "encoded": "ShadowMC-1.10.2-3.6.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/shadowmc", 
+    "type": "remote", 
     "md5": "3f0be2b53df202a36e4852aa7ef0ffbb"
   }, 
   "recurrent-complex": {
@@ -443,6 +480,7 @@
     ], 
     "encoded": "RecurrentComplex-1.2.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/recurrent-complex", 
+    "type": "remote", 
     "md5": "b727e59bf2ee28a3b2ef013c3acab23a"
   }, 
   "tomb-many-graves": {
@@ -454,6 +492,7 @@
     "dependencies": [], 
     "encoded": "TombManyGraves-1.10.2-2.1.14.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tomb-many-graves", 
+    "type": "remote", 
     "md5": "b96ac1959382c74b018b78520c0f7af6"
   }, 
   "mcmultipart": {
@@ -465,6 +504,7 @@
     "dependencies": [], 
     "encoded": "MCMultiPart%201.3.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mcmultipart", 
+    "type": "remote", 
     "md5": "0bbe580fc5562903f28df55a69984e91"
   }, 
   "applecore": {
@@ -477,6 +517,7 @@
     "dependencies": [], 
     "encoded": "AppleCore-mc1.10.2-2.1.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/applecore", 
+    "type": "remote", 
     "md5": "fa643a0903d2ccab404272bd0600ee93"
   }, 
   "llibrary": {
@@ -488,6 +529,7 @@
     "dependencies": [], 
     "encoded": "LLibrary%201.7.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/llibrary", 
+    "type": "remote", 
     "md5": "a9d05ece2c652ef8b9a5d8e8d7800254"
   }, 
   "guide-api": {
@@ -499,6 +541,7 @@
     "dependencies": [], 
     "encoded": "Guide-API-1.10.2-2.0.2-45.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/guide-api", 
+    "type": "remote", 
     "md5": "31a0d5f2482a01850aae3ab8cc4a3cba"
   }, 
   "quark": {
@@ -512,6 +555,7 @@
     ], 
     "encoded": "Quark-r1.1-66.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/quark", 
+    "type": "remote", 
     "md5": "6f7cc8186c6bc9518d755284d66ba732"
   }, 
   "ivtoolkit": {
@@ -523,6 +567,7 @@
     "dependencies": [], 
     "encoded": "IvToolkit-1.2.9.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ivtoolkit", 
+    "type": "remote", 
     "md5": "623b8dd9b2ff4141a7af074e17f11700"
   }, 
   "waddles": {
@@ -534,6 +579,7 @@
     "dependencies": [], 
     "encoded": "Waddles-1.10.2-0.5.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/waddles", 
+    "type": "remote", 
     "md5": "5fa859c6ac58bc2c6e95d4725cd8dbb3"
   }, 
   "shadowfacts-forgelin": {
@@ -545,6 +591,7 @@
     "dependencies": [], 
     "encoded": "Forgelin-1.1.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/shadowfacts-forgelin", 
+    "type": "remote", 
     "md5": "de67117970343f91760b4d0eef7685be"
   }, 
   "sound-filters": {
@@ -556,6 +603,7 @@
     "dependencies": [], 
     "encoded": "SoundFilters-0.9%20for%201.9.4%20and%201.10.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/sound-filters", 
+    "type": "remote", 
     "side": "client", 
     "md5": "89c50fee6271149638b94b85e5afd31f"
   }, 
@@ -570,6 +618,7 @@
     ], 
     "encoded": "SleepingBag-1.10.2-1.4.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/sleeping-bag", 
+    "type": "remote", 
     "md5": "e57d5e2271dcef6712db4414eb9a78a6"
   }, 
   "resource-loader": {
@@ -581,6 +630,7 @@
     "dependencies": [], 
     "encoded": "ResourceLoader-MC1.9.4-1.5.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/resource-loader", 
+    "type": "remote", 
     "md5": "fd851602890014f31b54ad0e009e5612"
   }, 
   "bookshelf": {
@@ -592,6 +642,7 @@
     "dependencies": [], 
     "encoded": "Bookshelf-1.10.2-1.4.3.338.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bookshelf", 
+    "type": "remote", 
     "md5": "8860fb80efab36dd595e8e556ec6065f"
   }, 
   "infinitylib": {
@@ -603,6 +654,7 @@
     "dependencies": [], 
     "encoded": "infinitylib-0.3.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/infinitylib", 
+    "type": "remote", 
     "md5": "f72d19ec3ab0511df4044d393ba6c727"
   }, 
   "iron-chests": {
@@ -614,6 +666,7 @@
     "dependencies": [], 
     "encoded": "ironchest-1.10.2-7.0.11.797.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/iron-chests", 
+    "type": "remote", 
     "md5": "b8256c7f5c810450108b35d315bb9667"
   }, 
   "realistic-terrain-generation": {
@@ -625,6 +678,7 @@
     "dependencies": [], 
     "encoded": "RTG-1.10.2-4.1.2.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/realistic-terrain-generation", 
+    "type": "remote", 
     "md5": "4472ba421f758d7d345687ad6f4a293f"
   }, 
   "custom-main-menu": {
@@ -636,6 +690,7 @@
     "dependencies": [], 
     "encoded": "CustomMainMenu-MC1.10.2-2.0.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/custom-main-menu", 
+    "type": "remote", 
     "md5": "55cbc1d629a1476028e6868adf065a11"
   }, 
   "opencomputers": {
@@ -647,6 +702,7 @@
     "dependencies": [], 
     "encoded": "OpenComputers-MC1.10.2-1.6.1.6.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/opencomputers", 
+    "type": "remote", 
     "md5": "ec155f2c9a6f3b6330bf22be2afe87c2"
   }, 
   "chisel": {
@@ -658,6 +714,7 @@
     "dependencies": [], 
     "encoded": "Chisel%20-%20MC1.10.2-0.0.7.7.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/chisel", 
+    "type": "remote", 
     "md5": "ebf56ad04d4cb5edb272cc35b0107d54"
   }, 
   "literal-ascension": {
@@ -672,6 +729,7 @@
     ], 
     "encoded": "Literal%20Ascension%201.10.2-1.0.0.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/literal-ascension", 
+    "type": "remote", 
     "md5": "75c6c6c75561feb3411ab19dd5484ac3"
   }, 
   "crafting-tweaks": {
@@ -683,6 +741,7 @@
     "dependencies": [], 
     "encoded": "CraftingTweaks_1.10.2-6.1.16.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/crafting-tweaks", 
+    "type": "remote", 
     "md5": "13486f1cc663e47c9e040bd715401111"
   }, 
   "just-enough-resources-jer": {
@@ -696,6 +755,7 @@
     ], 
     "encoded": "JustEnoughResources-1.10.2-0.5.8.98.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-resources-jer", 
+    "type": "remote", 
     "md5": "04f218c0eee3a05870a994816a86e0a5"
   }, 
   "justenoughtooltips": {
@@ -709,6 +769,7 @@
     ], 
     "encoded": "JustEnoughTooltips-1.10.2%202.1.39.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/justenoughtooltips", 
+    "type": "remote", 
     "md5": "61c311cdf69df4397a0f1bd080f5b8d3"
   }, 
   "flat-colored-blocks": {
@@ -720,6 +781,7 @@
     "dependencies": [], 
     "encoded": "flatcoloredblocks-mc1.10-v4.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/flat-colored-blocks", 
+    "type": "remote", 
     "md5": "0bc85e6993a628d5ca2b6ede75805046"
   }, 
   "portable-crafting": {
@@ -731,6 +793,7 @@
     "dependencies": [], 
     "encoded": "PortableCrafting-1.10.2-1.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/portable-crafting", 
+    "type": "remote", 
     "md5": "70e153a826001c5be4ff0e3845104bd3"
   }, 
   "iron-backpacks": {
@@ -742,6 +805,7 @@
     "dependencies": [], 
     "encoded": "IronBackpacks-1.10.2-2.2.20.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/iron-backpacks", 
+    "type": "remote", 
     "md5": "9b7da4a2f7f62cdc2863986669cfdf5e"
   }, 
   "crafttweaker": {
@@ -753,6 +817,7 @@
     "dependencies": [], 
     "encoded": "CraftTweaker-1.10.2-3.0.15.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/crafttweaker", 
+    "type": "remote", 
     "md5": "1ca2a8131860428d897a3b2812110ab9"
   }, 
   "mouse-tweaks": {
@@ -764,6 +829,7 @@
     "dependencies": [], 
     "encoded": "%5B1.10.2%5D%20Mouse%20Tweaks%202.6.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mouse-tweaks", 
+    "type": "remote", 
     "md5": "6c23b8f7a876336dbab417721ee44137"
   }, 
   "lantern": {
@@ -777,6 +843,7 @@
     ], 
     "encoded": "boatlantern-0.3.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/lantern", 
+    "type": "remote", 
     "md5": "d91000ab1d77e58e23f3057502812494"
   }
 }

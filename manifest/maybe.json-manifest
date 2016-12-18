@@ -2,6 +2,7 @@
   "thermal-dynamics": {
     "projectID": 227443, 
     "title": "Thermal Dynamics", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/thermal-dynamics"
   }, 
   "notenoughcodecs": {
@@ -13,6 +14,7 @@
     "dependencies": [], 
     "encoded": "NotEnoughCodecs-0.5.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/notenoughcodecs", 
+    "type": "remote", 
     "md5": "3d5a10650b8c860d2cb1b16504193b82"
   }, 
   "mantle": {
@@ -24,6 +26,7 @@
     "dependencies": [], 
     "encoded": "Mantle-1.10.2-1.1.3.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mantle", 
+    "type": "remote", 
     "md5": "709e3b66a7b4f75aaab9b6293e79c0ca"
   }, 
   "tesla": {
@@ -35,13 +38,15 @@
     "dependencies": [], 
     "encoded": "Tesla-1.10.2-1.2.1.49.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tesla", 
+    "type": "remote", 
     "md5": "c8d1afc04b8dfea3725bb53c9b378ade"
   }, 
   "mekanism": {
-    "encoded": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
     "src": "./bundled/mekanism/MekanismAll-1.10.2-9.2.1.homebaked.jar", 
     "filename": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
     "version": "1.10.2-9.2.1.homebaked", 
+    "encoded": "MekanismAll-1.10.2-9.2.1.homebaked.jar", 
+    "type": "missing", 
     "md5": "f51e2af0df457bbe100101743502439d"
   }, 
   "magneticraft": {
@@ -53,6 +58,7 @@
     "dependencies": [], 
     "encoded": "Magneticraft%201.10.2-1.0.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/magneticraft", 
+    "type": "remote", 
     "md5": "91e14e459a23d9bdd527261e7ed4d772"
   }, 
   "biome-bundle": {
@@ -64,11 +70,13 @@
     "dependencies": [], 
     "encoded": "Biome%20Bundle%20for%201.10%20Bukkit%20%28v3%29.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/biome-bundle", 
+    "type": "remote", 
     "md5": "a844eed30bf9e65588104871c95c1c69"
   }, 
   "hardcore-ender-expansion": {
     "projectID": 228015, 
     "title": "Hardcore Ender Expansion", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/hardcore-ender-expansion"
   }, 
   "pams-harvestcraft": {
@@ -80,6 +88,7 @@
     "dependencies": [], 
     "encoded": "Pam%27s%20HarvestCraft%201.9.4-1.10.2h.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/pams-harvestcraft", 
+    "type": "remote", 
     "md5": "49095051cacbf4a1554374f58c3f74da"
   }, 
   "gendustry": {
@@ -99,13 +108,15 @@
     ], 
     "encoded": "Gendustry%201.6.4.24%20%28MC%201.10.2%29.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/gendustry", 
+    "type": "remote", 
     "md5": "2f9bb8de9e5669705041f7e7d06c581c"
   }, 
   "quintessential-creatures": {
-    "encoded": "qcreatures-2.0.1.jar", 
     "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar", 
     "filename": "qcreatures-2.0.1.jar", 
     "version": "2.0.1", 
+    "encoded": "qcreatures-2.0.1.jar", 
+    "type": "missing", 
     "md5": "0b2fd3734e4defe6513233cd51621f63"
   }, 
   "charset": {
@@ -116,16 +127,19 @@
       241058
     ], 
     "encoded": "Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar", 
+    "type": "missing", 
     "md5": "ad76894f0fca2b61c154fe84a47f3c5d"
   }, 
   "buildcraft": {
     "projectID": 61811, 
     "title": "Buildcraft", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/buildcraft"
   }, 
   "thaumcraft": {
     "projectID": 223628, 
     "title": "Thaumcraft", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/thaumcraft"
   }, 
   "forestry": {
@@ -137,6 +151,7 @@
     "dependencies": [], 
     "encoded": "forestry_1.10.2-5.2.16.335.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/forestry", 
+    "type": "remote", 
     "md5": "d9f32f2c53c4ea8ec689104b050fa6f4"
   }, 
   "super-crafting-frame": {
@@ -148,6 +163,7 @@
     "dependencies": [], 
     "encoded": "supercraftingframe-1.10.2-1.2.1.88.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/super-crafting-frame", 
+    "type": "remote", 
     "md5": "f41c67e1d8685a1dbe2b198bfc4e537f"
   }, 
   "redstone-flux-arsenal": {
@@ -159,11 +175,13 @@
     "dependencies": [], 
     "encoded": "RedstoneFluxArsenal-%5B1.10.2%5D-1.0.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/redstone-flux-arsenal", 
+    "type": "remote", 
     "md5": "5b41cca1b27f691107f733f9cae21472"
   }, 
   "project-red-base": {
     "projectID": 228702, 
     "title": "Project Red - Base", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/project-red-base"
   }, 
   "autoreglib": {
@@ -175,6 +193,7 @@
     "dependencies": [], 
     "encoded": "AutoRegLib-1.0-2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/autoreglib", 
+    "type": "remote", 
     "md5": "527a86197be2f4c804747a7ae564a181"
   }, 
   "just-enough-items-jei": {
@@ -186,11 +205,13 @@
     "dependencies": [], 
     "encoded": "jei_1.10.2-3.13.6.392.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
+    "type": "remote", 
     "md5": "f7f0df905c542631db98bd55546c1d3f"
   }, 
   "balkons-weaponmod": {
     "projectID": 75525, 
     "title": "Balkon&#x27;s WeaponMod", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/balkons-weaponmod"
   }, 
   "stellar-sky": {
@@ -204,6 +225,7 @@
     ], 
     "encoded": "Stellar%20Sky%20v0.5.5.1.7%5B1.9.4/1.10.0/1.10.2%5D%20%28Stellar%20API%20v0.5.4.1.3%29.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/stellar-sky", 
+    "type": "remote", 
     "md5": "bc23f703a660809fef34def722ee58e3"
   }, 
   "psi": {
@@ -217,6 +239,7 @@
     ], 
     "encoded": "Psi-r1.0-42.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/psi", 
+    "type": "remote", 
     "md5": "e32509713c8676ef4852bbbfd1723722"
   }, 
   "mcjtylib": {
@@ -230,6 +253,7 @@
     ], 
     "encoded": "mcjtylib-1.1x-2.3.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/mcjtylib", 
+    "type": "remote", 
     "md5": "7e83264a648a4dc8eab5edaa2175f57e"
   }, 
   "rftools-dimensions": {
@@ -246,6 +270,7 @@
     ], 
     "encoded": "rftoolsdim-1.1x-4.51.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/rftools-dimensions", 
+    "type": "remote", 
     "md5": "c9b550c58bb50bfefb28f7a8cd00a38f"
   }, 
   "compatlayer": {
@@ -257,6 +282,7 @@
     "dependencies": [], 
     "encoded": "compatlayer-1.10-0.1.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/compatlayer", 
+    "type": "remote", 
     "md5": "b129cb4cac9efbf31cf16393f492a688"
   }, 
   "roguelike-dungeons": {
@@ -268,6 +294,7 @@
     "dependencies": [], 
     "encoded": "RoguelikeDungeons-1.10.2-1.5.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/roguelike-dungeons", 
+    "type": "remote", 
     "md5": "4d1bfb6001e522437a7abc08dd458c43"
   }, 
   "enchanting-plus": {
@@ -281,6 +308,7 @@
     ], 
     "encoded": "EnchantingPlus-1.10.2-4.1.0.115.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/enchanting-plus", 
+    "type": "remote", 
     "md5": "4f350fdec3adb4971442d106702657b8"
   }, 
   "not-enough-wands": {
@@ -294,16 +322,19 @@
     ], 
     "encoded": "notenoughwands-1.1x-1.5.2.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/not-enough-wands", 
+    "type": "remote", 
     "md5": "5854f3356c3673f6f2d9dace63c7619f"
   }, 
   "ender-storage": {
     "projectID": 229306, 
     "title": "Ender Storage", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-storage"
   }, 
   "extrabiomesxl": {
     "projectID": 60041, 
     "title": "ExtrabiomesXL", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/extrabiomesxl"
   }, 
   "the-one-probe": {
@@ -315,6 +346,7 @@
     "dependencies": [], 
     "encoded": "theoneprobe-1.10-1.3.3.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/the-one-probe", 
+    "type": "remote", 
     "md5": "1b3e3b8a488a56f4a1a696a47754e591"
   }, 
   "bookshelf": {
@@ -326,6 +358,7 @@
     "dependencies": [], 
     "encoded": "Bookshelf-1.10.2-1.4.3.338.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bookshelf", 
+    "type": "remote", 
     "md5": "8860fb80efab36dd595e8e556ec6065f"
   }, 
   "steves-factory-manager-reborn": {
@@ -337,6 +370,7 @@
     "dependencies": [], 
     "encoded": "StevesFactoryManager-1.10.2-1.0.11.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/steves-factory-manager-reborn", 
+    "type": "remote", 
     "md5": "e5fce4bfb70751330d9d597e3a8c4053"
   }, 
   "tinkers-construct": {
@@ -350,11 +384,13 @@
     ], 
     "encoded": "TConstruct-1.10.2-2.6.1.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/tinkers-construct", 
+    "type": "remote", 
     "md5": "968bef3fba99465cfe72a3ea117ae1d2"
   }, 
   "cofhcore": {
     "projectID": 69162, 
     "title": "CoFH Core", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/cofhcore"
   }, 
   "bdlib": {
@@ -366,11 +402,13 @@
     "dependencies": [], 
     "encoded": "BDLib%201.12.2.17%20%28MC%201.10.2%29.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/bdlib", 
+    "type": "remote", 
     "md5": "3a6e9143f69165298d3ae2c6338760ba"
   }, 
   "carpenters-blocks": {
     "projectID": 228932, 
     "title": "Carpenter&#x27;s Blocks", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/carpenters-blocks"
   }, 
   "actually-additions": {
@@ -382,6 +420,7 @@
     "dependencies": [], 
     "encoded": "ActuallyAdditions-1.10.2-r90.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/actually-additions", 
+    "type": "remote", 
     "md5": "6dbf1699d2feac6568f155c9802b95da"
   }, 
   "waila": {
@@ -393,6 +432,7 @@
     "dependencies": [], 
     "encoded": "Waila-1.7.0-B3_1.9.4.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/waila", 
+    "type": "remote", 
     "md5": "ad5733255dac0b85b9bbe38749638060"
   }, 
   "rftools": {
@@ -408,11 +448,13 @@
     ], 
     "encoded": "rftools-1.1x-5.71.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/rftools", 
+    "type": "remote", 
     "md5": "90367be982acf0e5651fb3c79e8a2292"
   }, 
   "modular-force-field-systems-mffs": {
     "projectID": 238546, 
     "title": "Modular Force Field Systems (MFFS)", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/modular-force-field-systems-mffs"
   }, 
   "stellar-api": {
@@ -424,11 +466,13 @@
     "dependencies": [], 
     "encoded": "Stellar%20API%20v0.5.4.1.3%20%5B1.9.4/1.10.0/1.10.2%5D.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/stellar-api", 
+    "type": "remote", 
     "md5": "9a129b599ec5b831bc7b542a30836d6c"
   }, 
   "power-converters3": {
     "projectID": 225064, 
     "title": "Power Converters3", 
+    "type": "missing", 
     "projectPage": "https://minecraft.curseforge.com/projects/power-converters3"
   }
 }
