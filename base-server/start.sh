@@ -82,6 +82,7 @@ if [[ $EXTRAS -eq 1 ]]; then
 fi
 
 java -d64 -server -Xmx7800m \
+  "$@" \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
   -XX:+UseG1GC \
