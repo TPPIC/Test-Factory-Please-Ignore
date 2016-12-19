@@ -8,5 +8,6 @@
     },
     "fullscreen-windowed-borderless-for-minecraft": {
         "side": "client"
-    }
+    },
+    "chunkgen": {}
 }

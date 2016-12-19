@@ -44,6 +44,18 @@
     "type" = "remote";
     "md5" = "de67117970343f91760b4d0eef7685be";
   };
+  "chunkgen" = {
+    "src" = "https://minecraft.curseforge.com/projects/chunkgen/files/2311611/download";
+    "version" = "1.9.4-1.3.0";
+    "title" = "chunkgen";
+    "projectID" = 235036;
+    "filename" = "chunkgen-1.9.4-1.3.0.jar";
+    "dependencies" = [];
+    "encoded" = "chunkgen-1.9.4-1.3.0.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/chunkgen";
+    "type" = "remote";
+    "md5" = "3663130ee243aeafd75a3362ac00ca81";
+  };
   "discordchat" = {
     "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2319534/download";
     "version" = "1.10.2-1.4.0";

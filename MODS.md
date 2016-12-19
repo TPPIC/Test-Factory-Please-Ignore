@@ -160,6 +160,7 @@
 - [Waila](https://minecraft.curseforge.com/projects/waila): 1.7.0-B3_1.9.4
 
 ## manifest/tools.json:
+- [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.9.4-1.3.0
 - [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-1.4.0
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy
