@@ -16,18 +16,25 @@ let
 
     echo | bash server/start.sh -Dfml.queryResult=confirm &
 
+    terminate() {
+      killall java
+      pkill -P $$
+      sleep 5
+      killall -9 java
+      pkill -9 -P $$
+      wait
+    }
+
     time=0
     while true; do
       grep '\[@\] Hello World' logs/latest.log && {
-        pkill -9 -P $$
-        wait
+        terminate
         cp logs/latest.log $out
         exit 0
       }
       time=$(($time + 1))
       if [[ $time -gt 300 ]]; then
-        pkill -9 -P $$
-        wait
+        terminate
         exit 1
       fi
       sleep 1
