@@ -30,6 +30,9 @@ elif [[ $1 == build ]]; then
 
         echo "=== Checking all builds ==="
         nix-build
+
+        echo "=== Checking smoke-tests ==="
+        nix-build tests -A smokeTests
     fi
 else
     echo "$0: Unknown option $1" >&2
