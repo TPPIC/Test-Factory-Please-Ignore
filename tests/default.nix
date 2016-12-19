@@ -17,11 +17,13 @@ let
     echo | bash server/start.sh -Dfml.queryResult=confirm &
 
     terminate() {
+      set +e
       killall java
       pkill -P $$
       sleep 5
       killall -9 java
       pkill -9 -P $$
+      set -e
       wait
     }
 
