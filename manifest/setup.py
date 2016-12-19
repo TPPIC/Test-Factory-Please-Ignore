@@ -10,8 +10,8 @@ setup(
   license='MIT',
   scripts=['update.py'],
   install_requires=[
-    'beautifulsoup==3.2.1',
-    'lxml==3.4.4',
-    'futures==3.0.5',
+    'beautifulsoup>=3.2',
+    'lxml>=3.4',
+    'futures>=3.0',
   ],
 )
