@@ -19,14 +19,14 @@ let
     time=0
     while true; do
       grep '\[@\] Hello World' logs/latest.log && {
-        pkill -P $$
+        pkill -9 -P $$
         wait
         cp logs/latest.log $out
         exit 0
       }
       time=$(($time + 1))
       if [[ $time -gt 300 ]]; then
-        pkill -P $$
+        pkill -9 -P $$
         wait
         exit 1
       fi
