@@ -7,7 +7,7 @@ let
     server = pack.server;
     world = ./testdata/SmokeTest.tar.gz;
     props = ./testdata/server.properties;
-    buildInputs = [ jre8 rsync procps ];
+    buildInputs = [ jre8 rsync procps psmisc ];
   } ''
     ln -s $server server
     tar xvzf $world
