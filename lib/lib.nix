@@ -29,6 +29,8 @@ rec {
     manifests ? [],
     blacklist ? [],
     extraDirs ? [],
+    extraServerDirs ? [],
+    extraClientDirs ? [],
   }: (self // rec {
     ## Client:
     clientMods = filterManifests {
@@ -42,7 +44,7 @@ rec {
       buildInputs = [ xorg.lndir ];
       base = symlinkJoin {
         name = "${name}-client-config";
-        paths = extraDirs;
+        paths = extraDirs ++ extraClientDirs;
       };
     } ''
       mkdir $out; cd $out
@@ -86,10 +88,9 @@ rec {
       inherit screenName;
 
       paths = [
-        ../base-server
         forgeDir
         (wrapDir "mods" serverModsDir)
-      ] ++ extraDirs;
+      ] ++ extraDirs ++ extraServerDirs;
 
       postBuild = ''
         substituteAll $out/start.sh start.sh
