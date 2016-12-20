@@ -77,7 +77,6 @@
 - [Prefab](https://minecraft.curseforge.com/projects/prefab): 1.1.1.4
 
 ## manifest/maybe.json:
-- [AbyssalCraft](https://minecraft.curseforge.com/projects/abyssalcraft): 1.10.2-1.9.3.9
 - [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r90
 - [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
 - [Balkon&#x27;s WeaponMod](https://minecraft.curseforge.com/projects/balkons-weaponmod): None

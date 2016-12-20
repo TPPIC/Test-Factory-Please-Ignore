@@ -1,16 +1,4 @@
 {
-  "abyssalcraft" = {
-    "src" = "https://minecraft.curseforge.com/projects/abyssalcraft/files/2356958/download";
-    "version" = "1.10.2-1.9.3.9";
-    "title" = "AbyssalCraft";
-    "projectID" = 53686;
-    "filename" = "AbyssalCraft-1.10.2-1.9.3.9.jar";
-    "dependencies" = [];
-    "encoded" = "AbyssalCraft-1.10.2-1.9.3.9.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/abyssalcraft";
-    "type" = "remote";
-    "md5" = "5b0ed9b17263c9b3c4a3fb9d24d071a8";
-  };
   "actually-additions" = {
     "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2353777/download";
     "version" = "1.10.2-r90";
