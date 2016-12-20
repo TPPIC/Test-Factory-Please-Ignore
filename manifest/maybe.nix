@@ -160,16 +160,16 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/thaumcraft";
   };
   "forestry" = {
-    "src" = "https://minecraft.curseforge.com/projects/forestry/files/2355320/download";
-    "version" = "1.10.2-5.2.16.335";
+    "src" = "https://minecraft.curseforge.com/projects/forestry/files/2358021/download";
+    "version" = "1.10.2-5.2.16.336";
     "title" = "Forestry";
     "projectID" = 59751;
-    "filename" = "forestry_1.10.2-5.2.16.335.jar";
+    "filename" = "forestry_1.10.2-5.2.16.336.jar";
     "dependencies" = [];
-    "encoded" = "forestry_1.10.2-5.2.16.335.jar";
+    "encoded" = "forestry_1.10.2-5.2.16.336.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/forestry";
     "type" = "remote";
-    "md5" = "d9f32f2c53c4ea8ec689104b050fa6f4";
+    "md5" = "7cbb43dcfb9c0cf7ab4a0bb29bdb6061";
   };
   "codechicken-lib-1-8" = {
     "src" = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2356881/download";

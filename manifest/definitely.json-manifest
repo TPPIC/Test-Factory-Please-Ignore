@@ -36,19 +36,19 @@
     "md5": "f7c092c4690ba180a7da0535226b245a"
   }, 
   "p455w0rds-things": {
-    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2354052/download", 
-    "version": "455w0rdsthings-1.10.2-1.2.18", 
+    "src": "https://minecraft.curseforge.com/projects/p455w0rds-things/files/2357976/download", 
+    "version": "455w0rdsthings-1.10.2-1.2.21", 
     "title": "p455w0rd&#x27;s Things", 
     "projectID": 246444, 
-    "filename": "p455w0rdsthings-1.10.2-1.2.18.jar", 
+    "filename": "p455w0rdsthings-1.10.2-1.2.21.jar", 
     "dependencies": [
       242818, 
-      244651
+      255232
     ], 
-    "encoded": "p455w0rdsthings-1.10.2-1.2.18.jar", 
+    "encoded": "p455w0rdsthings-1.10.2-1.2.21.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-things", 
     "type": "remote", 
-    "md5": "c35a5de0850ceb7e6e1cad122ea486ef"
+    "md5": "6ddd6a4551618aad92a6b69eb58a1238"
   }, 
   "morph-o-tool": {
     "src": "https://minecraft.curseforge.com/projects/morph-o-tool/files/2334148/download", 
@@ -125,6 +125,18 @@
     "projectPage": "https://minecraft.curseforge.com/projects/reborncore", 
     "type": "remote", 
     "md5": "b88a3bd7a134e327c1b7322543dd5bc1"
+  }, 
+  "p455w0rds-library": {
+    "src": "https://minecraft.curseforge.com/projects/p455w0rds-library/files/2358027/download", 
+    "version": "455w0rdslib-1.9.4-1.0.2", 
+    "title": "p455w0rd&#x27;s Library", 
+    "projectID": 255232, 
+    "filename": "p455w0rdslib-1.9.4-1.0.2.jar", 
+    "dependencies": [], 
+    "encoded": "p455w0rdslib-1.9.4-1.0.2.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/p455w0rds-library", 
+    "type": "remote", 
+    "md5": "4e5d76cf2f1216f248208c9f155f2f3c"
   }, 
   "just-enough-calculation": {
     "src": "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2357064/download", 
@@ -232,18 +244,18 @@
     "md5": "5a152d6f1efd0cf1d25c7d526c06d5ba"
   }, 
   "ender-io": {
-    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2357347/download", 
-    "version": "1.10.2-3.0.1.142_beta", 
+    "src": "https://minecraft.curseforge.com/projects/ender-io/files/2358157/download", 
+    "version": "1.10.2-3.0.1.144_beta", 
     "title": "Ender IO", 
     "projectID": 64578, 
-    "filename": "EnderIO-1.10.2-3.0.1.142_beta.jar", 
+    "filename": "EnderIO-1.10.2-3.0.1.144_beta.jar", 
     "dependencies": [
       231868
     ], 
-    "encoded": "EnderIO-1.10.2-3.0.1.142_beta.jar", 
+    "encoded": "EnderIO-1.10.2-3.0.1.144_beta.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/ender-io", 
     "type": "remote", 
-    "md5": "201ec5c34e2dfa1b567a871322993f1f"
+    "md5": "e99d80b65a843303dc63e2cbb3afadfb"
   }, 
   "refined-storage": {
     "src": "https://minecraft.curseforge.com/projects/refined-storage/files/2356745/download", 
@@ -344,16 +356,16 @@
     "md5": "e040f79aa0b0a03b69f9c212181ffadb"
   }, 
   "forestry": {
-    "src": "https://minecraft.curseforge.com/projects/forestry/files/2355320/download", 
-    "version": "1.10.2-5.2.16.335", 
+    "src": "https://minecraft.curseforge.com/projects/forestry/files/2358021/download", 
+    "version": "1.10.2-5.2.16.336", 
     "title": "Forestry", 
     "projectID": 59751, 
-    "filename": "forestry_1.10.2-5.2.16.335.jar", 
+    "filename": "forestry_1.10.2-5.2.16.336.jar", 
     "dependencies": [], 
-    "encoded": "forestry_1.10.2-5.2.16.335.jar", 
+    "encoded": "forestry_1.10.2-5.2.16.336.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/forestry", 
     "type": "remote", 
-    "md5": "d9f32f2c53c4ea8ec689104b050fa6f4"
+    "md5": "7cbb43dcfb9c0cf7ab4a0bb29bdb6061"
   }, 
   "codechicken-lib-1-8": {
     "src": "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2356881/download", 
@@ -432,16 +444,16 @@
     "md5": "e30777052219acb5932823e653b5a76b"
   }, 
   "cyberware": {
-    "src": "https://minecraft.curseforge.com/projects/cyberware/files/2353466/download", 
-    "version": "1.9.4-1.10.2-beta-0.2.5", 
+    "src": "https://minecraft.curseforge.com/projects/cyberware/files/2358078/download", 
+    "version": "1.9.4-1.10.2-beta-0.2.6", 
     "title": "Cyberware", 
     "projectID": 248042, 
-    "filename": "cyberware-1.9.4-1.10.2-beta-0.2.5.jar", 
+    "filename": "cyberware-1.9.4-1.10.2-beta-0.2.6.jar", 
     "dependencies": [], 
-    "encoded": "cyberware-1.9.4-1.10.2-beta-0.2.5.jar", 
+    "encoded": "cyberware-1.9.4-1.10.2-beta-0.2.6.jar", 
     "projectPage": "https://minecraft.curseforge.com/projects/cyberware", 
     "type": "remote", 
-    "md5": "8de086d7f67084a66bdaba1bfc91e4bd"
+    "md5": "b14fe087fa248ad6226d120629bf6758"
   }, 
   "just-enough-items-jei": {
     "src": "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2357416/download", 
@@ -454,6 +466,18 @@
     "projectPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei", 
     "type": "remote", 
     "md5": "f7f0df905c542631db98bd55546c1d3f"
+  }, 
+  "guide-api": {
+    "src": "https://minecraft.curseforge.com/projects/guide-api/files/2325317/download", 
+    "version": "1.10.2-2.0.2-45", 
+    "title": "Guide-API", 
+    "projectID": 228832, 
+    "filename": "Guide-API-1.10.2-2.0.2-45.jar", 
+    "dependencies": [], 
+    "encoded": "Guide-API-1.10.2-2.0.2-45.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/guide-api", 
+    "type": "remote", 
+    "md5": "31a0d5f2482a01850aae3ab8cc4a3cba"
   }, 
   "shadowmc": {
     "src": "https://minecraft.curseforge.com/projects/shadowmc/files/2345525/download", 
@@ -532,17 +556,17 @@
     "type": "remote", 
     "md5": "a9d05ece2c652ef8b9a5d8e8d7800254"
   }, 
-  "guide-api": {
-    "src": "https://minecraft.curseforge.com/projects/guide-api/files/2325317/download", 
-    "version": "1.10.2-2.0.2-45", 
-    "title": "Guide-API", 
-    "projectID": 228832, 
-    "filename": "Guide-API-1.10.2-2.0.2-45.jar", 
+  "immersive-engineering": {
+    "src": "https://minecraft.curseforge.com/projects/immersive-engineering/files/2355504/download", 
+    "version": "0.10-53", 
+    "title": "Immersive Engineering", 
+    "projectID": 231951, 
+    "filename": "ImmersiveEngineering-0.10-53.jar", 
     "dependencies": [], 
-    "encoded": "Guide-API-1.10.2-2.0.2-45.jar", 
-    "projectPage": "https://minecraft.curseforge.com/projects/guide-api", 
+    "encoded": "ImmersiveEngineering-0.10-53.jar", 
+    "projectPage": "https://minecraft.curseforge.com/projects/immersive-engineering", 
     "type": "remote", 
-    "md5": "31a0d5f2482a01850aae3ab8cc4a3cba"
+    "md5": "56825168ce7c7c480faa41d4512069a6"
   }, 
   "quark": {
     "src": "https://minecraft.curseforge.com/projects/quark/files/2354531/download", 
