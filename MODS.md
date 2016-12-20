@@ -23,7 +23,7 @@
 - [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.144_beta
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
-- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.336
+- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.340
 - [Guide-API](https://minecraft.curseforge.com/projects/guide-api): 1.10.2-2.0.2-45
 - [Immersive Engineering](https://minecraft.curseforge.com/projects/immersive-engineering): 0.10-53
 - [InfinityLib](https://minecraft.curseforge.com/projects/infinitylib): 0.3.0
@@ -49,7 +49,7 @@
 - [OpenBlocks Elevator](https://minecraft.curseforge.com/projects/openblocks-elevator): 1.3.0][MC.1.10.2]
 - [OpenComputers](https://minecraft.curseforge.com/projects/opencomputers): 1.10.2-1.6.1.6
 - [p455w0rd&#x27;s Library](https://minecraft.curseforge.com/projects/p455w0rds-library): 455w0rdslib-1.9.4-1.0.2
-- [p455w0rd&#x27;s Things](https://minecraft.curseforge.com/projects/p455w0rds-things): 455w0rdsthings-1.10.2-1.2.21
+- [p455w0rd&#x27;s Things](https://minecraft.curseforge.com/projects/p455w0rds-things): 455w0rdsthings-1.10.2-1.2.23
 - [Portable Crafting](https://minecraft.curseforge.com/projects/portable-crafting): 1.10.2-1.1
 - [QuantumStorage](https://minecraft.curseforge.com/projects/quantumstorage): 1.10.2-3.2.12
 - [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-66
@@ -106,12 +106,12 @@
 ```
 - [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.1.4
 - [Enchanting Plus](https://minecraft.curseforge.com/projects/enchanting-plus): 1.10.2-4.1.0.115
-- [Ender Storage 1.8.+](https://minecraft.curseforge.com/projects/ender-storage-1-8): 1.10.2-2.2.0.95-universal
+- [Ender Storage 1.8.+](https://minecraft.curseforge.com/projects/ender-storage-1-8): 1.10.2-2.2.0.96-universal
 - [ExtrabiomesXL](https://minecraft.curseforge.com/projects/extrabiomesxl): None
 ```diff
 - Not yet on 1.10 (probably)
 ```
-- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.336
+- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.340
 - [Gendustry](https://minecraft.curseforge.com/projects/gendustry): 1.6.4.24-mc1.10.2
 - [Hardcore Ender Expansion](https://minecraft.curseforge.com/projects/hardcore-ender-expansion): None
 ```diff

@@ -284,7 +284,8 @@ def NixDumps(data):
 def DumpMods(mods, handle):
     """Very updater-specific Nix dumper. No matter."""
     handle.write('{\n')
-    for name, mod in mods.iteritems():
+    for name in sorted(mods):
+        mod = mods[name]
         handle.write('  %s = {\n' % json.dumps(name))
         for k, v in mod.iteritems():
             if not (k == SRC and mod[TYPE] == LOCAL):
@@ -304,8 +305,6 @@ for fn, mods in mods.iteritems():
     data[fn] = {}
     for name, d in GetNewestVersions(mods):
         data[fn][name] = d
-    with open(fn + '-manifest', 'w') as manifest:
-        json.dump(data[fn], manifest, indent=2)
     with open(fn[:-4] + 'nix', 'w') as manifest:
         DumpMods(data[fn], manifest)
 # Update MODS.md.
