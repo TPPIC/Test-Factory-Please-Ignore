@@ -183,18 +183,6 @@
     "type" = "remote";
     "md5" = "4aa5b57e23f15b38e8965765c3ba1eff";
   };
-  "mcjtylib" = {
-    "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2352866/download";
-    "version" = "1.1x-2.3.1";
-    "title" = "McJtyLib";
-    "projectID" = 233105;
-    "filename" = "mcjtylib-1.1x-2.3.1.jar";
-    "dependencies" = [253729];
-    "encoded" = "mcjtylib-1.1x-2.3.1.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/mcjtylib";
-    "type" = "remote";
-    "md5" = "7e83264a648a4dc8eab5edaa2175f57e";
-  };
   "super-crafting-frame" = {
     "src" = "https://minecraft.curseforge.com/projects/super-crafting-frame/files/2335412/download";
     "version" = "1.10.2-1.2.1.88";
@@ -255,18 +243,6 @@
     "type" = "missing";
     "projectPage" = "https://minecraft.curseforge.com/projects/balkons-weaponmod";
   };
-  "stellar-sky" = {
-    "src" = "https://minecraft.curseforge.com/projects/stellar-sky/files/2319228/download";
-    "version" = "0.5.5.1.7";
-    "title" = "Stellar Sky";
-    "projectID" = 236078;
-    "filename" = "Stellar Sky-0.5.5.1.7.jar";
-    "dependencies" = [244147];
-    "encoded" = "Stellar%20Sky-0.5.5.1.7.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/stellar-sky";
-    "type" = "remote";
-    "md5" = "bc23f703a660809fef34def722ee58e3";
-  };
   "psi" = {
     "src" = "https://minecraft.curseforge.com/projects/psi/files/2347126/download";
     "version" = "1.0-42";
@@ -291,17 +267,17 @@
     "type" = "remote";
     "md5" = "276f5ac04eb34e73abc2f8f880a7528a";
   };
-  "stellar-api" = {
-    "src" = "https://minecraft.curseforge.com/projects/stellar-api/files/2318821/download";
-    "version" = "0.5.4.1.3";
-    "title" = "Stellar API";
-    "projectID" = 244147;
-    "filename" = "Stellar API-0.5.4.1.3.jar";
-    "dependencies" = [];
-    "encoded" = "Stellar%20API-0.5.4.1.3.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/stellar-api";
+  "mcjtylib" = {
+    "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2352866/download";
+    "version" = "1.1x-2.3.1";
+    "title" = "McJtyLib";
+    "projectID" = 233105;
+    "filename" = "mcjtylib-1.1x-2.3.1.jar";
+    "dependencies" = [253729];
+    "encoded" = "mcjtylib-1.1x-2.3.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/mcjtylib";
     "type" = "remote";
-    "md5" = "9a129b599ec5b831bc7b542a30836d6c";
+    "md5" = "7e83264a648a4dc8eab5edaa2175f57e";
   };
   "rftools-dimensions" = {
     "src" = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2354786/download";

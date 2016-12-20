@@ -144,8 +144,6 @@
 - [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.71
 - [RFTools Dimensions](https://minecraft.curseforge.com/projects/rftools-dimensions): 1.1x-4.51
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.10.2-1.5.4
-- [Stellar API](https://minecraft.curseforge.com/projects/stellar-api): 0.5.4.1.3
-- [Stellar Sky](https://minecraft.curseforge.com/projects/stellar-sky): 0.5.5.1.7
 - [Steve&#x27;s Factory Manager Reborn](https://minecraft.curseforge.com/projects/steves-factory-manager-reborn): 1.10.2-1.0.11
 - [Super Crafting Frame](https://minecraft.curseforge.com/projects/super-crafting-frame): 1.10.2-1.2.1.88
 - [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.49
