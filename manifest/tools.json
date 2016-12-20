@@ -9,5 +9,8 @@
     "fullscreen-windowed-borderless-for-minecraft": {
         "side": "client"
     },
-    "chunkgen": {}
+    "chunkgen": {
+        "src": "../bundled/chunkgen/chunkgen-1.10.2-1.5.0.jar",
+        "_because": "The 1.9 chunkgen release doesn't work on 1.10, but a from-source build does."
+    }
 }

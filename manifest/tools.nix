@@ -1,15 +1,12 @@
 {
   "chunkgen" = {
-    "src" = "https://minecraft.curseforge.com/projects/chunkgen/files/2311611/download";
-    "version" = "1.9.4-1.3.0";
-    "title" = "chunkgen";
-    "projectID" = 235036;
-    "filename" = "chunkgen-1.9.4-1.3.0.jar";
-    "dependencies" = [];
-    "encoded" = "chunkgen-1.9.4-1.3.0.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/chunkgen";
-    "type" = "remote";
-    "md5" = "3663130ee243aeafd75a3362ac00ca81";
+    "src" = ../bundled/chunkgen/chunkgen-1.10.2-1.5.0.jar;
+    "_because" = "The 1.9 chunkgen release doesn't work on 1.10, but a from-source build does.";
+    "filename" = "chunkgen-1.10.2-1.5.0.jar";
+    "version" = "1.10.2-1.5.0";
+    "encoded" = "chunkgen-1.10.2-1.5.0.jar";
+    "type" = "local";
+    "md5" = "97b44f9ee6cfc4090d7b83c0fb14e340";
   };
   "discordchat" = {
     "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2319534/download";
