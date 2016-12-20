@@ -230,7 +230,18 @@ rec {
    * Wraps a derivation with a directory.
    * Useful to give it a non-hashy name.
    */
-  wrapDir = name: path: linkFarm "wrap-${name}" [{ inherit name path; }];
+  wrapDir = name: path: runCommand name {
+    inherit name path;
+    buildInputs = [ xorg.lndir ];
+  } ''
+    mkdir $out; cd $out
+    if [[ -d "$path" ]]; then
+      mkdir "$name"
+      lndir "$path" "$name"
+    else
+      ln -s "$path" "${name}"
+    fi
+  '';
 
   /**
    * Concatenates a list of sets.
