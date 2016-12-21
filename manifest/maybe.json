@@ -1,9 +1,4 @@
 {
-    "quintessential-creatures": {
-        "_comment": "Specify a source for non-Curse mods. This can also be a relative path on the local filesystem.",
-        "_very_important_comment": "Still inside git, I insist.",
-        "src": "http://qcreatures.net/dl/qcreatures-2.0.1.jar"
-    },
     "charset": {
         "src": "../bundled/charset/Charset-mc1.10.2-0.3.3-3494ae740ded5395.jar",
         "_deps": "Not Enough Codecs and Foamfix are both recommended. This is the former.",
@@ -13,29 +8,23 @@
         "src": "../bundled/mekanism/MekanismAll-1.10.2-9.2.1.homebaked.jar"
     },
     "actually-additions": {},
-    "balkons-weaponmod": {},
     "ender-storage-1-8": {},
-    "buildcraft": {},
-    "carpenters-blocks": {},
     "enchanting-plus": {},
-    "extrabiomesxl": {},
-    "gendustry": {},
-    "hardcore-ender-expansion": {},
     "pams-harvestcraft": {},
     "magneticraft": {},
-    "modular-force-field-systems-mffs": {},
-    "power-converters3": {},
-    "project-red-base": {},
+    "modular-forcefield-system": {},
     "psi": {},
     "redstone-flux-arsenal": {},
     "rftools-dimensions": {},
+    "rftools-control": {},
     "roguelike-dungeons": {},
+    "roots": {},
     "steves-factory-manager-reborn": {},
     "super-crafting-frame": {},
-    "biome-bundle": {},
-    "thaumcraft": {},
-    "thermal-dynamics": {},
     "tinkers-construct": {},
     "not-enough-wands": {},
-    "botania": {}
+	"betterachievements": {},
+    "inventory-tweaks": {},
+    "mowzies-mobs": {},
+    "openblocks-elevator": {}
 }

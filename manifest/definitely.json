@@ -6,29 +6,43 @@
     "appleskin": {},
     "bagelsmore-the-return": {},
     "blood-magic": {},
+    "better-builders-wands": {},
+    "botania": {},
     "chisel": {},
     "chisels-bits": {},
     "cooking-for-blockheads": {},
+    "controlling": {
+        "side": "client"
+	},
     "crafting-tweaks": {},
     "crafttweaker": {},
-    "custom-main-menu": {},
+    "custom-main-menu": {
+        "side": "client"
+	},
+    "chat-tweaks": {
+        "side": "client"
+    },
     "cyberware": {},
     "dark-utilities": {},
     "ding": {},
+	"default-options": {},
     "embers": {},
     "ender-io": {},
     "flat-colored-blocks": {},
     "forestry": {},
     "HWYLA": {},
-    "inventory-tweaks": {},
     "immersive-engineering": {},
     "iron-backpacks": {},
     "iron-chests": {},
+	"integrated-dynamics": {},
+	"integrated-tunnels": {},
+	"inventory-sorter": {},
+	"industrial-wires": {},
     "just-enough-items-jei": {},
     "just-enough-buttons": {},
     "just-enough-calculation": {},
     "just-enough-resources-jer": {},
-    "justenoughtooltips": {},
+    "just-enough-forestry-bees-jefb": {},
     "lantern": {},
     "literal-ascension": {},
     "modtweaker": {},
@@ -36,31 +50,33 @@
     "morph-o-tool": {},
     "mouse-tweaks": {},
     "netherex": {},
-    "openblocks-elevator": {},
     "opencomputers": {},
-    "p455w0rds-things": {},
     "portable-crafting": {},
     "quantumstorage": {},
     "quark": {},
+    "reliquary": {},
     "railcraft": {},
     "realistic-terrain-generation": {},
     "reborncore": {},
     "recurrent-complex": {},
     "refined-storage": {},
+    "refraction": {},
     "resource-loader": {},
-    "roots": {},
+	"redstone-paste": {},
     "sleeping-bag": {},
     "soul-shards-the-old-ways": {},
     "sound-filters": {
         "side": "client"
     },
     "the-spice-of-life": {},
+    "thuts-elevators": {},
     "steves-carts-reborn": {},
     "super-circuit-maker": {},
     "tesla": {},
     "tomb-many-graves": {},
+	"useless-deleter": {},
     "waddles": {},
-	  "xaeros-minimap": {
-        "src": "../bundled/xaeros-minimap/Xaeros_Minimap_1.11.8.1_Forge_1.10.2.jar"
-	  }
+	"xaeros-minimap": {
+		"src": "../bundled/xaeros-minimap/Xaeros_Minimap_1.11.8.1_Forge_1.10.2.jar"
+	}
 }
