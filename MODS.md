@@ -90,6 +90,7 @@
 
 ## manifest/dev-only.json:
 - [Prefab](https://minecraft.curseforge.com/projects/prefab): 1.1.1.4
+- [World Stripper](https://minecraft.curseforge.com/projects/world-stripper): 1.1.1-1.10.2
 
 ## manifest/maybe.json:
 - [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r90
