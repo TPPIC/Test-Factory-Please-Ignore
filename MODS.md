@@ -21,6 +21,7 @@
 - [Crafting Tweaks](https://minecraft.curseforge.com/projects/crafting-tweaks): 1.10.2-6.1.16
 - [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker): 1.10.2-3.0.15
 - [Custom Main Menu](https://minecraft.curseforge.com/projects/custom-main-menu): 1.10.2-2.0.2
+- [CustomOreGen](https://minecraft.curseforge.com/projects/customoregen): 1.10.2-1.4.2
 - [Cyberware](https://minecraft.curseforge.com/projects/cyberware): 1.9.4-1.10.2-beta-0.2.6
 - [Cyclops Core](https://minecraft.curseforge.com/projects/cyclops-core): 1.9.4-0.8.2
 - [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.6.99

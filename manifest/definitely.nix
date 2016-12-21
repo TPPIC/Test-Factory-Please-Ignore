@@ -231,6 +231,18 @@
     "side" = "client";
     "md5" = "55cbc1d629a1476028e6868adf065a11";
   };
+  "customoregen" = {
+    "src" = "https://minecraft.curseforge.com/projects/customoregen/files/2341734/download";
+    "version" = "1.10.2-1.4.2";
+    "title" = "CustomOreGen";
+    "projectID" = 237130;
+    "filename" = "CustomOreGen-1.10.2-1.4.2.jar";
+    "dependencies" = [];
+    "encoded" = "CustomOreGen-1.10.2-1.4.2.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/customoregen";
+    "type" = "remote";
+    "md5" = "7c657feb9d8be3f894cd0b14b532961c";
+  };
   "cyberware" = {
     "src" = "https://minecraft.curseforge.com/projects/cyberware/files/2358078/download";
     "version" = "1.9.4-1.10.2-beta-0.2.6";
