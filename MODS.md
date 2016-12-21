@@ -123,8 +123,10 @@
 - [RFTools Dimensions](https://minecraft.curseforge.com/projects/rftools-dimensions): 1.1x-4.51
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.10.2-1.5.4
 - [Roots](https://minecraft.curseforge.com/projects/roots): 0.208
-- [Steve&#x27;s Factory Manager Reborn](https://minecraft.curseforge.com/projects/steves-factory-manager-reborn): 1.10.2-1.0.11
+- [ShetiPhianCore](https://minecraft.curseforge.com/projects/shetiphiancore): 1.10.0-3.3.6
+- [Steve&#x27;s Factory Manager Reborn](https://minecraft.curseforge.com/projects/steves-factory-manager-reborn): 1.10.2-1.0.12
 - [Super Crafting Frame](https://minecraft.curseforge.com/projects/super-crafting-frame): 1.10.2-1.2.1.88
+- [Terraqueous](https://minecraft.curseforge.com/projects/terraqueous): 1.10.0-1.2.13
 - [The One Probe](https://minecraft.curseforge.com/projects/the-one-probe): 1.10-1.3.3
 - [Tinkers Construct](https://minecraft.curseforge.com/projects/tinkers-construct): 1.10.2-2.6.1
 

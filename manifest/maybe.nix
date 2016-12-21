@@ -365,17 +365,29 @@
     "type" = "remote";
     "md5" = "5a152d6f1efd0cf1d25c7d526c06d5ba";
   };
+  "shetiphiancore" = {
+    "src" = "https://minecraft.curseforge.com/projects/shetiphiancore/files/2354235/download";
+    "version" = "1.10.0-3.3.6";
+    "title" = "ShetiPhianCore";
+    "projectID" = 71738;
+    "filename" = "shetiphiancore-1.10.0-3.3.6.jar";
+    "dependencies" = [];
+    "encoded" = "shetiphiancore-1.10.0-3.3.6.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/shetiphiancore";
+    "type" = "remote";
+    "md5" = "5e6258ad309f2ec197ebe143484c0a10";
+  };
   "steves-factory-manager-reborn" = {
-    "src" = "https://minecraft.curseforge.com/projects/steves-factory-manager-reborn/files/2353714/download";
-    "version" = "1.10.2-1.0.11";
+    "src" = "https://minecraft.curseforge.com/projects/steves-factory-manager-reborn/files/2358776/download";
+    "version" = "1.10.2-1.0.12";
     "title" = "Steve&#x27;s Factory Manager Reborn";
     "projectID" = 253338;
-    "filename" = "StevesFactoryManager-1.10.2-1.0.11.jar";
+    "filename" = "StevesFactoryManager-1.10.2-1.0.12.jar";
     "dependencies" = [];
-    "encoded" = "StevesFactoryManager-1.10.2-1.0.11.jar";
+    "encoded" = "StevesFactoryManager-1.10.2-1.0.12.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/steves-factory-manager-reborn";
     "type" = "remote";
-    "md5" = "e5fce4bfb70751330d9d597e3a8c4053";
+    "md5" = "2d9a43740e8fced09e0d68fe9585bb49";
   };
   "super-crafting-frame" = {
     "src" = "https://minecraft.curseforge.com/projects/super-crafting-frame/files/2335412/download";
@@ -388,6 +400,18 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/super-crafting-frame";
     "type" = "remote";
     "md5" = "f41c67e1d8685a1dbe2b198bfc4e537f";
+  };
+  "terraqueous" = {
+    "src" = "https://minecraft.curseforge.com/projects/terraqueous/files/2355263/download";
+    "version" = "1.10.0-1.2.13";
+    "title" = "Terraqueous";
+    "projectID" = 244870;
+    "filename" = "terraqueous-1.10.0-1.2.13.jar";
+    "dependencies" = [71738];
+    "encoded" = "terraqueous-1.10.0-1.2.13.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/terraqueous";
+    "type" = "remote";
+    "md5" = "1d0778fc2af0b97503c203db58af7f83";
   };
   "the-one-probe" = {
     "src" = "https://minecraft.curseforge.com/projects/the-one-probe/files/2344420/download";
