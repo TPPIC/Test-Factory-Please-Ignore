@@ -35,9 +35,11 @@ rec {
       ./manifest/dev-only.nix
     ];
     # Not all mods are equally welcome.
-    # (WAILA conflicts with HWYLA.)
     blacklist = [
+      # WAILA conflicts with HWYLA.
       "waila"
+      # MFFS's current release is buggy, see https://github.com/nekosune/modularforcefieldsystem/issues/7
+      "modular-forcefield-system"
     ];
   };
 
