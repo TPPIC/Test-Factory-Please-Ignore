@@ -138,6 +138,7 @@
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.3.0b
+- [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.10.2-1.4.15
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
 - [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
 - [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0

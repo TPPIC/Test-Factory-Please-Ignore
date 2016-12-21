@@ -54,6 +54,18 @@
     "side" = "client";
     "md5" = "d6223b734935e419e6403f602198ab61";
   };
+  "helpfixer" = {
+    "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2320763/download";
+    "version" = "1.10.2-1.4.15";
+    "title" = "HelpFixer";
+    "projectID" = 223797;
+    "filename" = "HelpFixer-1.10.2-1.4.15.jar";
+    "dependencies" = [];
+    "encoded" = "HelpFixer-1.10.2-1.4.15.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/helpfixer";
+    "type" = "remote";
+    "md5" = "099ab3a625afe62cce93a6716472e7c3";
+  };
   "loading-profiler" = {
     "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2301416/download";
     "version" = "1.9.4-1.3";
