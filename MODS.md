@@ -77,7 +77,7 @@
 - [Sleeping Bag](https://minecraft.curseforge.com/projects/sleeping-bag): 1.10.2-1.4.0
 - [Soul Shards: The Old Ways](https://minecraft.curseforge.com/projects/soul-shards-the-old-ways): 1.10.2-2.6.7-48
 - [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.9_for_1.9.4
-- [Steves Carts Reborn](https://minecraft.curseforge.com/projects/steves-carts-reborn): 1.10.2-2.1.0.59
+- [Steves Carts Reborn](https://minecraft.curseforge.com/projects/steves-carts-reborn): 1.10.2-2.1.0.62
 - [Super Circuit Maker](https://minecraft.curseforge.com/projects/super-circuit-maker): 1.0.4
 - [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.49
 - [The Spice of Life](https://minecraft.curseforge.com/projects/the-spice-of-life): 1.9.4-1.3.6
@@ -134,5 +134,6 @@
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.3.0b
+- [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
 - [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
 - [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0

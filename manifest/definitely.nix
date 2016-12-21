@@ -863,16 +863,16 @@
     "md5" = "89c50fee6271149638b94b85e5afd31f";
   };
   "steves-carts-reborn" = {
-    "src" = "https://minecraft.curseforge.com/projects/steves-carts-reborn/files/2349377/download";
-    "version" = "1.10.2-2.1.0.59";
+    "src" = "https://minecraft.curseforge.com/projects/steves-carts-reborn/files/2358696/download";
+    "version" = "1.10.2-2.1.0.62";
     "title" = "Steves Carts Reborn";
     "projectID" = 253462;
-    "filename" = "StevesCarts-1.10.2-2.1.0.59.jar";
+    "filename" = "StevesCarts-1.10.2-2.1.0.62.jar";
     "dependencies" = [];
-    "encoded" = "StevesCarts-1.10.2-2.1.0.59.jar";
+    "encoded" = "StevesCarts-1.10.2-2.1.0.62.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/steves-carts-reborn";
     "type" = "remote";
-    "md5" = "011e9bb7df88df7cabe4016a73942c13";
+    "md5" = "a930155d0c199e76466c082fc7660808";
   };
   "super-circuit-maker" = {
     "src" = "https://minecraft.curseforge.com/projects/super-circuit-maker/files/2343952/download";

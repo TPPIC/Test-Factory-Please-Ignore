@@ -54,6 +54,18 @@
     "side" = "client";
     "md5" = "d6223b734935e419e6403f602198ab61";
   };
+  "loading-profiler" = {
+    "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2301416/download";
+    "version" = "1.9.4-1.3";
+    "title" = "Loading Profiler";
+    "projectID" = 228513;
+    "filename" = "LoadingProfiler-MC1.9.4-1.3.jar";
+    "dependencies" = [];
+    "encoded" = "LoadingProfiler-MC1.9.4-1.3.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/loading-profiler";
+    "type" = "remote";
+    "md5" = "dacbac7e108e0810a2ea47c9e6dbf8b7";
+  };
   "shadowfacts-forgelin" = {
     "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2345526/download";
     "version" = "1.1.0";
