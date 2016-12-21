@@ -86,6 +86,9 @@ java -d64 -server -Xmx7800m \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
   -XX:+UseG1GC \
+  -XX:+UnlockExperimentalVMOptions \
+  -XX:G1HeapRegionSize=32M \
+  -XX:G1NewSizePercent=20 \
   -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=500 \
   -XX:+UseAdaptiveGCBoundary \
   -XX:+StartAttachListener \
