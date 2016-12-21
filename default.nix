@@ -2,6 +2,7 @@ with import <nixpkgs> {};
 with stdenv;
 
 with import ./lib/lib.nix;
+with import ./lib/sprocket;
 
 rec {
 
@@ -21,6 +22,7 @@ rec {
     # Suggested use: Configs. Scripts. That sort of thing.
     extraDirs = [
       ./base-tppi3
+      (generateCustomOreGenConfig ./COGConfig)
     ];
     # Server only.
     extraServerDirs = [
