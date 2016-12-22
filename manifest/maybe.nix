@@ -106,16 +106,16 @@
     "md5" = "4f350fdec3adb4971442d106702657b8";
   };
   "ender-io" = {
-    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2358157/download";
-    "version" = "1.10.2-3.0.1.144_beta";
+    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2358959/download";
+    "version" = "1.10.2-3.0.1.145_beta";
     "title" = "Ender IO";
     "projectID" = 64578;
-    "filename" = "EnderIO-1.10.2-3.0.1.144_beta.jar";
+    "filename" = "EnderIO-1.10.2-3.0.1.145_beta.jar";
     "dependencies" = [231868];
-    "encoded" = "EnderIO-1.10.2-3.0.1.144_beta.jar";
+    "encoded" = "EnderIO-1.10.2-3.0.1.145_beta.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/ender-io";
     "type" = "remote";
-    "md5" = "e99d80b65a843303dc63e2cbb3afadfb";
+    "md5" = "b5403e98826066a68403db0e44d33830";
   };
   "ender-storage-1-8" = {
     "src" = "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2358285/download";
@@ -306,16 +306,16 @@
     "md5" = "5b41cca1b27f691107f733f9cae21472";
   };
   "rftools" = {
-    "src" = "https://minecraft.curseforge.com/projects/rftools/files/2354780/download";
-    "version" = "1.1x-5.71";
+    "src" = "https://minecraft.curseforge.com/projects/rftools/files/2358974/download";
+    "version" = "1.1x-5.72";
     "title" = "RFTools";
     "projectID" = 224641;
-    "filename" = "rftools-1.1x-5.71.jar";
+    "filename" = "rftools-1.1x-5.72.jar";
     "dependencies" = [233105 253729 245211];
-    "encoded" = "rftools-1.1x-5.71.jar";
+    "encoded" = "rftools-1.1x-5.72.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/rftools";
     "type" = "remote";
-    "md5" = "90367be982acf0e5651fb3c79e8a2292";
+    "md5" = "ec6aff426b59f1a13e85769a36bc63ae";
   };
   "rftools-control" = {
     "src" = "https://minecraft.curseforge.com/projects/rftools-control/files/2354280/download";

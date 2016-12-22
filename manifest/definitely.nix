@@ -73,16 +73,16 @@
     "md5" = "8df347d4f0fa02462b5e0879c2d438f5";
   };
   "better-builders-wands" = {
-    "src" = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2357368/download";
-    "version" = "0.9.1-1.10.2r179+093cd65";
+    "src" = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2358970/download";
+    "version" = "1.10.2-0.9.2.184+1c91696";
     "title" = "Better Builder&#x27;s Wands";
     "projectID" = 238403;
-    "filename" = "BetterBuildersWands-0.9.1-1.10.2r179+093cd65.jar";
+    "filename" = "BetterBuildersWands-1.10.2-0.9.2.184+1c91696.jar";
     "dependencies" = [];
-    "encoded" = "BetterBuildersWands-0.9.1-1.10.2r179%2B093cd65.jar";
+    "encoded" = "BetterBuildersWands-1.10.2-0.9.2.184%2B1c91696.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/better-builders-wands";
     "type" = "remote";
-    "md5" = "b53e9454d63e14e007cdd2adf4f46f74";
+    "md5" = "a39f2b7528a6a06963a7b0b715d21c7f";
   };
   "blood-magic" = {
     "src" = "https://minecraft.curseforge.com/projects/blood-magic/files/2353245/download";
@@ -316,16 +316,16 @@
     "md5" = "52e506a9d6032fca6cc74f0078e1d44b";
   };
   "ender-io" = {
-    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2358157/download";
-    "version" = "1.10.2-3.0.1.144_beta";
+    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2358959/download";
+    "version" = "1.10.2-3.0.1.145_beta";
     "title" = "Ender IO";
     "projectID" = 64578;
-    "filename" = "EnderIO-1.10.2-3.0.1.144_beta.jar";
+    "filename" = "EnderIO-1.10.2-3.0.1.145_beta.jar";
     "dependencies" = [231868];
-    "encoded" = "EnderIO-1.10.2-3.0.1.144_beta.jar";
+    "encoded" = "EnderIO-1.10.2-3.0.1.145_beta.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/ender-io";
     "type" = "remote";
-    "md5" = "e99d80b65a843303dc63e2cbb3afadfb";
+    "md5" = "b5403e98826066a68403db0e44d33830";
   };
   "endercore" = {
     "src" = "https://minecraft.curseforge.com/projects/endercore/files/2355274/download";
@@ -352,16 +352,16 @@
     "md5" = "0bc85e6993a628d5ca2b6ede75805046";
   };
   "forestry" = {
-    "src" = "https://minecraft.curseforge.com/projects/forestry/files/2358227/download";
-    "version" = "1.10.2-5.2.16.340";
+    "src" = "https://minecraft.curseforge.com/projects/forestry/files/2359070/download";
+    "version" = "1.10.2-5.2.16.345";
     "title" = "Forestry";
     "projectID" = 59751;
-    "filename" = "forestry_1.10.2-5.2.16.340.jar";
+    "filename" = "forestry_1.10.2-5.2.16.345.jar";
     "dependencies" = [];
-    "encoded" = "forestry_1.10.2-5.2.16.340.jar";
+    "encoded" = "forestry_1.10.2-5.2.16.345.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/forestry";
     "type" = "remote";
-    "md5" = "728cd77a8339df9b79811ca9d1725e30";
+    "md5" = "83c280f1fb84efd5c63a97ac0e065b07";
   };
   "guide-api" = {
     "src" = "https://minecraft.curseforge.com/projects/guide-api/files/2325317/download";

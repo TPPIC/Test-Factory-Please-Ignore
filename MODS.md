@@ -8,7 +8,7 @@
 - [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
 - [Bagelsmore: The Return](https://minecraft.curseforge.com/projects/bagelsmore-the-return): 1.9.4-1.0.1
 - [Baubles](https://minecraft.curseforge.com/projects/baubles): 1.10.2-1.3.8
-- [Better Builder&#x27;s Wands](https://minecraft.curseforge.com/projects/better-builders-wands): 0.9.1-1.10.2r179+093cd65
+- [Better Builder&#x27;s Wands](https://minecraft.curseforge.com/projects/better-builders-wands): 1.10.2-0.9.2.184+1c91696
 - [Blood Magic ](https://minecraft.curseforge.com/projects/blood-magic): 1.9.4-2.1.0-69
 - [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
 - [Botania](https://minecraft.curseforge.com/projects/botania): 1.9-339
@@ -28,10 +28,10 @@
 - [Default Options](https://minecraft.curseforge.com/projects/default-options): 1.10.2-6.1.5
 - [Ding](https://minecraft.curseforge.com/projects/ding): 1.10.2-1.0.1
 - [Embers](https://minecraft.curseforge.com/projects/embers): 0.016
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.144_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.145_beta
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
-- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.340
+- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.345
 - [Guide-API](https://minecraft.curseforge.com/projects/guide-api): 1.10.2-2.0.2-45
 - [Immersive Engineering](https://minecraft.curseforge.com/projects/immersive-engineering): 0.10-53
 - [InfinityLib](https://minecraft.curseforge.com/projects/infinitylib): 0.3.0
@@ -103,7 +103,7 @@
 - [CodeChicken Lib 1.8.+](https://minecraft.curseforge.com/projects/codechicken-lib-1-8): 1.10.2-2.5.0.178-universal
 - [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.1.4
 - [Enchanting Plus](https://minecraft.curseforge.com/projects/enchanting-plus): 1.10.2-4.1.0.115
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.144_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.145_beta
 - [Ender Storage 1.8.+](https://minecraft.curseforge.com/projects/ender-storage-1-8): 1.10.2-2.2.0.96-universal
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.61-58
@@ -120,7 +120,7 @@
 - [Pam&#x27;s HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft): 27;s HarvestCraft 1.9.4-1.10.2h
 - [Psi](https://minecraft.curseforge.com/projects/psi): 1.0-42
 - [Redstone Flux Arsenal](https://minecraft.curseforge.com/projects/redstone-flux-arsenal): 1.10.2]-1.0
-- [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.71
+- [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.72
 - [RFTools Control](https://minecraft.curseforge.com/projects/rftools-control): 1.1x-1.6.3
 - [RFTools Dimensions](https://minecraft.curseforge.com/projects/rftools-dimensions): 1.1x-4.51
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.10.2-1.5.4
