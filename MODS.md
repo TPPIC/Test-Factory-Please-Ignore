@@ -31,7 +31,7 @@
 - [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.145_beta
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
-- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.345
+- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.346
 - [Guide-API](https://minecraft.curseforge.com/projects/guide-api): 1.10.2-2.0.2-45
 - [Immersive Engineering](https://minecraft.curseforge.com/projects/immersive-engineering): 0.10-53
 - [InfinityLib](https://minecraft.curseforge.com/projects/infinitylib): 0.3.0
@@ -90,11 +90,11 @@
 - [xaeros-minimap](/): 1.11.8.1_Forge_1.10.2
 
 ## manifest/dev-only.json:
-- [Prefab](https://minecraft.curseforge.com/projects/prefab): 1.1.1.4
+- [Prefab](https://minecraft.curseforge.com/projects/prefab): 1.1.1.5
 - [World Stripper](https://minecraft.curseforge.com/projects/world-stripper): 1.1.1-1.10.2
 
 ## manifest/maybe.json:
-- [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r90
+- [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r93
 - [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
 - [BetterAchievements](https://minecraft.curseforge.com/projects/betterachievements): 1.10.2-0.3.2.39
 - [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
@@ -133,7 +133,7 @@
 - [Tinkers Construct](https://minecraft.curseforge.com/projects/tinkers-construct): 1.10.2-2.6.1
 
 ## manifest/tools.json:
-- [chunkgen](/): 1.10.2-1.5.0
+- [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.10.2-1.5.0
 - [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-1.4.0
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy

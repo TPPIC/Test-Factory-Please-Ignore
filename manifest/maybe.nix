@@ -1,15 +1,15 @@
 {
   "actually-additions" = {
-    "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2353777/download";
-    "version" = "1.10.2-r90";
+    "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2359231/download";
+    "version" = "1.10.2-r93";
     "title" = "Actually Additions";
     "projectID" = 228404;
-    "filename" = "ActuallyAdditions-1.10.2-r90.jar";
+    "filename" = "ActuallyAdditions-1.10.2-r93.jar";
     "dependencies" = [];
-    "encoded" = "ActuallyAdditions-1.10.2-r90.jar";
+    "encoded" = "ActuallyAdditions-1.10.2-r93.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/actually-additions";
     "type" = "remote";
-    "md5" = "6dbf1699d2feac6568f155c9802b95da";
+    "md5" = "9837fd50d3ba8334c1740affd797d099";
   };
   "autoreglib" = {
     "src" = "https://minecraft.curseforge.com/projects/autoreglib/files/2327403/download";

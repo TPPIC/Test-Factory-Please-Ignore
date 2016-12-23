@@ -352,16 +352,16 @@
     "md5" = "0bc85e6993a628d5ca2b6ede75805046";
   };
   "forestry" = {
-    "src" = "https://minecraft.curseforge.com/projects/forestry/files/2359070/download";
-    "version" = "1.10.2-5.2.16.345";
+    "src" = "https://minecraft.curseforge.com/projects/forestry/files/2359477/download";
+    "version" = "1.10.2-5.2.16.346";
     "title" = "Forestry";
     "projectID" = 59751;
-    "filename" = "forestry_1.10.2-5.2.16.345.jar";
+    "filename" = "forestry_1.10.2-5.2.16.346.jar";
     "dependencies" = [];
-    "encoded" = "forestry_1.10.2-5.2.16.345.jar";
+    "encoded" = "forestry_1.10.2-5.2.16.346.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/forestry";
     "type" = "remote";
-    "md5" = "83c280f1fb84efd5c63a97ac0e065b07";
+    "md5" = "9a9c1f5d069c5eb87116d9ba6cb6c9b0";
   };
   "guide-api" = {
     "src" = "https://minecraft.curseforge.com/projects/guide-api/files/2325317/download";
