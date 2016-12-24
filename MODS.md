@@ -8,7 +8,7 @@
 - [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
 - [Bagelsmore: The Return](https://minecraft.curseforge.com/projects/bagelsmore-the-return): 1.9.4-1.0.1
 - [Baubles](https://minecraft.curseforge.com/projects/baubles): 1.10.2-1.3.8
-- [Better Builder&#x27;s Wands](https://minecraft.curseforge.com/projects/better-builders-wands): 1.10.2-0.9.2.184+1c91696
+- [Better Builder&#x27;s Wands](https://minecraft.curseforge.com/projects/better-builders-wands): 1.10.2-0.9.3.187+c619800
 - [Blood Magic ](https://minecraft.curseforge.com/projects/blood-magic): 1.9.4-2.1.0-69
 - [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
 - [Botania](https://minecraft.curseforge.com/projects/botania): 1.9-339
@@ -66,7 +66,7 @@
 - [RebornCore](https://minecraft.curseforge.com/projects/reborncore): 1.10.2-2.8.4.77-universal
 - [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 1.2.4
 - [Redstone Paste](https://minecraft.curseforge.com/projects/redstone-paste): 1.9.4-1.7.4
-- [Refined Storage](https://minecraft.curseforge.com/projects/refined-storage): 1.2.12
+- [Refined Storage](https://minecraft.curseforge.com/projects/refined-storage): 1.2.13
 - [Refraction](https://minecraft.curseforge.com/projects/refraction): 1.2
 - [Reliquary](https://minecraft.curseforge.com/projects/reliquary): None
 ```diff

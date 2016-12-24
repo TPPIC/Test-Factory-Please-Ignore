@@ -73,16 +73,16 @@
     "md5" = "8df347d4f0fa02462b5e0879c2d438f5";
   };
   "better-builders-wands" = {
-    "src" = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2358970/download";
-    "version" = "1.10.2-0.9.2.184+1c91696";
+    "src" = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2359680/download";
+    "version" = "1.10.2-0.9.3.187+c619800";
     "title" = "Better Builder&#x27;s Wands";
     "projectID" = 238403;
-    "filename" = "BetterBuildersWands-1.10.2-0.9.2.184+1c91696.jar";
+    "filename" = "BetterBuildersWands-1.10.2-0.9.3.187+c619800.jar";
     "dependencies" = [];
-    "encoded" = "BetterBuildersWands-1.10.2-0.9.2.184%2B1c91696.jar";
+    "encoded" = "BetterBuildersWands-1.10.2-0.9.3.187%2Bc619800.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/better-builders-wands";
     "type" = "remote";
-    "md5" = "a39f2b7528a6a06963a7b0b715d21c7f";
+    "md5" = "c42eda8c18887dbbe31fd50ebd142f0d";
   };
   "blood-magic" = {
     "src" = "https://minecraft.curseforge.com/projects/blood-magic/files/2353245/download";
@@ -772,16 +772,16 @@
     "md5" = "00266bbc4f770c9e82e4402cf645117f";
   };
   "refined-storage" = {
-    "src" = "https://minecraft.curseforge.com/projects/refined-storage/files/2356745/download";
-    "version" = "1.2.12";
+    "src" = "https://minecraft.curseforge.com/projects/refined-storage/files/2359687/download";
+    "version" = "1.2.13";
     "title" = "Refined Storage";
     "projectID" = 243076;
-    "filename" = "refinedstorage-1.2.12.jar";
+    "filename" = "refinedstorage-1.2.13.jar";
     "dependencies" = [239431];
-    "encoded" = "refinedstorage-1.2.12.jar";
+    "encoded" = "refinedstorage-1.2.13.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/refined-storage";
     "type" = "remote";
-    "md5" = "e85fc5f79ebaa57ab079faa0ae287d46";
+    "md5" = "b6de57aa4b8c0f6a1eaad2e5a2030e10";
   };
   "refraction" = {
     "src" = "https://minecraft.curseforge.com/projects/refraction/files/2356166/download";
