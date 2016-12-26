@@ -178,8 +178,9 @@ def GetNewestVersions(mods):
         # Find the newest copy of the mod.
         # TODO: Filter by stability, regex, whatever. Add once needed.
         for filterUrl in [
-                '2020709689%3A6170',  # 1.10.2
-                '2020709689%3A6084',  # 1.9.4
+                '2020709689%3A6317',  # 1.11
+#                '2020709689%3A6170',  # 1.10.2
+#                '2020709689%3A6084',  # 1.9.4
         ]:
             filesUrl = projectUrl + '/files?filter-game-version=' + filterUrl
             filesPage = Get(filesUrl)

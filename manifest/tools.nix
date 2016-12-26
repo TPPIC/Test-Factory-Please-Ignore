@@ -1,40 +1,22 @@
 {
   "chunkgen" = {
-    "src" = "https://minecraft.curseforge.com/projects/chunkgen/files/2359487/download";
-    "version" = "1.10.2-1.5.0";
-    "title" = "chunkgen";
     "projectID" = 235036;
-    "filename" = "chunkgen-1.10.2-1.5.0.jar";
-    "dependencies" = [];
-    "encoded" = "chunkgen-1.10.2-1.5.0.jar";
+    "title" = "chunkgen";
+    "type" = "missing";
     "projectPage" = "https://minecraft.curseforge.com/projects/chunkgen";
-    "type" = "remote";
-    "md5" = "97b44f9ee6cfc4090d7b83c0fb14e340";
   };
   "discordchat" = {
-    "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2319534/download";
-    "version" = "1.10.2-1.4.0";
-    "title" = "DiscordChat";
     "projectID" = 240995;
-    "filename" = "DiscordChat-1.10.2-1.4.0.jar";
-    "dependencies" = [226780];
-    "encoded" = "DiscordChat-1.10.2-1.4.0.jar";
+    "title" = "DiscordChat";
+    "type" = "missing";
     "projectPage" = "https://minecraft.curseforge.com/projects/discordchat";
-    "type" = "remote";
-    "md5" = "79bd462c8942d4385a994c814d04a475";
   };
   "dynmapforge" = {
-    "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2307083/download";
-    "version" = "2.3-forge-1.9.4";
-    "title" = "DynmapForge";
     "projectID" = 59433;
-    "filename" = "Dynmap-2.3-forge-1.9.4.jar";
-    "dependencies" = [];
-    "encoded" = "Dynmap-2.3-forge-1.9.4.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/dynmapforge";
-    "type" = "remote";
+    "title" = "DynmapForge";
+    "type" = "missing";
     "side" = "server";
-    "md5" = "c4a2aa2a63a46e28b0092104e4ac772a";
+    "projectPage" = "https://minecraft.curseforge.com/projects/dynmapforge";
   };
   "foamfix" = {
     "src" = ../bundled/foamfix/foamfix-0.4.2-anarchy.jar;
@@ -45,64 +27,34 @@
     "md5" = "7a67ac2759760b065488144a4178e07d";
   };
   "fullscreen-windowed-borderless-for-minecraft" = {
-    "src" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2317162/download";
-    "version" = "1.10.2-1.3.0b";
-    "title" = "Fullscreen Windowed (Borderless) for Minecraft";
     "projectID" = 227441;
-    "filename" = "FullscreenWindowed-1.10.2-1.3.0b.jar";
-    "dependencies" = [];
-    "encoded" = "FullscreenWindowed-1.10.2-1.3.0b.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft";
-    "type" = "remote";
+    "title" = "Fullscreen Windowed (Borderless) for Minecraft";
+    "type" = "missing";
     "side" = "client";
-    "md5" = "d6223b734935e419e6403f602198ab61";
+    "projectPage" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft";
   };
   "helpfixer" = {
-    "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2320763/download";
-    "version" = "1.10.2-1.4.15";
+    "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2346436/download";
+    "version" = "1.11-1.4+17";
     "title" = "HelpFixer";
     "projectID" = 223797;
-    "filename" = "HelpFixer-1.10.2-1.4.15.jar";
+    "filename" = "HelpFixer-1.11-1.4+17.jar";
     "dependencies" = [];
-    "encoded" = "HelpFixer-1.10.2-1.4.15.jar";
+    "encoded" = "HelpFixer-1.11-1.4%2B17.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/helpfixer";
     "type" = "remote";
-    "md5" = "099ab3a625afe62cce93a6716472e7c3";
+    "md5" = "4937b7bc2af1939449ae4d144c56a788";
   };
   "loading-profiler" = {
-    "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2301416/download";
-    "version" = "1.9.4-1.3";
+    "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2355691/download";
+    "version" = "1.11-1.3";
     "title" = "Loading Profiler";
     "projectID" = 228513;
-    "filename" = "LoadingProfiler-MC1.9.4-1.3.jar";
+    "filename" = "LoadingProfiler-MC1.11-1.3.jar";
     "dependencies" = [];
-    "encoded" = "LoadingProfiler-MC1.9.4-1.3.jar";
+    "encoded" = "LoadingProfiler-MC1.11-1.3.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/loading-profiler";
     "type" = "remote";
-    "md5" = "dacbac7e108e0810a2ea47c9e6dbf8b7";
-  };
-  "shadowfacts-forgelin" = {
-    "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2345526/download";
-    "version" = "1.1.0";
-    "title" = "Shadowfacts&#x27; Forgelin";
-    "projectID" = 248453;
-    "filename" = "Forgelin-1.1.0.jar";
-    "dependencies" = [];
-    "encoded" = "Forgelin-1.1.0.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin";
-    "type" = "remote";
-    "md5" = "de67117970343f91760b4d0eef7685be";
-  };
-  "shadowmc" = {
-    "src" = "https://minecraft.curseforge.com/projects/shadowmc/files/2345525/download";
-    "version" = "1.10.2-3.6.0";
-    "title" = "ShadowMC";
-    "projectID" = 226780;
-    "filename" = "ShadowMC-1.10.2-3.6.0.jar";
-    "dependencies" = [248453];
-    "encoded" = "ShadowMC-1.10.2-3.6.0.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/shadowmc";
-    "type" = "remote";
-    "md5" = "3f0be2b53df202a36e4852aa7ef0ffbb";
+    "md5" = "139788d40ff79f331c4a016a82c18755";
   };
 }
