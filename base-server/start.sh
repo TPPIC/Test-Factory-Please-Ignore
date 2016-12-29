@@ -81,7 +81,7 @@ if [[ $EXTRAS -eq 1 ]]; then
     dailyRestart &
 fi
 
-java -d64 -server -Xmx7800m \
+java -d64 -server -Xmx4000m \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
