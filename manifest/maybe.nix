@@ -1,15 +1,15 @@
 {
   "actually-additions" = {
-    "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2359231/download";
-    "version" = "1.10.2-r93";
+    "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2360828/download";
+    "version" = "1.10.2-r94";
     "title" = "Actually Additions";
     "projectID" = 228404;
-    "filename" = "ActuallyAdditions-1.10.2-r93.jar";
+    "filename" = "ActuallyAdditions-1.10.2-r94.jar";
     "dependencies" = [];
-    "encoded" = "ActuallyAdditions-1.10.2-r93.jar";
+    "encoded" = "ActuallyAdditions-1.10.2-r94.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/actually-additions";
     "type" = "remote";
-    "md5" = "9837fd50d3ba8334c1740affd797d099";
+    "md5" = "ab1bda20a44f982474bc4451e881b16d";
   };
   "autoreglib" = {
     "src" = "https://minecraft.curseforge.com/projects/autoreglib/files/2327403/download";
@@ -82,16 +82,16 @@
     "md5" = "4aa5b57e23f15b38e8965765c3ba1eff";
   };
   "compatlayer" = {
-    "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2356026/download";
-    "version" = "1.10-0.1.4";
+    "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2360940/download";
+    "version" = "1.10-0.1.6";
     "title" = "CompatLayer";
     "projectID" = 253729;
-    "filename" = "compatlayer-1.10-0.1.4.jar";
+    "filename" = "compatlayer-1.10-0.1.6.jar";
     "dependencies" = [];
-    "encoded" = "compatlayer-1.10-0.1.4.jar";
+    "encoded" = "compatlayer-1.10-0.1.6.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/compatlayer";
     "type" = "remote";
-    "md5" = "b129cb4cac9efbf31cf16393f492a688";
+    "md5" = "e1c594cf34d3f9140454ad9db3fd9f0a";
   };
   "enchanting-plus" = {
     "src" = "https://minecraft.curseforge.com/projects/enchanting-plus/files/2336546/download";
@@ -106,16 +106,16 @@
     "md5" = "4f350fdec3adb4971442d106702657b8";
   };
   "ender-io" = {
-    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2358959/download";
-    "version" = "1.10.2-3.0.1.145_beta";
+    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2361670/download";
+    "version" = "1.10.2-3.0.1.149_beta";
     "title" = "Ender IO";
     "projectID" = 64578;
-    "filename" = "EnderIO-1.10.2-3.0.1.145_beta.jar";
+    "filename" = "EnderIO-1.10.2-3.0.1.149_beta.jar";
     "dependencies" = [231868];
-    "encoded" = "EnderIO-1.10.2-3.0.1.145_beta.jar";
+    "encoded" = "EnderIO-1.10.2-3.0.1.149_beta.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/ender-io";
     "type" = "remote";
-    "md5" = "b5403e98826066a68403db0e44d33830";
+    "md5" = "4c51af1230a4b5858bcfdc3188f60675";
   };
   "ender-storage-1-8" = {
     "src" = "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2358285/download";
@@ -234,16 +234,16 @@
     "md5" = "d71ebfed098d357c2919e63d817ed964";
   };
   "not-enough-wands" = {
-    "src" = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2355313/download";
-    "version" = "1.1x-1.5.2";
+    "src" = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2360964/download";
+    "version" = "1.1x-1.5.3";
     "title" = "Not Enough Wands";
     "projectID" = 235595;
-    "filename" = "notenoughwands-1.1x-1.5.2.jar";
+    "filename" = "notenoughwands-1.1x-1.5.3.jar";
     "dependencies" = [253729];
-    "encoded" = "notenoughwands-1.1x-1.5.2.jar";
+    "encoded" = "notenoughwands-1.1x-1.5.3.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/not-enough-wands";
     "type" = "remote";
-    "md5" = "5854f3356c3673f6f2d9dace63c7619f";
+    "md5" = "ed114458da3ecc6e790a740c26e79f6d";
   };
   "notenoughcodecs" = {
     "src" = "https://minecraft.curseforge.com/projects/notenoughcodecs/files/2314451/download";
@@ -306,16 +306,16 @@
     "md5" = "5b41cca1b27f691107f733f9cae21472";
   };
   "rftools" = {
-    "src" = "https://minecraft.curseforge.com/projects/rftools/files/2358974/download";
-    "version" = "1.1x-5.72";
+    "src" = "https://minecraft.curseforge.com/projects/rftools/files/2361169/download";
+    "version" = "1.1x-5.75";
     "title" = "RFTools";
     "projectID" = 224641;
-    "filename" = "rftools-1.1x-5.72.jar";
+    "filename" = "rftools-1.1x-5.75.jar";
     "dependencies" = [233105 253729 245211];
-    "encoded" = "rftools-1.1x-5.72.jar";
+    "encoded" = "rftools-1.1x-5.75.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/rftools";
     "type" = "remote";
-    "md5" = "ec6aff426b59f1a13e85769a36bc63ae";
+    "md5" = "66a86a076c051d6e4037d90c5d4186d7";
   };
   "rftools-control" = {
     "src" = "https://minecraft.curseforge.com/projects/rftools-control/files/2354280/download";
@@ -402,16 +402,16 @@
     "md5" = "f41c67e1d8685a1dbe2b198bfc4e537f";
   };
   "terraqueous" = {
-    "src" = "https://minecraft.curseforge.com/projects/terraqueous/files/2355263/download";
-    "version" = "1.10.0-1.2.13";
+    "src" = "https://minecraft.curseforge.com/projects/terraqueous/files/2359879/download";
+    "version" = "1.10.0-1.2.14";
     "title" = "Terraqueous";
     "projectID" = 244870;
-    "filename" = "terraqueous-1.10.0-1.2.13.jar";
+    "filename" = "terraqueous-1.10.0-1.2.14.jar";
     "dependencies" = [71738];
-    "encoded" = "terraqueous-1.10.0-1.2.13.jar";
+    "encoded" = "terraqueous-1.10.0-1.2.14.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/terraqueous";
     "type" = "remote";
-    "md5" = "1d0778fc2af0b97503c203db58af7f83";
+    "md5" = "f528a7446fd5e118a8714e56181fd9f0";
   };
   "the-one-probe" = {
     "src" = "https://minecraft.curseforge.com/projects/the-one-probe/files/2344420/download";

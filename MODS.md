@@ -12,46 +12,47 @@
 - [Blood Magic ](https://minecraft.curseforge.com/projects/blood-magic): 1.9.4-2.1.0-69
 - [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
 - [Botania](https://minecraft.curseforge.com/projects/botania): 1.9-339
+- [Chameleon](https://minecraft.curseforge.com/projects/chameleon): 1.10-2.2.2
 - [Chat Tweaks](https://minecraft.curseforge.com/projects/chat-tweaks): 1.10.2-4.1.6
 - [Chisel](https://minecraft.curseforge.com/projects/chisel): 1.10.2-0.0.7.7
-- [Chisels & Bits](https://minecraft.curseforge.com/projects/chisels-bits): 12.8
+- [Chisels & Bits](https://minecraft.curseforge.com/projects/chisels-bits): 12.9
 - [Common Capabilities](https://minecraft.curseforge.com/projects/common-capabilities): 1.9.4-1.2.1
 - [Controlling](https://minecraft.curseforge.com/projects/controlling): 1.0.2
 - [Cooking for Blockheads](https://minecraft.curseforge.com/projects/cooking-for-blockheads): 1.10.2-4.2.26
 - [Crafting Tweaks](https://minecraft.curseforge.com/projects/crafting-tweaks): 1.10.2-6.1.16
-- [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker): 1.10.2-3.0.15
+- [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker): 1.10.2-3.0.16
 - [Custom Main Menu](https://minecraft.curseforge.com/projects/custom-main-menu): 1.10.2-2.0.2
 - [CustomOreGen](https://minecraft.curseforge.com/projects/customoregen): 1.10.2-1.4.2
 - [Cyberware](https://minecraft.curseforge.com/projects/cyberware): 1.9.4-1.10.2-beta-0.2.6
 - [Cyclops Core](https://minecraft.curseforge.com/projects/cyclops-core): 1.9.4-0.8.2
-- [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.6.99
+- [Dark Utilities](https://minecraft.curseforge.com/projects/dark-utilities): 1.10.2-1.1.6.103
 - [Default Options](https://minecraft.curseforge.com/projects/default-options): 1.10.2-6.1.5
 - [Ding](https://minecraft.curseforge.com/projects/ding): 1.10.2-1.0.1
 - [Embers](https://minecraft.curseforge.com/projects/embers): 0.016
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.145_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.149_beta
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Flat Colored Blocks](https://minecraft.curseforge.com/projects/flat-colored-blocks): 1.10-v4.4
-- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.346
+- [Forestry](https://minecraft.curseforge.com/projects/forestry): 1.10.2-5.2.16.347
 - [Guide-API](https://minecraft.curseforge.com/projects/guide-api): 1.10.2-2.0.2-45
-- [Immersive Engineering](https://minecraft.curseforge.com/projects/immersive-engineering): 0.10-53
-- [InfinityLib](https://minecraft.curseforge.com/projects/infinitylib): 0.3.0
+- [Immersive Engineering](https://minecraft.curseforge.com/projects/immersive-engineering): 0.10-54
+- [InfinityLib](https://minecraft.curseforge.com/projects/infinitylib): 0.4.0
 - [Integrated Dynamics](https://minecraft.curseforge.com/projects/integrated-dynamics): 1.10.2-0.6.5
 - [Integrated Tunnels](https://minecraft.curseforge.com/projects/integrated-tunnels): 1.10.2-1.0.2
-- [Inventory Sorter](https://minecraft.curseforge.com/projects/inventory-sorter): 1.10-0.10.0+42
-- [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.10.2-2.2.20
+- [Inventory Sorter](https://minecraft.curseforge.com/projects/inventory-sorter): 1.10.2-0.10.2+43
+- [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.10.2-2.2.21
 - [Iron Chests](https://minecraft.curseforge.com/projects/iron-chests): 1.10.2-7.0.11.797
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.9
 - [Just Enough Buttons](https://minecraft.curseforge.com/projects/just-enough-buttons): 1.10.2-1.6.3
 - [Just Enough Calculation](https://minecraft.curseforge.com/projects/just-enough-calculation): 1.10.2-2.3.2
 - [Just Enough Forestry Bees (JEFB)](https://minecraft.curseforge.com/projects/just-enough-forestry-bees-jefb): 1.10.2-1.0.4
-- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.392
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.13.6.393
 - [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.8.98
-- [Lantern](https://minecraft.curseforge.com/projects/lantern): 0.3.0
+- [Lantern](https://minecraft.curseforge.com/projects/lantern): 0.4.0
 - [LibrarianLib](https://minecraft.curseforge.com/projects/librarianlib): 1.7.1
-- [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension): 1.10.2-1.0.0.1
+- [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension): 1.10.2-1.0.0.3
 - [LLibrary](https://minecraft.curseforge.com/projects/llibrary): 1.7.2-1.10.2
 - [MCMultiPart](https://minecraft.curseforge.com/projects/mcmultipart): 1.3.0-universal
-- [ModTweaker](https://minecraft.curseforge.com/projects/modtweaker): 2-2.0.7
+- [ModTweaker](https://minecraft.curseforge.com/projects/modtweaker): 2-2.0.8
 - [More Overlays](https://minecraft.curseforge.com/projects/more-overlays): 1.9-mc1.10.2
 - [Morph-o-Tool](https://minecraft.curseforge.com/projects/morph-o-tool): 1.0-12
 - [Mouse Tweaks](https://minecraft.curseforge.com/projects/mouse-tweaks): 2.6.4-mc1.10.2
@@ -59,26 +60,27 @@
 - [NetherEx](https://minecraft.curseforge.com/projects/netherex): 1.10.2-1.1.0b
 - [OpenComputers](https://minecraft.curseforge.com/projects/opencomputers): 1.10.2-1.6.1.6
 - [Portable Crafting](https://minecraft.curseforge.com/projects/portable-crafting): 1.10.2-1.1
-- [QuantumStorage](https://minecraft.curseforge.com/projects/quantumstorage): 1.10.2-3.2.12
-- [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-66
+- [QuantumStorage](https://minecraft.curseforge.com/projects/quantumstorage): 1.10.2-3.2.16
+- [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-68
 - [Railcraft](https://minecraft.curseforge.com/projects/railcraft): 1.10.2-10.0.1
-- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.10.2-4.1.2.0
-- [RebornCore](https://minecraft.curseforge.com/projects/reborncore): 1.10.2-2.8.4.77-universal
+- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.10.2-4.1.2.1
+- [RebornCore](https://minecraft.curseforge.com/projects/reborncore): 1.10.2-2.8.5.79-universal
 - [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 1.2.4
 - [Redstone Paste](https://minecraft.curseforge.com/projects/redstone-paste): 1.9.4-1.7.4
-- [Refined Storage](https://minecraft.curseforge.com/projects/refined-storage): 1.2.13
+- [Refined Storage](https://minecraft.curseforge.com/projects/refined-storage): 1.2.14
 - [Refraction](https://minecraft.curseforge.com/projects/refraction): 1.2
 - [Reliquary](https://minecraft.curseforge.com/projects/reliquary): None
 ```diff
 - Not yet on 1.10 (probably)
 ```
 - [Resource Loader](https://minecraft.curseforge.com/projects/resource-loader): 1.9.4-1.5.1
-- [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
+- [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.2.0
 - [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0
 - [Sleeping Bag](https://minecraft.curseforge.com/projects/sleeping-bag): 1.10.2-1.4.0
 - [Soul Shards: The Old Ways](https://minecraft.curseforge.com/projects/soul-shards-the-old-ways): 1.10.2-2.6.7-48
 - [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.9_for_1.9.4
 - [Steves Carts Reborn](https://minecraft.curseforge.com/projects/steves-carts-reborn): 1.10.2-2.1.0.62
+- [Storage Drawers](https://minecraft.curseforge.com/projects/storage-drawers): 1.10.2-3.5.16
 - [Super Circuit Maker](https://minecraft.curseforge.com/projects/super-circuit-maker): 1.0.4
 - [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.49
 - [The Spice of Life](https://minecraft.curseforge.com/projects/the-spice-of-life): 1.9.4-1.3.6
@@ -94,16 +96,16 @@
 - [World Stripper](https://minecraft.curseforge.com/projects/world-stripper): 1.1.1-1.10.2
 
 ## manifest/maybe.json:
-- [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r93
+- [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r94
 - [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
 - [BetterAchievements](https://minecraft.curseforge.com/projects/betterachievements): 1.10.2-0.3.2.39
 - [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
 - [charset](/): 1.10.2-0.3.3-3494ae740ded5395
 - [CodeChicken Core 1.8.+](https://minecraft.curseforge.com/projects/codechicken-core-1-8): 1.10.2-2.4.0.100-universal
 - [CodeChicken Lib 1.8.+](https://minecraft.curseforge.com/projects/codechicken-lib-1-8): 1.10.2-2.5.0.178-universal
-- [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.1.4
+- [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.1.6
 - [Enchanting Plus](https://minecraft.curseforge.com/projects/enchanting-plus): 1.10.2-4.1.0.115
-- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.145_beta
+- [Ender IO](https://minecraft.curseforge.com/projects/ender-io): 1.10.2-3.0.1.149_beta
 - [Ender Storage 1.8.+](https://minecraft.curseforge.com/projects/ender-storage-1-8): 1.10.2-2.2.0.96-universal
 - [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.61-beta
 - [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.61-58
@@ -114,13 +116,13 @@
 - [mekanism](/): 1.10.2-9.2.1.homebaked
 - [Modular Forcefield System](https://minecraft.curseforge.com/projects/modular-forcefield-system): 1.10.2-3.0.0.0_1.10_655de1f
 - [Mowzie&#x27;s Mobs](https://minecraft.curseforge.com/projects/mowzies-mobs): 1.3.0
-- [Not Enough Wands](https://minecraft.curseforge.com/projects/not-enough-wands): 1.1x-1.5.2
+- [Not Enough Wands](https://minecraft.curseforge.com/projects/not-enough-wands): 1.1x-1.5.3
 - [NotEnoughCodecs](https://minecraft.curseforge.com/projects/notenoughcodecs): 0.5
 - [OpenBlocks Elevator](https://minecraft.curseforge.com/projects/openblocks-elevator): 1.3.0][MC.1.10.2]
 - [Pam&#x27;s HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft): 27;s HarvestCraft 1.9.4-1.10.2h
 - [Psi](https://minecraft.curseforge.com/projects/psi): 1.0-42
 - [Redstone Flux Arsenal](https://minecraft.curseforge.com/projects/redstone-flux-arsenal): 1.10.2]-1.0
-- [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.72
+- [RFTools](https://minecraft.curseforge.com/projects/rftools): 1.1x-5.75
 - [RFTools Control](https://minecraft.curseforge.com/projects/rftools-control): 1.1x-1.6.3
 - [RFTools Dimensions](https://minecraft.curseforge.com/projects/rftools-dimensions): 1.1x-4.51
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.10.2-1.5.4
@@ -128,17 +130,15 @@
 - [ShetiPhianCore](https://minecraft.curseforge.com/projects/shetiphiancore): 1.10.0-3.3.6
 - [Steve&#x27;s Factory Manager Reborn](https://minecraft.curseforge.com/projects/steves-factory-manager-reborn): 1.10.2-1.0.12
 - [Super Crafting Frame](https://minecraft.curseforge.com/projects/super-crafting-frame): 1.10.2-1.2.1.88
-- [Terraqueous](https://minecraft.curseforge.com/projects/terraqueous): 1.10.0-1.2.13
+- [Terraqueous](https://minecraft.curseforge.com/projects/terraqueous): 1.10.0-1.2.14
 - [The One Probe](https://minecraft.curseforge.com/projects/the-one-probe): 1.10-1.3.3
 - [Tinkers Construct](https://minecraft.curseforge.com/projects/tinkers-construct): 1.10.2-2.6.1
 
 ## manifest/tools.json:
 - [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.10.2-1.5.0
-- [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-1.4.0
+- [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-2.0.1
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.3-forge-1.9.4
 - [foamfix](/): 0.4.2-anarchy
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.3.0b
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.10.2-1.4.15
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
-- [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.1.0
-- [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.0

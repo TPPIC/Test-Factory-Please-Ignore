@@ -12,16 +12,16 @@
     "md5" = "97b44f9ee6cfc4090d7b83c0fb14e340";
   };
   "discordchat" = {
-    "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2319534/download";
-    "version" = "1.10.2-1.4.0";
+    "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2360727/download";
+    "version" = "1.10.2-2.0.1";
     "title" = "DiscordChat";
     "projectID" = 240995;
-    "filename" = "DiscordChat-1.10.2-1.4.0.jar";
-    "dependencies" = [226780];
-    "encoded" = "DiscordChat-1.10.2-1.4.0.jar";
+    "filename" = "DiscordChat-1.10.2-2.0.1.jar";
+    "dependencies" = [];
+    "encoded" = "DiscordChat-1.10.2-2.0.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/discordchat";
     "type" = "remote";
-    "md5" = "79bd462c8942d4385a994c814d04a475";
+    "md5" = "3665fa0736f223e10319aa416734eeab";
   };
   "dynmapforge" = {
     "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2307083/download";
@@ -80,29 +80,5 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/loading-profiler";
     "type" = "remote";
     "md5" = "dacbac7e108e0810a2ea47c9e6dbf8b7";
-  };
-  "shadowfacts-forgelin" = {
-    "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2345526/download";
-    "version" = "1.1.0";
-    "title" = "Shadowfacts&#x27; Forgelin";
-    "projectID" = 248453;
-    "filename" = "Forgelin-1.1.0.jar";
-    "dependencies" = [];
-    "encoded" = "Forgelin-1.1.0.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin";
-    "type" = "remote";
-    "md5" = "de67117970343f91760b4d0eef7685be";
-  };
-  "shadowmc" = {
-    "src" = "https://minecraft.curseforge.com/projects/shadowmc/files/2345525/download";
-    "version" = "1.10.2-3.6.0";
-    "title" = "ShadowMC";
-    "projectID" = 226780;
-    "filename" = "ShadowMC-1.10.2-3.6.0.jar";
-    "dependencies" = [248453];
-    "encoded" = "ShadowMC-1.10.2-3.6.0.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/shadowmc";
-    "type" = "remote";
-    "md5" = "3f0be2b53df202a36e4852aa7ef0ffbb";
   };
 }
