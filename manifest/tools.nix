@@ -81,4 +81,29 @@
     "type" = "remote";
     "md5" = "dacbac7e108e0810a2ea47c9e6dbf8b7";
   };
+  "lunatriuscore" = {
+    "src" = "https://minecraft.curseforge.com/projects/lunatriuscore/files/2340826/download";
+    "version" = "1.10.2-1.1.2.38-universal";
+    "title" = "LunatriusCore";
+    "projectID" = 225605;
+    "filename" = "LunatriusCore-1.10.2-1.1.2.38-universal.jar";
+    "dependencies" = [];
+    "encoded" = "LunatriusCore-1.10.2-1.1.2.38-universal.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/lunatriuscore";
+    "type" = "remote";
+    "md5" = "5443394f11988ee81c673f93adc02e33";
+  };
+  "schematica" = {
+    "src" = "https://minecraft.curseforge.com/projects/schematica/files/2342254/download";
+    "version" = "1.10.2-1.7.8.153-universal";
+    "title" = "Schematica";
+    "projectID" = 225603;
+    "filename" = "Schematica-1.10.2-1.7.8.153-universal.jar";
+    "dependencies" = [225605];
+    "encoded" = "Schematica-1.10.2-1.7.8.153-universal.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/schematica";
+    "type" = "remote";
+    "side" = "client";
+    "md5" = "6524bd7464b40b961b4c2ce14b8824bf";
+  };
 }

@@ -142,3 +142,5 @@
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.3.0b
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.10.2-1.4.15
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
+- [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.10.2-1.1.2.38-universal
+- [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.10.2-1.7.8.153-universal

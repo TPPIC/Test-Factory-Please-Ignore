@@ -11,5 +11,8 @@
     },
     "chunkgen": {},
     "loading-profiler": {},
-    "helpfixer": {}
+    "helpfixer": {},
+    "schematica": {
+      "side": "client"
+    }
 }
