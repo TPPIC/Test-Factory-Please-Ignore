@@ -25,16 +25,16 @@
     "md5" = "fa643a0903d2ccab404272bd0600ee93";
   };
   "appleskin" = {
-    "src" = "https://minecraft.curseforge.com/projects/appleskin/files/2330062/download";
-    "version" = "1.10.2-1.0.4";
+    "src" = "https://minecraft.curseforge.com/projects/appleskin/files/2362296/download";
+    "version" = "1.10.2-1.0.5";
     "title" = "AppleSkin";
     "projectID" = 248787;
-    "filename" = "AppleSkin-mc1.10.2-1.0.4.jar";
+    "filename" = "AppleSkin-mc1.10.2-1.0.5.jar";
     "dependencies" = [];
-    "encoded" = "AppleSkin-mc1.10.2-1.0.4.jar";
+    "encoded" = "AppleSkin-mc1.10.2-1.0.5.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/appleskin";
     "type" = "remote";
-    "md5" = "682d5bb9795be7cb7d86445610b514ea";
+    "md5" = "d0da18e5815c25353fffd16242e804c0";
   };
   "autoreglib" = {
     "src" = "https://minecraft.curseforge.com/projects/autoreglib/files/2327403/download";
@@ -316,40 +316,40 @@
     "md5" = "a6dfb094e0911deaf6e182cb3fc2ab75";
   };
   "embers" = {
-    "src" = "https://minecraft.curseforge.com/projects/embers/files/2342667/download";
-    "version" = "0.016";
+    "src" = "https://minecraft.curseforge.com/projects/embers/files/2361947/download";
+    "version" = "0.101";
     "title" = "Embers";
     "projectID" = 251918;
-    "filename" = "embers-0.016.jar";
+    "filename" = "embers-0.101.jar";
     "dependencies" = [];
-    "encoded" = "embers-0.016.jar";
+    "encoded" = "embers-0.101.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/embers";
     "type" = "remote";
-    "md5" = "52e506a9d6032fca6cc74f0078e1d44b";
+    "md5" = "7a8c1c7ffee5f46d16d5248996ab04fc";
   };
   "ender-io" = {
-    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2361670/download";
-    "version" = "1.10.2-3.0.1.149_beta";
+    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2362703/download";
+    "version" = "1.10.2-3.1.156";
     "title" = "Ender IO";
     "projectID" = 64578;
-    "filename" = "EnderIO-1.10.2-3.0.1.149_beta.jar";
+    "filename" = "EnderIO-1.10.2-3.1.156.jar";
     "dependencies" = [231868];
-    "encoded" = "EnderIO-1.10.2-3.0.1.149_beta.jar";
+    "encoded" = "EnderIO-1.10.2-3.1.156.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/ender-io";
     "type" = "remote";
-    "md5" = "4c51af1230a4b5858bcfdc3188f60675";
+    "md5" = "be6367e1ecb7e123d774d391a0db84c2";
   };
   "endercore" = {
-    "src" = "https://minecraft.curseforge.com/projects/endercore/files/2355274/download";
-    "version" = "1.10.2-0.4.1.61-beta";
+    "src" = "https://minecraft.curseforge.com/projects/endercore/files/2362003/download";
+    "version" = "1.10.2-0.4.1.62-beta";
     "title" = "EnderCore";
     "projectID" = 231868;
-    "filename" = "EnderCore-1.10.2-0.4.1.61-beta.jar";
+    "filename" = "EnderCore-1.10.2-0.4.1.62-beta.jar";
     "dependencies" = [];
-    "encoded" = "EnderCore-1.10.2-0.4.1.61-beta.jar";
+    "encoded" = "EnderCore-1.10.2-0.4.1.62-beta.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/endercore";
     "type" = "remote";
-    "md5" = "0694bda343b5f1318ece1919c98bbd50";
+    "md5" = "f9a1f9f226ed4e9a7f19c8683c70924a";
   };
   "flat-colored-blocks" = {
     "src" = "https://minecraft.curseforge.com/projects/flat-colored-blocks/files/2343282/download";
@@ -484,16 +484,16 @@
     "md5" = "623b8dd9b2ff4141a7af074e17f11700";
   };
   "just-enough-buttons" = {
-    "src" = "https://minecraft.curseforge.com/projects/just-enough-buttons/files/2336844/download";
-    "version" = "1.10.2-1.6.3";
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-buttons/files/2362871/download";
+    "version" = "1.10.2-1.6.5";
     "title" = "Just Enough Buttons";
     "projectID" = 248747;
-    "filename" = "justenoughbuttons-1.10.2-1.6.3.jar";
+    "filename" = "justenoughbuttons-1.10.2-1.6.5.jar";
     "dependencies" = [];
-    "encoded" = "justenoughbuttons-1.10.2-1.6.3.jar";
+    "encoded" = "justenoughbuttons-1.10.2-1.6.5.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-buttons";
     "type" = "remote";
-    "md5" = "e6a887f1ceb5dc1a2c0a7d96c9ac724c";
+    "md5" = "d02873e4e31159149990d55f80fa40f4";
   };
   "just-enough-calculation" = {
     "src" = "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2357064/download";
@@ -520,16 +520,16 @@
     "md5" = "8e6c22901475a19df8863c3a0e69b342";
   };
   "just-enough-items-jei" = {
-    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2360491/download";
-    "version" = "1.10.2-3.13.6.393";
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2362988/download";
+    "version" = "1.10.2-3.14.1.397";
     "title" = "Just Enough Items (JEI)";
     "projectID" = 238222;
-    "filename" = "jei_1.10.2-3.13.6.393.jar";
+    "filename" = "jei_1.10.2-3.14.1.397.jar";
     "dependencies" = [];
-    "encoded" = "jei_1.10.2-3.13.6.393.jar";
+    "encoded" = "jei_1.10.2-3.14.1.397.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-items-jei";
     "type" = "remote";
-    "md5" = "ee123b85efea174cf6c9881b9a451a49";
+    "md5" = "9068dc5c9a586c9b709cb4296608d763";
   };
   "just-enough-resources-jer" = {
     "src" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2351189/download";
@@ -556,16 +556,16 @@
     "md5" = "fa5cf31e2f66a8a28e2e391e8b395531";
   };
   "librarianlib" = {
-    "src" = "https://minecraft.curseforge.com/projects/librarianlib/files/2356487/download";
-    "version" = "1.7.1";
+    "src" = "https://minecraft.curseforge.com/projects/librarianlib/files/2362642/download";
+    "version" = "1.8";
     "title" = "LibrarianLib";
     "projectID" = 252910;
-    "filename" = "librarianlib-1.7.1.jar";
+    "filename" = "librarianlib-1.8.jar";
     "dependencies" = [];
-    "encoded" = "librarianlib-1.7.1.jar";
+    "encoded" = "librarianlib-1.8.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/librarianlib";
     "type" = "remote";
-    "md5" = "ca62b837214069f87ec30ccfa660e5ab";
+    "md5" = "8cae93f32f49b2ad415b6d4cc413239a";
   };
   "literal-ascension" = {
     "src" = "https://minecraft.curseforge.com/projects/literal-ascension/files/2360172/download";
@@ -700,16 +700,16 @@
     "md5" = "70e153a826001c5be4ff0e3845104bd3";
   };
   "quantumstorage" = {
-    "src" = "https://minecraft.curseforge.com/projects/quantumstorage/files/2361469/download";
-    "version" = "1.10.2-3.2.16";
+    "src" = "https://minecraft.curseforge.com/projects/quantumstorage/files/2362841/download";
+    "version" = "1.10.2-3.2.17";
     "title" = "QuantumStorage";
     "projectID" = 235121;
-    "filename" = "QuantumStorage-1.10.2-3.2.16.jar";
+    "filename" = "QuantumStorage-1.10.2-3.2.17.jar";
     "dependencies" = [237903];
-    "encoded" = "QuantumStorage-1.10.2-3.2.16.jar";
+    "encoded" = "QuantumStorage-1.10.2-3.2.17.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/quantumstorage";
     "type" = "remote";
-    "md5" = "25425c3734fd537edb39992f4f5eab25";
+    "md5" = "e55e2a0e136d23410da938b1963d2783";
   };
   "quark" = {
     "src" = "https://minecraft.curseforge.com/projects/quark/files/2360598/download";
@@ -796,16 +796,16 @@
     "md5" = "4ca39eeea683aa122ba78c3a7c578711";
   };
   "refraction" = {
-    "src" = "https://minecraft.curseforge.com/projects/refraction/files/2356166/download";
-    "version" = "1.2";
+    "src" = "https://minecraft.curseforge.com/projects/refraction/files/2362768/download";
+    "version" = "1.3";
     "title" = "Refraction";
     "projectID" = 253578;
-    "filename" = "refraction-1.2.jar";
+    "filename" = "refraction-1.3.jar";
     "dependencies" = [252910];
-    "encoded" = "refraction-1.2.jar";
+    "encoded" = "refraction-1.3.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/refraction";
     "type" = "remote";
-    "md5" = "9dc2361c250b6ba5c22bec2c969b4d5c";
+    "md5" = "1b2e467b82b14cf039a5c9971ee2a56e";
   };
   "reliquary" = {
     "projectID" = 59713;
@@ -838,16 +838,16 @@
     "md5" = "23e9075d06f3bd0207db920731c117c8";
   };
   "shadowmc" = {
-    "src" = "https://minecraft.curseforge.com/projects/shadowmc/files/2345525/download";
-    "version" = "1.10.2-3.6.0";
+    "src" = "https://minecraft.curseforge.com/projects/shadowmc/files/2362016/download";
+    "version" = "1.10.2-3.6.1";
     "title" = "ShadowMC";
     "projectID" = 226780;
-    "filename" = "ShadowMC-1.10.2-3.6.0.jar";
+    "filename" = "ShadowMC-1.10.2-3.6.1.jar";
     "dependencies" = [248453];
-    "encoded" = "ShadowMC-1.10.2-3.6.0.jar";
+    "encoded" = "ShadowMC-1.10.2-3.6.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/shadowmc";
     "type" = "remote";
-    "md5" = "3f0be2b53df202a36e4852aa7ef0ffbb";
+    "md5" = "8d6dcf39d09ca712e02a3faf602ae96d";
   };
   "sleeping-bag" = {
     "src" = "https://minecraft.curseforge.com/projects/sleeping-bag/files/2348641/download";

@@ -1,15 +1,15 @@
 {
   "actually-additions" = {
-    "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2360828/download";
-    "version" = "1.10.2-r94";
+    "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2361986/download";
+    "version" = "1.10.2-r97";
     "title" = "Actually Additions";
     "projectID" = 228404;
-    "filename" = "ActuallyAdditions-1.10.2-r94.jar";
+    "filename" = "ActuallyAdditions-1.10.2-r97.jar";
     "dependencies" = [];
-    "encoded" = "ActuallyAdditions-1.10.2-r94.jar";
+    "encoded" = "ActuallyAdditions-1.10.2-r97.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/actually-additions";
     "type" = "remote";
-    "md5" = "ab1bda20a44f982474bc4451e881b16d";
+    "md5" = "55dd0644fcc645db78f4e6d522eee074";
   };
   "autoreglib" = {
     "src" = "https://minecraft.curseforge.com/projects/autoreglib/files/2327403/download";
@@ -70,16 +70,16 @@
     "md5" = "276f5ac04eb34e73abc2f8f880a7528a";
   };
   "codechicken-lib-1-8" = {
-    "src" = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2356881/download";
-    "version" = "1.10.2-2.5.0.178-universal";
+    "src" = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2362400/download";
+    "version" = "1.10.2-2.5.1.185-universal";
     "title" = "CodeChicken Lib 1.8.+";
     "projectID" = 242818;
-    "filename" = "CodeChickenLib-1.10.2-2.5.0.178-universal.jar";
+    "filename" = "CodeChickenLib-1.10.2-2.5.1.185-universal.jar";
     "dependencies" = [];
-    "encoded" = "CodeChickenLib-1.10.2-2.5.0.178-universal.jar";
+    "encoded" = "CodeChickenLib-1.10.2-2.5.1.185-universal.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8";
     "type" = "remote";
-    "md5" = "4aa5b57e23f15b38e8965765c3ba1eff";
+    "md5" = "a0b4ad2cd5207c39d10380590ff0674f";
   };
   "compatlayer" = {
     "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2360940/download";
@@ -106,16 +106,16 @@
     "md5" = "4f350fdec3adb4971442d106702657b8";
   };
   "ender-io" = {
-    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2361670/download";
-    "version" = "1.10.2-3.0.1.149_beta";
+    "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2362703/download";
+    "version" = "1.10.2-3.1.156";
     "title" = "Ender IO";
     "projectID" = 64578;
-    "filename" = "EnderIO-1.10.2-3.0.1.149_beta.jar";
+    "filename" = "EnderIO-1.10.2-3.1.156.jar";
     "dependencies" = [231868];
-    "encoded" = "EnderIO-1.10.2-3.0.1.149_beta.jar";
+    "encoded" = "EnderIO-1.10.2-3.1.156.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/ender-io";
     "type" = "remote";
-    "md5" = "4c51af1230a4b5858bcfdc3188f60675";
+    "md5" = "be6367e1ecb7e123d774d391a0db84c2";
   };
   "ender-storage-1-8" = {
     "src" = "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2358285/download";
@@ -130,16 +130,16 @@
     "md5" = "e5c459a35003cbe047610e7669064e08";
   };
   "endercore" = {
-    "src" = "https://minecraft.curseforge.com/projects/endercore/files/2355274/download";
-    "version" = "1.10.2-0.4.1.61-beta";
+    "src" = "https://minecraft.curseforge.com/projects/endercore/files/2362003/download";
+    "version" = "1.10.2-0.4.1.62-beta";
     "title" = "EnderCore";
     "projectID" = 231868;
-    "filename" = "EnderCore-1.10.2-0.4.1.61-beta.jar";
+    "filename" = "EnderCore-1.10.2-0.4.1.62-beta.jar";
     "dependencies" = [];
-    "encoded" = "EnderCore-1.10.2-0.4.1.61-beta.jar";
+    "encoded" = "EnderCore-1.10.2-0.4.1.62-beta.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/endercore";
     "type" = "remote";
-    "md5" = "0694bda343b5f1318ece1919c98bbd50";
+    "md5" = "f9a1f9f226ed4e9a7f19c8683c70924a";
   };
   "inventory-tweaks" = {
     "src" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2315240/download";

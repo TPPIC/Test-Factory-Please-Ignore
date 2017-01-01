@@ -12,16 +12,16 @@
     "md5" = "97b44f9ee6cfc4090d7b83c0fb14e340";
   };
   "discordchat" = {
-    "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2360727/download";
-    "version" = "1.10.2-2.0.1";
+    "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2362886/download";
+    "version" = "1.10.2-2.0.3";
     "title" = "DiscordChat";
     "projectID" = 240995;
-    "filename" = "DiscordChat-1.10.2-2.0.1.jar";
+    "filename" = "DiscordChat-1.10.2-2.0.3.jar";
     "dependencies" = [];
-    "encoded" = "DiscordChat-1.10.2-2.0.1.jar";
+    "encoded" = "DiscordChat-1.10.2-2.0.3.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/discordchat";
     "type" = "remote";
-    "md5" = "3665fa0736f223e10319aa416734eeab";
+    "md5" = "21ccaadc3600b68971ebeb83dc9dbc9e";
   };
   "dynmapforge" = {
     "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2307083/download";
